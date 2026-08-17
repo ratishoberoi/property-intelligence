@@ -12,14 +12,14 @@ services:
       test -f ../models/conversion_model.joblib
     startCommand: >-
       cd backend &&
-      test -f property_intelligence.db || python scripts/seed_database.py;
+      python -c "from app.db.session import SessionLocal; from app.db.models import Applicant, Property; from sqlalchemy import func, select; db=SessionLocal(); empty=(db.scalar(select(func.count()).select_from(Applicant)) or 0)==0 or (db.scalar(select(func.count()).select_from(Property)) or 0)==0; db.close(); raise SystemExit(1 if empty else 0)" || python scripts/seed_database.py;
       exec uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
     healthCheckPath: /health
     envVars:
       - key: DATABASE_URL
         value: sqlite:///./property_intelligence.db
       - key: CORS_ORIGINS
-        sync: false
+        value: https://property-intelligence-pearl.vercel.app
       - key: ENVIRONMENT
         value: render-free-demo
       - key: MODEL_DIR

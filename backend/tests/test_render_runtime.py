@@ -5,6 +5,7 @@ import sys
 from fastapi.testclient import TestClient
 
 from app.main import app
+from app.config import Settings
 from app.rag.provenance import get_provenance
 from app.rag.retrieval import RetrievalService
 
@@ -28,6 +29,11 @@ def test_rag_status_reports_unloaded_model_without_initializing_it():
     body = response.json()
     assert body["embedding"]["loaded"] is False
     assert body["embedding"]["model_loaded"] is False
+
+
+def test_render_mode_allows_the_production_vercel_origin():
+    settings = Settings(environment="render-free-demo", cors_origins="http://localhost:3000")
+    assert "https://property-intelligence-pearl.vercel.app" in settings.cors_origin_list
 
 
 def test_lexical_render_rag_returns_citations_and_provenance(db):

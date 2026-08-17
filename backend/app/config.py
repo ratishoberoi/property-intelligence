@@ -32,7 +32,12 @@ class Settings(BaseSettings):
 
     @property
     def cors_origin_list(self) -> list[str]:
-        return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]
+        origins = [origin.strip().rstrip("/") for origin in self.cors_origins.split(",") if origin.strip()]
+        if self.environment == "render-free-demo":
+            production_origin = "https://property-intelligence-pearl.vercel.app"
+            if production_origin not in origins:
+                origins.append(production_origin)
+        return origins
 
 
 @lru_cache

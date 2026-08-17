@@ -40,7 +40,7 @@ class RetrievalService:
         document_types: list[str] | None = None,
     ) -> list[Citation]:
         started = time.perf_counter()
-        chunks, vectors, lexical_matrix = self._filtered(applicant_id, property_id, document_types)
+        chunks, vectors, lexical_matrix, lexical_vectorizer = self._filtered(applicant_id, property_id, document_types)
         if not chunks:
             self.last_metadata = {"query": query, "filtered_chunks": 0, "returned": 0, "latency_ms": round((time.perf_counter() - started) * 1000, 2)}
             return []
@@ -53,7 +53,7 @@ class RetrievalService:
             # retrieval remains usable while the index/model is repaired or rebuilt.
             q_vec = np.zeros(vectors.shape[1], dtype=np.float32)
         semantic_scores = vectors @ q_vec
-        lexical_scores = self._lexical_scores(query, chunks, lexical_matrix)
+        lexical_scores = self._lexical_scores(query, lexical_vectorizer, lexical_matrix)
         candidate_count = max(limit * 8, 40)
         candidate_indices = set(np.argsort(semantic_scores)[::-1][:candidate_count].tolist())
         candidate_indices.update(np.argsort(lexical_scores)[::-1][:candidate_count].tolist())
@@ -124,10 +124,10 @@ class RetrievalService:
         self._lexical_vectorizer = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, norm="l2").fit(texts)
         self._lexical_matrix = self._lexical_vectorizer.transform(texts)
 
-    def _lexical_scores(self, query: str, chunks: list[dict], lexical_matrix: csr_matrix | None) -> np.ndarray:
-        if self._lexical_vectorizer is None or lexical_matrix is None:
-            return np.zeros(len(chunks), dtype=np.float32)
-        query_vector = self._lexical_vectorizer.transform([query])
+    def _lexical_scores(self, query: str, vectorizer: TfidfVectorizer | None, lexical_matrix: csr_matrix | None) -> np.ndarray:
+        if vectorizer is None or lexical_matrix is None:
+            return np.zeros(lexical_matrix.shape[0] if lexical_matrix is not None else 0, dtype=np.float32)
+        query_vector = vectorizer.transform([query])
         scores = (lexical_matrix @ query_vector.T).toarray().ravel()
         return scores.astype(np.float32)
 
@@ -136,7 +136,7 @@ class RetrievalService:
         applicant_id: str | None,
         property_id: str | None,
         document_types: list[str] | None,
-    ) -> tuple[list[dict], np.ndarray, csr_matrix | None]:
+    ) -> tuple[list[dict], np.ndarray, csr_matrix | None, TfidfVectorizer | None]:
         assert self._chunks is not None and self._vectors is not None
         idxs: list[int] = []
         for idx, chunk in enumerate(self._chunks):
@@ -147,10 +147,30 @@ class RetrievalService:
             if document_types and chunk.get("document_type") not in document_types:
                 continue
             idxs.append(idx)
+        if idxs:
+            return (
+                [self._chunks[i] for i in idxs],
+                self._vectors[idxs],
+                self._lexical_matrix[idxs] if self._lexical_matrix is not None else None,
+                self._lexical_vectorizer,
+            )
+
+        # A persisted index is intentionally immutable, but tests and demo
+        # workflows can introduce new synthetic records after it was built.
+        # Build a small request-scoped index from those records instead of
+        # silently returning no evidence for a valid metadata filter.
+        dynamic_chunks = build_documents_from_db(self.db, applicant_id=applicant_id, property_id=property_id)
+        if document_types:
+            dynamic_chunks = [chunk for chunk in dynamic_chunks if chunk.get("document_type") in document_types]
+        if not dynamic_chunks:
+            return [], np.zeros((0, self._vectors.shape[1]), dtype=np.float32), None, None
+        dynamic_vectorizer = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, norm="l2")
+        dynamic_matrix = dynamic_vectorizer.fit_transform([chunk["text"] for chunk in dynamic_chunks])
         return (
-            [self._chunks[i] for i in idxs],
-            self._vectors[idxs] if idxs else np.zeros((0, self._vectors.shape[1])),
-            self._lexical_matrix[idxs] if idxs and self._lexical_matrix is not None else None,
+            dynamic_chunks,
+            np.zeros((len(dynamic_chunks), self._vectors.shape[1]), dtype=np.float32),
+            dynamic_matrix,
+            dynamic_vectorizer,
         )
 
 

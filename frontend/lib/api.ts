@@ -4,11 +4,15 @@ const API_BASE = typeof window === "undefined"
   ? (process.env.INTERNAL_API_BASE_URL ?? process.env.NEXT_PUBLIC_API_BASE_URL)
   : process.env.NEXT_PUBLIC_API_BASE_URL;
 
-function apiUrl(path: string): string {
+function configuredApiBase(): string {
   if (!API_BASE) {
     throw new Error("API URL is not configured. Set NEXT_PUBLIC_API_BASE_URL.");
   }
-  return `${API_BASE}${path}`;
+  return API_BASE.replace(/\/$/, "");
+}
+
+function apiUrl(path: string): string {
+  return `${configuredApiBase()}${path}`;
 }
 
 async function get<T>(path: string): Promise<T> {
@@ -90,7 +94,7 @@ export async function getRagProvenance(citationId: string, query: string) {
 }
 
 export async function postClientMatches(preferences: { budget_max: number; preferred_areas: string; bedrooms_required: number; amenities_preferences: string; move_in_date: string }) {
-  const response = await fetch(`${API_BASE}/api/matching/client`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ applicant_id: "A-DEMO-SARAH", limit: 8, ...preferences }) });
+  const response = await fetch(apiUrl("/api/matching/client"), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ applicant_id: "A-DEMO-SARAH", limit: 8, ...preferences }) });
   if (!response.ok) throw new Error("We could not refresh your matches.");
   return response.json();
 }

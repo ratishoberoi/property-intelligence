@@ -78,11 +78,15 @@ pip install -r backend/requirements-render.txt && cd backend && python scripts/s
 Render start command:
 
 ```bash
-cd backend && test -f property_intelligence.db || python scripts/seed_database.py; exec uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+cd backend && python -c "from app.db.session import SessionLocal; from app.db.models import Applicant, Property; from sqlalchemy import func, select; db=SessionLocal(); empty=(db.scalar(select(func.count()).select_from(Applicant)) or 0)==0 or (db.scalar(select(func.count()).select_from(Property)) or 0)==0; db.close(); raise SystemExit(1 if empty else 0)" || python scripts/seed_database.py; exec uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
 ```
 
-Set `CORS_ORIGINS` to the exact Vercel URL. In Vercel set
+Set `CORS_ORIGINS` to the exact Vercel URL (the checked-in Render blueprint
+already sets `https://property-intelligence-pearl.vercel.app`). In Vercel set
 `NEXT_PUBLIC_API_BASE_URL` and `INTERNAL_API_BASE_URL` to the Render HTTPS URL.
+The backend also repairs an empty SQLite database on startup from the committed
+synthetic CSVs, which prevents a zero-byte or empty deployment database from
+breaking server-rendered agency pages.
 The complete checklist is in [docs/DEPLOYMENT_PLAN.md](docs/DEPLOYMENT_PLAN.md).
 SQLite is acceptable for this synthetic CTO demo because the dataset is
 reseedable; it is not durable production storage and workflow changes can be

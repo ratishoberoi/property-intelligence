@@ -45,7 +45,7 @@ available locally and is not deleted or replaced.
 | BGE model | Loads lazily only when semantic mode makes a query | Not installed on Render Free; installed by `requirements-embeddings.txt` locally |
 | ML artifacts | `intent_model.joblib`, `conversion_model.joblib` | Required files checked during Render build |
 | Provenance | Source records are read from SQLite and mapped to indexed chunks | Preserved; citations remain dynamically backed by database records |
-| Startup | Schema creation and demo workflow seeding happen at application startup | Build seeds base records; start seeds only if the DB file is absent |
+| Startup | Schema creation and demo workflow seeding happen at application startup | Build seeds base records; startup also repairs an empty SQLite database |
 
 ## Exact Render configuration
 
@@ -62,14 +62,14 @@ pip install -r backend/requirements-render.txt && cd backend && python scripts/s
 ### Start command
 
 ```bash
-cd backend && test -f property_intelligence.db || python scripts/seed_database.py; exec uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+cd backend && python -c "from app.db.session import SessionLocal; from app.db.models import Applicant, Property; from sqlalchemy import func, select; db=SessionLocal(); empty=(db.scalar(select(func.count()).select_from(Applicant)) or 0)==0 or (db.scalar(select(func.count()).select_from(Property)) or 0)==0; db.close(); raise SystemExit(1 if empty else 0)" || python scripts/seed_database.py; exec uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
 ```
 
 ### Render environment variables
 
 ```text
 DATABASE_URL=sqlite:///./property_intelligence.db
-CORS_ORIGINS=https://<your-vercel-project>.vercel.app
+CORS_ORIGINS=https://property-intelligence-pearl.vercel.app
 ENVIRONMENT=render-free-demo
 MODEL_DIR=../models
 DATA_DIR=../data/processed
@@ -110,7 +110,8 @@ only for local development.
    `models/conversion_model.joblib`, and `data/processed/*.csv` are committed
    to the deployment repository.
 2. Create the Render service from `render.yaml` or configure the commands above.
-3. Set the exact Vercel origin in `CORS_ORIGINS`.
+3. Set the exact Vercel origin in `CORS_ORIGINS`; the checked-in blueprint
+   sets `https://property-intelligence-pearl.vercel.app`.
 4. Deploy Render and wait for the build seed to complete.
 5. Verify `https://<render>/health` and `https://<render>/docs`.
 6. Verify `https://<render>/api/rag/status` reports `loaded: false`,

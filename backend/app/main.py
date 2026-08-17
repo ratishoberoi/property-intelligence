@@ -3,7 +3,7 @@ import logging
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from sqlalchemy import text
+from sqlalchemy import func, select, text
 from app.api.routes import agents, applicants, dashboard, intelligence, matching, properties, rag, recommendations, search, workflow
 from app.config import get_settings
 from app.db.models import Applicant, Conversation, Feedback, Interaction, Property, Viewing
@@ -54,6 +54,15 @@ async def request_tracing(request: Request, call_next):
 @app.on_event("startup")
 def startup() -> None:
     Base.metadata.create_all(bind=engine)
+    with SessionLocal() as db:
+        has_applicants = db.scalar(select(func.count()).select_from(Applicant)) or 0
+        has_properties = db.scalar(select(func.count()).select_from(Property)) or 0
+    if not has_applicants or not has_properties:
+        logger.warning("Core synthetic tables are empty; loading the committed demo dataset")
+        from app.db.bootstrap import seed_synthetic_dataset
+
+        with SessionLocal() as db:
+            seed_synthetic_dataset(db)
     with SessionLocal() as db:
         from app.api.routes.workflow import seed_demo_workflow
         seed_demo_workflow(db)

@@ -50,3 +50,4 @@ htmlcov/
 
 # Local runtime artifacts
 *.pid
+.vercel
