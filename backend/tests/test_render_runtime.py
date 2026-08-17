@@ -1,11 +1,13 @@
 import os
 import subprocess
 import sys
+from pathlib import Path
 
 from fastapi.testclient import TestClient
 
 from app.main import app
 from app.config import Settings
+from app.db.bootstrap import SYNTHETIC_DATA_FILES, resolve_data_dir
 from app.rag.provenance import get_provenance
 from app.rag.retrieval import RetrievalService
 
@@ -34,6 +36,18 @@ def test_rag_status_reports_unloaded_model_without_initializing_it():
 def test_render_mode_allows_the_production_vercel_origin():
     settings = Settings(environment="render-free-demo", cors_origins="http://localhost:3000")
     assert "https://property-intelligence-pearl.vercel.app" in settings.cors_origin_list
+
+
+def test_production_docker_data_dir_matches_copy_layout():
+    docker_data_dir = resolve_data_dir(Path("/app/data/processed"))
+    assert docker_data_dir == Path("/app/data/processed")
+    for filename in SYNTHETIC_DATA_FILES:
+        assert (Path(__file__).resolve().parents[2] / "data" / "processed" / filename).exists()
+
+
+def test_local_relative_data_dir_still_resolves_from_backend_working_directory():
+    repository_data_dir = Path(__file__).resolve().parents[2] / "data" / "processed"
+    assert resolve_data_dir(repository_data_dir) == repository_data_dir
 
 
 def test_lexical_render_rag_returns_citations_and_provenance(db):

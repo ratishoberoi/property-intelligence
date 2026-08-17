@@ -6,14 +6,39 @@ import pandas as pd
 from sqlalchemy import delete
 from sqlalchemy.orm import Session
 
+from app.config import get_settings
 from app.db.models import Applicant, Conversation, Feedback, Interaction, Property, Viewing
 
 
-DATA_DIR = Path(__file__).resolve().parents[3] / "data" / "processed"
+SYNTHETIC_DATA_FILES = (
+    "properties.csv",
+    "applicants.csv",
+    "interactions.csv",
+    "viewings.csv",
+    "feedback.csv",
+    "conversations.csv",
+)
 
 
-def seed_synthetic_dataset(db: Session, data_dir: Path = DATA_DIR) -> None:
+def resolve_data_dir(configured_dir: Path | str | None = None) -> Path:
+    """Resolve DATA_DIR for Docker absolute paths and local relative paths."""
+    configured = Path(configured_dir) if configured_dir is not None else get_settings().data_dir
+    if configured.is_absolute():
+        return configured
+
+    working_directory_path = (Path.cwd() / configured).resolve()
+    if working_directory_path.exists():
+        return working_directory_path
+
+    # When the backend is started from the repository root, the local default
+    # is relative to the backend directory rather than the current directory.
+    repository_root = Path(__file__).resolve().parents[3]
+    return (repository_root / "data" / "processed").resolve()
+
+
+def seed_synthetic_dataset(db: Session, data_dir: Path | str | None = None) -> None:
     """Load the committed synthetic CSV dataset into an empty database."""
+    data_dir = resolve_data_dir(data_dir)
     if not (data_dir / "properties.csv").exists():
         raise RuntimeError(f"Synthetic dataset is missing: {data_dir / 'properties.csv'}")
 
