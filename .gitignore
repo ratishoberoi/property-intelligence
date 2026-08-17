@@ -1,0 +1,52 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+frontend/.next/
+frontend/node_modules/
+*.log
+*.sqlite3
+backend/property_intelligence.db
+backend/test_property_intelligence.db
+property_intelligence.db
+test_property_intelligence.db
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.turbo/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python tooling
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local runtime artifacts
+*.pid

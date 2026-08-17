@@ -1,0 +1,1002 @@
+applicant_id,name,age_band,budget_min,budget_max,preferred_areas,bedrooms_required,property_types,move_in_date,employment_type,pets,children,furnished_preference,parking_required,amenities_preferences
+A-DEMO-SARAH,Sarah Mitchell,25-34,2500,2800,Canary Wharf|Stratford,2,flat,2026-09-15,permanent,False,False,furnished,False,transport|balcony|concierge|gym
+A-1000,Emily Clarke,25-34,4121,4550,Chelsea|Clapham,2,house|flat,2026-10-12,relocating,False,False,furnished,False,concierge|parking|river-view|school|transport
+A-1001,Sarah Taylor,45-54,3562,4100,Camden,3,flat|house,2026-09-01,self-employed,False,True,unfurnished,False,concierge|garden|transport
+A-1002,Emily Davies,35-44,3344,3650,Chelsea|Stratford|Canary Wharf,2,maisonette,2026-08-27,self-employed,False,False,furnished,False,garden|parking
+A-1003,Sam Clarke,45-54,3011,3500,Greenwich|Camden,2,flat,2026-10-07,relocating,False,False,unfurnished,False,garden|gym|pet-friendly|river-view
+A-1004,Sarah Clarke,55+,4273,4600,Chelsea|Shoreditch,2,house,2026-11-02,self-employed,False,False,furnished,False,concierge|parking|school
+A-1005,Grace Smith,25-34,2944,3400,Croydon,2,flat,2026-09-17,contractor,False,False,unfurnished,False,concierge|school
+A-1006,Sam Smith,35-44,3791,4050,Chelsea|Canary Wharf,2,house|maisonette,2026-09-18,self-employed,False,True,furnished,False,garden|gym|pet-friendly|river-view|school
+A-1007,John Taylor,18-24,3035,3550,Wimbledon|Camden,2,maisonette,2026-10-06,permanent,False,True,furnished,False,garden|parking|river-view
+A-1008,James Davies,35-44,2563,3150,Wimbledon|Croydon,3,flat|house,2026-10-26,student,False,False,any,False,gym|river-view
+A-1009,Thomas Wilson,45-54,2347,2800,Camden|Croydon,2,maisonette,2026-09-18,self-employed,False,False,furnished,False,balcony|gym|parking
+A-1010,Emily Smith,25-34,2481,3000,Shoreditch|Camden|Croydon,1,house,2026-08-31,contractor,True,False,any,False,balcony|gym|pet-friendly|river-view|transport|workspace
+A-1011,Daniel Brown,45-54,4142,4550,Shoreditch|Canary Wharf,3,maisonette|house,2026-10-13,permanent,False,False,furnished,False,balcony|garden|river-view
+A-1012,Priya Brown,55+,2210,2800,Shoreditch,1,house,2026-08-21,relocating,False,True,furnished,False,balcony|river-view
+A-1013,Aisha Clarke,25-34,2359,2850,Croydon|Hackney,1,flat,2026-08-27,self-employed,False,False,any,True,balcony|concierge|gym|parking|pet-friendly
+A-1014,Mohammed Taylor,35-44,2845,3150,Greenwich|Hackney,2,maisonette|house,2026-10-05,self-employed,False,False,any,False,concierge|garden|parking|pet-friendly|school
+A-1015,Olivia Clarke,35-44,3604,4000,Croydon|Camden,4,flat,2026-10-05,student,True,True,any,False,gym|pet-friendly|school
+A-1016,Priya Ahmed,35-44,2768,3300,Greenwich|Canary Wharf,2,maisonette,2026-09-22,student,False,False,furnished,False,balcony|workspace
+A-1017,John Smith,25-34,2062,2350,Croydon|Greenwich|Battersea,2,flat,2026-10-26,contractor,False,False,any,False,balcony|gym|school|workspace
+A-1018,Grace Clarke,45-54,3198,3650,Canary Wharf|Fulham,1,flat,2026-10-26,contractor,False,False,furnished,False,parking|river-view|transport|workspace
+A-1019,Aisha Mitchell,35-44,3199,3450,Battersea|Wimbledon,1,maisonette|house,2026-10-28,permanent,False,False,any,True,balcony|gym|parking|pet-friendly|river-view
+A-1020,Priya Taylor,35-44,3057,3650,Wimbledon|Shoreditch|Canary Wharf,1,maisonette,2026-11-04,permanent,False,False,furnished,False,garden|parking|pet-friendly
+A-1021,Mohammed Clarke,18-24,2352,2800,Wimbledon|Croydon,2,maisonette|house,2026-08-24,permanent,True,False,unfurnished,False,parking|pet-friendly|river-view|transport|workspace
+A-1022,Mohammed Khan,18-24,3354,3700,Fulham|Wimbledon,2,flat|house,2026-09-04,self-employed,False,False,furnished,True,balcony|concierge|parking|pet-friendly|school|transport
+A-1023,Thomas Khan,25-34,2143,2450,Greenwich,1,maisonette,2026-09-16,relocating,False,False,any,True,concierge|parking|pet-friendly|river-view|transport|workspace
+A-1024,Thomas Khan,35-44,3415,3850,Canary Wharf,2,flat,2026-09-07,permanent,False,False,any,False,balcony|concierge|gym|parking|workspace
+A-1025,Mohammed Davies,45-54,4156,4450,Fulham|Shoreditch,4,house,2026-10-20,permanent,False,False,unfurnished,False,garden|parking|river-view|school
+A-1026,Sam Wilson,18-24,3574,4000,Shoreditch,3,flat,2026-10-07,self-employed,True,False,any,False,concierge|garden|pet-friendly|river-view|school|transport
+A-1027,Grace Wilson,18-24,4603,5050,Shoreditch|Clapham,4,house,2026-09-22,contractor,False,False,unfurnished,False,gym|pet-friendly|river-view|school
+A-1028,Sam Reed,45-54,2710,3000,Croydon|Clapham|Battersea,1,house,2026-09-20,self-employed,False,True,any,False,balcony|gym|pet-friendly|transport|workspace
+A-1029,Sarah Brown,35-44,4728,5000,Fulham|Islington,4,house,2026-08-24,student,True,False,unfurnished,False,balcony|garden|gym|pet-friendly|river-view
+A-1030,Priya Jones,45-54,3506,4000,Wimbledon|Battersea,2,house,2026-10-01,student,False,False,any,False,balcony|gym|school|transport|workspace
+A-1031,Grace Wilson,55+,3149,3550,Greenwich|Clapham|Hackney,2,maisonette,2026-10-10,permanent,True,False,furnished,False,balcony|garden|pet-friendly|transport|workspace
+A-1032,Thomas Taylor,45-54,3266,3550,Croydon|Battersea,3,house,2026-11-02,self-employed,False,False,unfurnished,False,concierge|pet-friendly|school
+A-1033,James Smith,18-24,3677,4000,Wimbledon|Clapham,2,house,2026-09-17,self-employed,False,True,unfurnished,False,balcony|garden|gym|river-view|school
+A-1034,Daniel Mitchell,25-34,2842,3300,Greenwich|Clapham|Croydon,2,maisonette,2026-11-01,contractor,False,False,furnished,False,balcony|concierge|garden
+A-1035,Aisha Khan,35-44,3086,3350,Clapham,1,maisonette,2026-10-07,self-employed,False,False,unfurnished,False,balcony|garden|parking|transport|workspace
+A-1036,Emily Jones,55+,3375,3800,Stratford|Greenwich,3,house|maisonette,2026-10-25,student,False,False,furnished,False,river-view|school|transport
+A-1037,Sarah Brown,25-34,3495,3750,Stratford|Clapham,2,house,2026-09-25,contractor,False,False,any,False,concierge|parking|school|workspace
+A-1038,Aisha Patel,18-24,3224,3800,Fulham|Hackney|Clapham,2,flat,2026-10-18,permanent,True,False,any,False,gym|parking|pet-friendly|school|transport
+A-1039,James Khan,18-24,3894,4250,Fulham|Hackney,2,flat,2026-09-26,relocating,True,False,furnished,False,pet-friendly|river-view|school|workspace
+A-1040,Olivia Ahmed,55+,3409,4000,Wimbledon|Stratford,2,house,2026-08-18,permanent,False,False,unfurnished,False,balcony|garden|gym|transport|workspace
+A-1041,Sam Clarke,18-24,3151,3650,Greenwich,2,maisonette,2026-10-19,self-employed,True,False,furnished,True,concierge|gym|parking|pet-friendly|transport
+A-1042,James Brown,18-24,2479,3000,Hackney,2,house,2026-09-08,student,False,False,unfurnished,True,concierge|gym|parking|school|transport|workspace
+A-1043,Daniel Khan,18-24,3233,3600,Islington|Clapham|Greenwich,3,house|maisonette,2026-09-05,contractor,False,False,any,False,concierge|parking|river-view|school|transport
+A-1044,Aisha Khan,25-34,3232,3700,Fulham|Battersea|Croydon,3,house,2026-08-27,self-employed,False,False,unfurnished,False,garden|gym
+A-1045,Thomas Taylor,25-34,2533,3100,Fulham|Battersea,0,studio,2026-08-21,relocating,True,True,any,False,gym|parking|pet-friendly|river-view|transport|workspace
+A-1046,Sarah Jones,55+,2919,3450,Canary Wharf|Stratford,2,flat|house,2026-10-31,self-employed,True,False,unfurnished,False,balcony|concierge|parking|pet-friendly|school
+A-1047,Grace Taylor,18-24,3377,3950,Camden,2,maisonette,2026-09-08,permanent,False,False,furnished,False,balcony|gym|parking|school
+A-1048,Aisha Wilson,25-34,3442,3850,Chelsea|Islington,1,maisonette,2026-08-28,relocating,False,False,any,False,garden|river-view|school
+A-1049,Emily Jones,25-34,2866,3450,Greenwich,2,house|flat,2026-11-06,self-employed,False,False,unfurnished,False,balcony|parking|pet-friendly|river-view|school
+A-1050,Olivia Clarke,18-24,3565,4000,Fulham|Chelsea|Greenwich,1,maisonette,2026-10-30,permanent,False,False,any,False,gym|parking|pet-friendly|river-view|school
+A-1051,Grace Mitchell,18-24,2572,3150,Fulham|Croydon,2,house|flat,2026-11-02,permanent,False,False,furnished,False,concierge|garden|river-view|school
+A-1052,Aisha Mitchell,25-34,3803,4200,Shoreditch|Chelsea|Hackney,2,maisonette,2026-09-16,permanent,True,False,any,False,concierge|pet-friendly|workspace
+A-1053,James Patel,25-34,2103,2700,Croydon|Canary Wharf,1,house,2026-08-26,self-employed,False,False,furnished,True,balcony|concierge|parking|river-view|transport
+A-1054,Emily Taylor,35-44,3283,3800,Wimbledon|Canary Wharf|Battersea,2,flat,2026-10-30,relocating,False,False,unfurnished,False,balcony|concierge|school|workspace
+A-1055,Priya Patel,35-44,3454,3950,Wimbledon|Hackney,2,maisonette,2026-09-17,student,True,False,any,True,balcony|garden|gym|parking|pet-friendly
+A-1056,John Clarke,35-44,2806,3350,Greenwich|Wimbledon,2,flat,2026-10-14,relocating,False,False,unfurnished,False,pet-friendly|transport
+A-1057,Sam Reed,18-24,2355,2750,Camden|Islington,1,house|maisonette,2026-10-03,self-employed,False,False,any,False,balcony|gym|pet-friendly
+A-1058,Grace Davies,25-34,3400,3950,Islington|Shoreditch,2,house|flat,2026-10-22,student,False,False,any,False,garden|parking
+A-1059,Emily Brown,25-34,4939,5450,Chelsea|Shoreditch,4,maisonette|flat,2026-08-24,contractor,True,False,furnished,False,balcony|pet-friendly|workspace
+A-1060,Daniel Khan,35-44,1950,2350,Stratford|Greenwich,1,house,2026-08-27,student,False,True,any,True,garden|gym|parking|river-view|transport
+A-1061,Sarah Davies,35-44,3251,3750,Camden|Stratford,3,maisonette|flat,2026-09-21,contractor,False,True,unfurnished,False,parking|workspace
+A-1062,John Patel,35-44,3814,4100,Camden|Hackney,3,maisonette,2026-08-22,student,False,False,any,False,concierge|workspace
+A-1063,James Smith,35-44,4290,4550,Shoreditch,4,house|maisonette,2026-10-02,student,False,False,furnished,False,balcony|garden|pet-friendly|school
+A-1064,John Reed,45-54,3677,4250,Clapham|Shoreditch|Greenwich,3,flat,2026-11-11,relocating,True,False,unfurnished,False,balcony|garden|pet-friendly
+A-1065,Olivia Clarke,45-54,2750,3000,Shoreditch|Camden|Greenwich,1,house|maisonette,2026-11-02,student,True,False,any,False,concierge|gym|parking|pet-friendly|transport
+A-1066,John Mitchell,18-24,2684,3150,Shoreditch|Croydon,1,house,2026-08-30,permanent,False,False,unfurnished,False,school|transport
+A-1067,Priya Clarke,18-24,3994,4500,Chelsea|Fulham,1,flat,2026-10-28,relocating,True,True,unfurnished,False,balcony|pet-friendly|school
+A-1068,Mohammed Wilson,55+,3030,3550,Battersea|Fulham|Camden,2,flat|house,2026-10-18,contractor,True,False,any,False,parking|pet-friendly|river-view|transport
+A-1069,Daniel Brown,45-54,3450,3700,Greenwich|Battersea|Chelsea,2,flat,2026-10-16,relocating,True,False,unfurnished,True,garden|parking|pet-friendly|river-view
+A-1070,Thomas Ahmed,25-34,3775,4050,Fulham,2,house,2026-08-28,self-employed,False,False,furnished,False,parking|river-view|school|transport|workspace
+A-1071,John Smith,45-54,3531,4050,Hackney,3,house,2026-10-12,permanent,False,False,unfurnished,False,garden|gym|parking|pet-friendly|river-view
+A-1072,Daniel Davies,25-34,3023,3400,Hackney|Shoreditch,1,maisonette,2026-08-22,contractor,False,False,furnished,False,school|transport
+A-1073,John Davies,25-34,3756,4250,Camden|Shoreditch|Battersea,3,flat,2026-10-04,self-employed,False,False,unfurnished,False,balcony|river-view|school|transport|workspace
+A-1074,Mohammed Mitchell,18-24,2666,3050,Canary Wharf|Stratford,1,house,2026-11-01,permanent,False,False,unfurnished,False,concierge|parking
+A-1075,John Wilson,25-34,1160,1700,Croydon,1,flat,2026-09-23,contractor,False,False,unfurnished,False,balcony|garden|pet-friendly|river-view|workspace
+A-1076,Thomas Khan,18-24,3253,3800,Canary Wharf,3,maisonette,2026-09-22,permanent,False,False,unfurnished,False,balcony|garden
+A-1077,Mohammed Patel,45-54,3472,3800,Camden|Islington|Hackney,2,maisonette,2026-10-08,permanent,False,True,any,True,balcony|garden|gym|parking|pet-friendly
+A-1078,John Patel,35-44,3704,4100,Canary Wharf|Greenwich,3,maisonette,2026-10-04,relocating,False,False,any,False,parking|pet-friendly
+A-1079,Sam Ahmed,18-24,2341,2850,Stratford|Fulham,1,flat,2026-10-31,contractor,False,False,unfurnished,False,gym|parking
+A-1080,John Brown,25-34,3475,4050,Clapham|Islington,2,house,2026-11-04,self-employed,False,False,furnished,True,parking|school|workspace
+A-1081,Priya Khan,18-24,2776,3100,Islington|Greenwich,2,house,2026-09-17,student,False,True,furnished,False,concierge|garden|school
+A-1082,John Jones,18-24,2594,2900,Shoreditch,1,flat|house,2026-08-18,student,False,True,furnished,False,concierge|pet-friendly
+A-1083,Priya Ahmed,55+,2548,2850,Clapham|Stratford|Fulham,1,flat|house,2026-08-26,permanent,False,False,any,False,concierge|parking|pet-friendly
+A-1084,Mohammed Smith,25-34,3336,3850,Stratford|Shoreditch,3,house,2026-11-07,permanent,False,False,unfurnished,False,gym|school
+A-1085,Emily Mitchell,45-54,4120,4600,Islington,3,flat,2026-09-24,relocating,False,False,any,False,parking|school
+A-1086,Aisha Taylor,35-44,2997,3300,Canary Wharf,1,house|maisonette,2026-08-24,student,False,False,any,False,concierge|garden|parking|pet-friendly
+A-1087,Thomas Jones,18-24,4768,5150,Shoreditch|Chelsea,2,maisonette,2026-10-08,self-employed,False,True,furnished,False,balcony|garden|school|transport|workspace
+A-1088,Priya Khan,18-24,3482,3950,Shoreditch,2,flat|maisonette,2026-08-21,relocating,False,False,unfurnished,False,balcony|gym|parking|pet-friendly|workspace
+A-1089,Emily Taylor,35-44,2866,3200,Islington|Hackney,2,house|maisonette,2026-11-02,self-employed,False,False,furnished,True,balcony|parking|pet-friendly|transport|workspace
+A-1090,James Taylor,18-24,4565,4850,Fulham|Islington,3,house,2026-10-19,contractor,True,False,furnished,True,balcony|parking|pet-friendly|river-view|transport|workspace
+A-1091,Priya Mitchell,18-24,3532,3800,Wimbledon|Shoreditch,3,maisonette,2026-08-21,contractor,True,False,furnished,False,balcony|gym|pet-friendly|school|transport|workspace
+A-1092,Grace Davies,45-54,3179,3600,Islington|Stratford,2,house|maisonette,2026-09-07,contractor,False,False,any,False,balcony|garden|gym|pet-friendly|river-view
+A-1093,Thomas Patel,45-54,3031,3400,Clapham|Croydon|Canary Wharf,2,house|maisonette,2026-09-14,student,False,False,unfurnished,False,balcony|concierge|school|transport
+A-1094,Olivia Taylor,25-34,3268,3750,Croydon|Chelsea|Shoreditch,2,maisonette,2026-10-28,self-employed,False,False,furnished,True,garden|parking|pet-friendly|workspace
+A-1095,Daniel Jones,55+,1955,2450,Croydon|Shoreditch,1,flat,2026-10-18,relocating,True,False,any,False,concierge|gym|parking|pet-friendly|river-view|school
+A-1096,Priya Patel,35-44,2606,3100,Canary Wharf|Camden|Battersea,2,house,2026-11-01,relocating,True,False,furnished,False,concierge|parking|pet-friendly|river-view
+A-1097,Sarah Khan,55+,3094,3450,Hackney|Islington,1,flat|house,2026-11-10,contractor,False,False,any,False,garden|gym|parking|pet-friendly|transport
+A-1098,Sarah Mitchell,18-24,3915,4350,Hackney|Battersea|Wimbledon,4,flat|maisonette,2026-11-11,permanent,False,True,furnished,True,concierge|parking|school|transport
+A-1099,Sarah Mitchell,55+,4252,4600,Stratford|Hackney|Clapham,4,flat|maisonette,2026-10-24,self-employed,False,False,furnished,False,garden|gym|river-view|school
+A-1100,Olivia Smith,45-54,3356,3850,Clapham,1,house|flat,2026-11-06,student,True,False,furnished,False,balcony|gym|pet-friendly|workspace
+A-1101,Daniel Smith,55+,3090,3650,Battersea|Hackney,2,house|maisonette,2026-09-02,student,False,False,unfurnished,True,concierge|gym|parking|workspace
+A-1102,Grace Davies,55+,3489,3950,Canary Wharf|Greenwich,4,house,2026-10-16,student,False,False,any,False,balcony|gym|pet-friendly|river-view
+A-1103,Grace Wilson,45-54,2908,3450,Shoreditch|Wimbledon,2,flat,2026-10-05,relocating,False,False,unfurnished,False,concierge|parking|workspace
+A-1104,Grace Ahmed,35-44,3316,3650,Wimbledon|Clapham,2,maisonette,2026-11-06,student,False,False,unfurnished,False,concierge|parking|pet-friendly
+A-1105,Olivia Mitchell,35-44,3542,3950,Fulham|Stratford|Battersea,2,house|maisonette,2026-08-28,self-employed,False,False,furnished,False,balcony|pet-friendly|transport
+A-1106,Sarah Reed,35-44,2765,3100,Clapham,1,flat,2026-10-16,contractor,False,True,any,False,concierge|gym|river-view|school|transport
+A-1107,Aisha Davies,35-44,3926,4250,Hackney|Battersea|Canary Wharf,3,maisonette,2026-11-05,relocating,True,False,furnished,False,garden|parking|pet-friendly|school
+A-1108,Aisha Jones,45-54,3392,3950,Clapham|Shoreditch|Chelsea,2,maisonette,2026-08-28,permanent,False,True,unfurnished,False,parking|river-view|school|transport
+A-1109,Aisha Brown,55+,3089,3450,Hackney|Chelsea,1,maisonette,2026-09-07,contractor,False,True,any,True,balcony|concierge|parking|pet-friendly|school
+A-1110,Emily Clarke,55+,4023,4400,Camden,3,maisonette,2026-10-16,contractor,False,False,any,True,concierge|parking|school
+A-1111,Mohammed Jones,55+,3001,3600,Canary Wharf,1,flat,2026-09-10,permanent,False,False,any,False,concierge|gym|river-view
+A-1112,Grace Reed,25-34,3039,3300,Wimbledon,1,maisonette,2026-10-12,contractor,False,False,furnished,True,concierge|parking|river-view|school|workspace
+A-1113,John Davies,35-44,3570,4000,Greenwich,4,maisonette|house,2026-09-03,contractor,False,False,any,True,concierge|gym|parking|school|transport
+A-1114,Grace Ahmed,25-34,3493,3850,Battersea|Canary Wharf,2,maisonette,2026-09-11,self-employed,False,False,unfurnished,True,concierge|gym|parking|pet-friendly|river-view|transport
+A-1115,Thomas Smith,45-54,4546,4900,Shoreditch|Chelsea,3,house|flat,2026-09-02,student,False,False,furnished,False,concierge|pet-friendly
+A-1116,John Mitchell,45-54,2796,3050,Fulham|Chelsea|Croydon,0,studio,2026-08-30,student,False,False,unfurnished,False,balcony|garden|transport
+A-1117,Priya Jones,25-34,2802,3200,Canary Wharf|Clapham|Croydon,1,house|flat,2026-10-23,permanent,False,False,furnished,True,concierge|gym|parking|school|transport
+A-1118,John Brown,25-34,2097,2350,Stratford,1,house|maisonette,2026-09-07,contractor,False,False,any,False,pet-friendly|school|transport|workspace
+A-1119,Sam Mitchell,35-44,2720,3250,Camden,1,house,2026-09-09,self-employed,False,False,unfurnished,False,garden|river-view|workspace
+A-1120,Mohammed Ahmed,45-54,2446,2750,Wimbledon|Camden,1,house,2026-10-14,relocating,False,False,any,False,gym|parking
+A-1121,Olivia Ahmed,18-24,3259,3650,Canary Wharf|Shoreditch|Stratford,1,maisonette|house,2026-09-02,relocating,False,False,furnished,False,balcony|transport
+A-1122,Thomas Wilson,45-54,2462,2900,Greenwich|Wimbledon,1,house,2026-10-20,relocating,False,False,any,False,concierge|garden|parking|transport
+A-1123,James Jones,35-44,1821,2300,Croydon,2,flat|maisonette,2026-10-06,permanent,False,False,furnished,False,garden|parking|transport
+A-1124,Priya Mitchell,18-24,2858,3200,Canary Wharf|Stratford|Camden,2,flat|house,2026-10-15,student,False,False,any,False,balcony|workspace
+A-1125,John Reed,25-34,3400,3950,Croydon|Fulham,2,maisonette|house,2026-10-30,relocating,False,True,any,True,garden|parking|river-view|transport
+A-1126,Mohammed Reed,55+,2888,3250,Battersea|Hackney,2,maisonette|house,2026-10-22,permanent,False,False,furnished,True,parking|river-view|school
+A-1127,James Davies,35-44,3926,4300,Wimbledon|Chelsea,2,maisonette|house,2026-09-22,self-employed,False,False,unfurnished,False,transport|workspace
+A-1128,Sam Wilson,25-34,2944,3250,Clapham|Islington,1,maisonette,2026-09-30,self-employed,False,False,furnished,False,pet-friendly|river-view
+A-1129,Grace Reed,55+,3035,3300,Camden|Wimbledon|Stratford,1,flat|house,2026-11-03,relocating,False,False,furnished,False,balcony|garden|parking|workspace
+A-1130,Daniel Jones,18-24,3906,4500,Chelsea|Fulham,2,maisonette,2026-09-13,permanent,False,False,unfurnished,False,balcony|gym|parking|pet-friendly|school
+A-1131,Olivia Ahmed,25-34,2762,3250,Clapham,1,maisonette,2026-09-07,contractor,False,True,unfurnished,True,balcony|gym|parking|river-view|transport
+A-1132,Aisha Khan,18-24,3104,3450,Islington|Canary Wharf,1,maisonette,2026-10-07,self-employed,False,True,furnished,True,concierge|garden|parking|river-view|workspace
+A-1133,Aisha Patel,25-34,3340,3650,Camden|Battersea,1,house,2026-10-19,permanent,False,False,unfurnished,True,concierge|parking|river-view|school|workspace
+A-1134,Sarah Wilson,18-24,3568,4000,Canary Wharf|Wimbledon,2,house,2026-08-27,contractor,False,False,furnished,True,parking|river-view|transport|workspace
+A-1135,John Clarke,25-34,3710,4200,Clapham|Camden,3,maisonette,2026-08-19,student,False,False,furnished,False,concierge|garden|gym|pet-friendly|workspace
+A-1136,Sam Brown,25-34,2973,3500,Stratford|Greenwich|Battersea,3,flat|house,2026-10-04,self-employed,False,False,furnished,False,parking|pet-friendly|transport
+A-1137,Grace Jones,25-34,4442,4800,Canary Wharf|Greenwich,4,maisonette,2026-09-04,student,False,False,any,False,balcony|pet-friendly|river-view|transport
+A-1138,Priya Davies,45-54,3482,3750,Islington,2,maisonette|flat,2026-10-11,relocating,False,True,unfurnished,False,concierge|school
+A-1139,Grace Taylor,18-24,4259,4700,Greenwich|Canary Wharf,4,flat|house,2026-08-31,contractor,False,True,any,True,balcony|gym|parking|pet-friendly|transport
+A-1140,Grace Khan,25-34,2966,3450,Islington|Clapham,1,flat|maisonette,2026-11-02,contractor,False,False,furnished,True,balcony|concierge|parking|river-view|transport|workspace
+A-1141,Sarah Mitchell,55+,3236,3600,Stratford|Canary Wharf,2,flat,2026-10-22,contractor,True,False,furnished,False,gym|pet-friendly|river-view
+A-1142,James Patel,55+,3489,3900,Greenwich|Chelsea,2,flat,2026-10-08,contractor,False,True,unfurnished,False,balcony|parking|school|workspace
+A-1143,Olivia Davies,35-44,2735,3200,Stratford,2,maisonette,2026-09-21,student,False,False,unfurnished,False,garden|workspace
+A-1144,James Reed,35-44,2965,3350,Battersea|Canary Wharf|Croydon,1,house,2026-10-27,relocating,False,False,furnished,False,concierge|garden|gym|parking|workspace
+A-1145,John Patel,55+,3537,4000,Clapham,2,maisonette|house,2026-09-06,relocating,False,False,furnished,False,pet-friendly|river-view|school|workspace
+A-1146,Sarah Brown,25-34,2238,2750,Clapham,0,studio,2026-10-20,permanent,False,False,furnished,False,gym|pet-friendly|workspace
+A-1147,Priya Wilson,35-44,2497,2950,Camden,0,studio,2026-10-17,relocating,False,False,unfurnished,False,balcony|gym
+A-1148,Daniel Brown,35-44,2702,3250,Greenwich,2,house,2026-08-20,permanent,True,False,any,False,concierge|garden|gym|pet-friendly
+A-1149,Sam Clarke,45-54,3625,4100,Fulham|Canary Wharf,2,flat,2026-10-03,contractor,True,True,furnished,False,gym|pet-friendly|river-view
+A-1150,Mohammed Reed,45-54,2759,3250,Battersea,1,house|maisonette,2026-09-06,self-employed,False,False,unfurnished,False,balcony|garden|gym|transport
+A-1151,John Taylor,55+,3054,3350,Camden,2,house|flat,2026-09-09,permanent,True,False,any,False,pet-friendly|transport|workspace
+A-1152,Aisha Davies,45-54,2817,3150,Croydon|Islington,2,maisonette,2026-11-03,student,True,False,furnished,False,concierge|pet-friendly|transport|workspace
+A-1153,Thomas Reed,35-44,2836,3250,Croydon|Shoreditch,1,maisonette|flat,2026-08-25,self-employed,False,True,furnished,False,concierge|garden|gym|river-view|workspace
+A-1154,Thomas Khan,45-54,2875,3350,Camden,1,house,2026-10-30,relocating,False,False,unfurnished,False,gym|parking|river-view|transport
+A-1155,Grace Mitchell,35-44,3548,3800,Battersea,1,house|maisonette,2026-10-23,relocating,False,True,furnished,False,gym|parking|pet-friendly|river-view
+A-1156,James Jones,35-44,3292,3650,Fulham,1,flat,2026-10-29,relocating,False,False,furnished,False,concierge|pet-friendly|river-view|school
+A-1157,Sarah Reed,55+,2976,3350,Greenwich|Islington,2,maisonette,2026-08-27,relocating,False,False,unfurnished,True,concierge|gym|parking|river-view|transport
+A-1158,John Ahmed,25-34,3345,3900,Fulham|Wimbledon|Clapham,2,maisonette,2026-10-15,contractor,False,False,unfurnished,False,balcony|concierge|gym
+A-1159,James Clarke,25-34,3071,3400,Clapham,1,house,2026-09-29,self-employed,False,False,any,False,concierge|garden|pet-friendly
+A-1160,Aisha Davies,25-34,3168,3450,Clapham|Fulham|Stratford,1,flat,2026-10-18,relocating,False,False,unfurnished,True,balcony|garden|parking|river-view|school
+A-1161,Emily Brown,25-34,3280,3750,Clapham|Greenwich|Stratford,2,flat|house,2026-10-14,student,False,False,unfurnished,False,concierge|river-view
+A-1162,Emily Smith,25-34,3860,4350,Wimbledon|Fulham|Battersea,2,flat,2026-09-01,relocating,False,False,any,False,garden|parking|school|workspace
+A-1163,Emily Wilson,25-34,3142,3700,Hackney|Canary Wharf,2,maisonette|flat,2026-09-01,contractor,False,False,unfurnished,False,concierge|parking|river-view|school|transport
+A-1164,Mohammed Wilson,55+,3991,4550,Clapham|Islington,3,flat,2026-09-03,contractor,True,False,any,False,parking|pet-friendly|workspace
+A-1165,Sam Patel,45-54,2936,3500,Canary Wharf|Croydon|Hackney,3,house|flat,2026-09-18,permanent,True,True,furnished,True,gym|parking|pet-friendly|school|transport
+A-1166,John Patel,18-24,3316,3600,Clapham|Croydon,2,maisonette,2026-08-19,student,False,False,any,False,balcony|concierge|garden|school|workspace
+A-1167,Priya Brown,35-44,3461,3750,Fulham|Canary Wharf|Hackney,1,maisonette,2026-08-21,contractor,False,False,unfurnished,False,garden|parking|school|workspace
+A-1168,Sam Davies,55+,2863,3200,Camden|Greenwich,2,flat,2026-10-25,relocating,False,False,unfurnished,False,garden|parking|pet-friendly|transport|workspace
+A-1169,Aisha Davies,55+,3772,4100,Chelsea|Canary Wharf,1,house|flat,2026-09-08,contractor,False,False,any,False,balcony|gym
+A-1170,Olivia Reed,35-44,3327,3800,Hackney|Clapham,2,house,2026-09-05,relocating,False,False,furnished,False,concierge|garden|river-view|school
+A-1171,Emily Taylor,18-24,3724,4050,Battersea,2,flat|house,2026-09-10,relocating,False,False,any,False,river-view|school
+A-1172,Aisha Taylor,45-54,2775,3350,Croydon|Clapham,2,maisonette|flat,2026-08-25,self-employed,True,False,furnished,False,balcony|parking|pet-friendly|river-view|school
+A-1173,Aisha Patel,55+,4139,4500,Battersea|Wimbledon,3,house,2026-08-20,self-employed,False,False,furnished,False,concierge|river-view
+A-1174,Grace Khan,55+,2631,3050,Clapham,1,house,2026-11-09,permanent,False,False,any,False,garden|parking|pet-friendly|school
+A-1175,Mohammed Wilson,55+,4116,4550,Chelsea|Fulham|Battersea,3,house,2026-09-22,relocating,False,False,furnished,False,garden|gym|pet-friendly|river-view|workspace
+A-1176,Mohammed Ahmed,45-54,4555,4900,Chelsea|Battersea|Shoreditch,3,house|flat,2026-08-19,student,False,False,any,False,concierge|gym|workspace
+A-1177,Daniel Mitchell,18-24,3369,3700,Camden|Wimbledon,2,maisonette,2026-08-24,contractor,False,False,any,False,balcony|garden|river-view|school|transport
+A-1178,Thomas Mitchell,35-44,3427,3800,Battersea,2,flat|maisonette,2026-10-26,permanent,False,False,furnished,False,concierge|garden|gym|pet-friendly|workspace
+A-1179,Aisha Ahmed,45-54,3299,3650,Shoreditch|Chelsea,0,studio,2026-08-27,self-employed,False,False,furnished,False,gym|pet-friendly|river-view|transport
+A-1180,Mohammed Mitchell,35-44,3353,3900,Croydon|Wimbledon|Camden,2,maisonette,2026-09-17,student,False,True,unfurnished,False,garden|parking|river-view|workspace
+A-1181,Mohammed Patel,35-44,4047,4450,Chelsea,2,flat,2026-10-15,relocating,False,False,unfurnished,True,balcony|garden|gym|parking|workspace
+A-1182,James Jones,35-44,2068,2650,Clapham|Stratford,1,flat,2026-08-25,contractor,False,True,unfurnished,False,concierge|gym|transport|workspace
+A-1183,Emily Mitchell,25-34,2932,3500,Chelsea|Croydon,2,house|flat,2026-09-09,permanent,False,False,unfurnished,False,balcony|garden|river-view|transport
+A-1184,Sarah Davies,35-44,4052,4600,Islington|Canary Wharf,3,flat,2026-08-29,relocating,False,False,furnished,False,balcony|garden|pet-friendly
+A-1185,Emily Smith,25-34,4052,4600,Camden|Chelsea,3,flat|maisonette,2026-09-28,self-employed,False,False,any,False,garden|transport
+A-1186,Grace Davies,45-54,3596,3950,Clapham,3,flat|house,2026-10-11,relocating,True,False,any,False,balcony|garden|parking|pet-friendly|workspace
+A-1187,Olivia Smith,25-34,2441,2750,Shoreditch|Islington|Greenwich,0,studio,2026-08-23,permanent,False,False,furnished,False,concierge|gym|transport
+A-1188,Thomas Wilson,45-54,2542,3100,Greenwich,1,house,2026-09-07,contractor,False,True,unfurnished,False,school|workspace
+A-1189,Sam Reed,25-34,1838,2350,Croydon,2,house,2026-09-06,contractor,False,False,unfurnished,False,balcony|gym|school
+A-1190,John Davies,18-24,3403,3900,Chelsea|Canary Wharf|Islington,1,house|maisonette,2026-08-22,self-employed,False,False,any,False,balcony|transport
+A-1191,Mohammed Wilson,18-24,4119,4450,Shoreditch,3,flat,2026-09-19,relocating,False,False,furnished,False,balcony|garden
+A-1192,Sam Khan,18-24,3968,4450,Canary Wharf|Battersea,3,flat,2026-09-12,student,False,False,unfurnished,False,concierge|gym|parking|river-view
+A-1193,James Mitchell,18-24,1989,2400,Stratford,1,maisonette,2026-11-03,self-employed,True,False,unfurnished,False,balcony|gym|pet-friendly|river-view|transport
+A-1194,Grace Brown,55+,2880,3200,Hackney|Croydon|Wimbledon,2,flat,2026-10-31,student,True,False,any,True,balcony|parking|pet-friendly|river-view|transport
+A-1195,Priya Brown,55+,3199,3550,Croydon|Canary Wharf,2,house,2026-09-23,relocating,False,False,unfurnished,True,balcony|concierge|garden|parking
+A-1196,Olivia Reed,25-34,3026,3400,Wimbledon|Croydon,2,house|maisonette,2026-09-22,self-employed,False,False,any,False,gym|parking|pet-friendly|river-view|transport
+A-1197,James Ahmed,55+,2938,3200,Wimbledon|Stratford,1,maisonette,2026-10-19,contractor,False,False,unfurnished,False,concierge|garden|school
+A-1198,Olivia Jones,45-54,3442,3700,Greenwich|Shoreditch,2,house,2026-10-23,student,False,False,unfurnished,False,balcony|garden
+A-1199,Mohammed Brown,25-34,3099,3600,Stratford|Hackney,2,house|maisonette,2026-10-08,permanent,False,True,furnished,True,concierge|parking|transport
+A-1200,Emily Reed,25-34,3794,4100,Canary Wharf|Fulham,2,house|flat,2026-08-27,student,True,False,any,True,balcony|garden|gym|parking|pet-friendly
+A-1201,Sam Reed,18-24,4585,4850,Islington,4,house,2026-09-30,self-employed,False,False,furnished,True,gym|parking|pet-friendly|school
+A-1202,Daniel Taylor,45-54,2994,3500,Greenwich|Battersea,2,house,2026-08-21,contractor,False,False,unfurnished,False,garden|pet-friendly|school
+A-1203,Sarah Smith,18-24,2357,2750,Croydon|Clapham,1,house|flat,2026-09-06,student,False,False,any,True,parking|pet-friendly|river-view|workspace
+A-1204,Olivia Brown,18-24,3786,4100,Clapham|Wimbledon|Chelsea,2,house|maisonette,2026-08-20,relocating,False,True,any,False,balcony|river-view
+A-1205,Emily Mitchell,25-34,2984,3250,Hackney,1,maisonette,2026-11-06,self-employed,False,False,any,False,balcony|gym
+A-1206,Mohammed Jones,35-44,3312,3650,Chelsea|Canary Wharf|Battersea,1,maisonette|house,2026-10-11,relocating,False,False,any,True,parking|river-view|school|transport|workspace
+A-1207,Priya Reed,18-24,3369,3800,Battersea,1,house|flat,2026-09-21,self-employed,True,False,unfurnished,True,concierge|garden|gym|parking|pet-friendly|river-view
+A-1208,Emily Reed,55+,3431,3800,Battersea|Camden,2,house|flat,2026-08-23,permanent,False,True,any,True,balcony|garden|gym|parking|pet-friendly
+A-1209,Emily Davies,35-44,3375,3950,Fulham|Stratford|Greenwich,3,house|flat,2026-09-23,contractor,False,False,unfurnished,True,gym|parking|pet-friendly|river-view
+A-1210,Sam Brown,45-54,3624,3950,Camden|Battersea,1,house|flat,2026-11-10,contractor,False,True,any,False,balcony|concierge|river-view
+A-1211,Sam Reed,18-24,3559,4050,Camden|Hackney|Islington,2,house|flat,2026-10-23,relocating,False,False,unfurnished,True,gym|parking
+A-1212,John Smith,55+,4891,5200,Chelsea,2,flat|maisonette,2026-10-30,student,False,False,furnished,False,balcony|concierge|garden|gym|workspace
+A-1213,Olivia Clarke,45-54,4092,4450,Battersea|Islington,3,flat,2026-08-25,student,False,False,any,False,balcony|concierge|parking|river-view
+A-1214,Olivia Mitchell,55+,2879,3300,Camden|Shoreditch,1,flat,2026-10-08,student,False,False,unfurnished,False,concierge|gym
+A-1215,Daniel Ahmed,25-34,2460,3050,Wimbledon,1,maisonette|house,2026-10-15,permanent,False,False,furnished,False,balcony|concierge|garden|pet-friendly|transport
+A-1216,James Ahmed,18-24,2943,3200,Stratford|Battersea,2,maisonette|house,2026-10-12,relocating,False,False,any,False,river-view|school|transport
+A-1217,Sam Jones,55+,4430,4800,Clapham|Battersea|Canary Wharf,3,house,2026-09-09,relocating,False,False,any,False,concierge|garden|parking|school
+A-1218,John Davies,55+,3176,3600,Clapham|Islington|Croydon,2,maisonette,2026-08-31,student,False,False,furnished,False,balcony|concierge|parking|pet-friendly|river-view
+A-1219,Priya Patel,45-54,3330,3600,Chelsea|Wimbledon|Camden,2,flat|maisonette,2026-09-14,contractor,False,False,furnished,True,concierge|garden|parking
+A-1220,Emily Mitchell,45-54,3074,3550,Camden|Greenwich,2,house,2026-08-29,student,False,False,any,False,balcony|school|transport
+A-1221,Grace Davies,55+,4105,4600,Islington|Chelsea,3,flat,2026-10-02,contractor,False,False,furnished,False,concierge|gym|parking|river-view
+A-1222,Sam Wilson,25-34,3428,3900,Shoreditch|Greenwich,2,flat|house,2026-09-04,contractor,True,False,any,False,balcony|concierge|garden|pet-friendly
+A-1223,Sam Reed,18-24,2998,3300,Camden|Wimbledon,2,maisonette,2026-10-31,self-employed,False,True,any,False,balcony|workspace
+A-1224,Grace Ahmed,55+,3795,4050,Canary Wharf|Shoreditch,2,maisonette,2026-09-22,self-employed,False,False,any,True,balcony|parking|pet-friendly|school|workspace
+A-1225,Olivia Reed,35-44,3670,4200,Camden|Croydon,3,maisonette|flat,2026-10-18,student,False,False,furnished,True,garden|parking|river-view
+A-1226,Mohammed Taylor,55+,2149,2550,Croydon,2,house,2026-11-05,contractor,False,False,any,True,garden|parking|school|workspace
+A-1227,Olivia Ahmed,25-34,3828,4400,Shoreditch|Battersea,3,maisonette|flat,2026-09-15,relocating,False,False,unfurnished,False,balcony|garden|gym|parking|pet-friendly
+A-1228,Olivia Brown,55+,3304,3900,Croydon|Clapham|Fulham,3,house|maisonette,2026-10-03,permanent,False,False,unfurnished,True,gym|parking|transport
+A-1229,James Khan,35-44,2295,2550,Greenwich,1,house,2026-10-17,permanent,False,False,unfurnished,False,parking|pet-friendly|river-view|school|workspace
+A-1230,Aisha Taylor,45-54,3535,4100,Shoreditch|Greenwich|Fulham,3,flat,2026-08-31,self-employed,False,False,furnished,True,balcony|parking|transport
+A-1231,Mohammed Brown,35-44,4095,4450,Croydon|Chelsea,3,house,2026-10-12,self-employed,True,True,furnished,False,balcony|concierge|garden|parking|pet-friendly|school
+A-1232,Grace Patel,45-54,3589,3950,Fulham,1,house,2026-11-11,student,False,False,unfurnished,True,concierge|parking|transport
+A-1233,Emily Davies,25-34,3364,3950,Camden|Battersea,1,flat|house,2026-11-11,student,False,True,any,False,balcony|concierge|gym|parking|school
+A-1234,James Ahmed,55+,2796,3200,Canary Wharf,1,maisonette|flat,2026-11-11,student,True,False,unfurnished,False,gym|parking|pet-friendly|river-view|transport
+A-1235,Sam Clarke,35-44,2253,2750,Croydon|Islington,2,maisonette|flat,2026-08-19,self-employed,False,False,furnished,False,balcony|river-view|school|transport|workspace
+A-1236,James Ahmed,18-24,3378,3850,Battersea|Islington,1,maisonette|house,2026-09-03,relocating,False,False,any,False,balcony|garden|parking|river-view
+A-1237,Thomas Ahmed,55+,3206,3500,Hackney|Clapham,1,flat|house,2026-09-22,contractor,False,False,furnished,False,garden|river-view|school
+A-1238,Aisha Khan,18-24,3190,3700,Wimbledon,2,maisonette|house,2026-09-22,student,True,False,unfurnished,False,balcony|pet-friendly|school|transport|workspace
+A-1239,Aisha Smith,35-44,4032,4400,Islington|Shoreditch,3,flat,2026-09-17,relocating,False,False,any,False,garden|pet-friendly|school|workspace
+A-1240,Sarah Khan,45-54,4042,4450,Shoreditch,3,house,2026-10-13,self-employed,False,False,unfurnished,False,balcony|garden|pet-friendly|transport|workspace
+A-1241,Daniel Reed,55+,1882,2350,Croydon,1,house|maisonette,2026-10-01,relocating,True,False,unfurnished,False,concierge|pet-friendly|workspace
+A-1242,Olivia Wilson,45-54,2029,2300,Croydon,1,flat,2026-09-15,relocating,False,False,unfurnished,True,balcony|gym|parking|workspace
+A-1243,John Patel,35-44,2415,2750,Clapham,1,house,2026-08-30,relocating,False,True,furnished,False,balcony|river-view|transport|workspace
+A-1244,Sarah Brown,35-44,1894,2450,Hackney,1,maisonette,2026-08-30,relocating,False,False,unfurnished,False,balcony|gym|river-view|workspace
+A-1245,Aisha Davies,25-34,3929,4400,Fulham|Chelsea|Stratford,2,flat|house,2026-08-20,student,False,False,unfurnished,False,garden|gym|river-view|school|transport
+A-1246,Daniel Jones,55+,4008,4300,Wimbledon,3,flat,2026-09-04,permanent,False,False,furnished,True,balcony|parking|school|workspace
+A-1247,Sam Taylor,35-44,2391,2750,Croydon,2,flat|house,2026-10-08,permanent,False,True,any,False,concierge|garden|gym|river-view|school
+A-1248,James Clarke,18-24,2768,3350,Clapham|Battersea|Greenwich,2,flat,2026-09-02,relocating,False,False,unfurnished,False,parking|pet-friendly|transport
+A-1249,Thomas Reed,55+,4088,4400,Fulham,3,maisonette,2026-09-04,permanent,True,False,any,False,balcony|pet-friendly|school|workspace
+A-1250,Grace Smith,55+,2493,3050,Stratford|Islington,1,maisonette,2026-08-24,self-employed,False,False,furnished,False,gym|pet-friendly|school|transport|workspace
+A-1251,John Reed,55+,2675,2950,Stratford|Clapham,1,house,2026-09-19,student,False,False,unfurnished,False,gym|pet-friendly|transport
+A-1252,Emily Davies,35-44,3648,3950,Battersea,1,house,2026-08-19,relocating,False,False,unfurnished,False,balcony|concierge|school|transport
+A-1253,Grace Ahmed,35-44,4133,4450,Fulham|Canary Wharf,3,maisonette|flat,2026-10-19,self-employed,False,True,furnished,False,balcony|garden|parking|pet-friendly|workspace
+A-1254,Grace Taylor,45-54,2910,3500,Islington,2,house,2026-09-11,relocating,False,False,furnished,False,garden|parking
+A-1255,James Patel,55+,2901,3250,Wimbledon|Stratford|Clapham,1,house|flat,2026-10-17,self-employed,False,False,furnished,False,gym|pet-friendly
+A-1256,Priya Patel,55+,2352,2800,Wimbledon|Canary Wharf,1,house,2026-08-19,contractor,True,False,unfurnished,False,pet-friendly|river-view|workspace
+A-1257,James Reed,45-54,3653,4150,Islington|Hackney,2,house|flat,2026-09-07,permanent,False,False,furnished,True,gym|parking|pet-friendly
+A-1258,Sam Wilson,18-24,3985,4400,Shoreditch|Stratford,3,maisonette,2026-09-28,relocating,False,False,furnished,False,balcony|concierge|garden
+A-1259,Sam Khan,35-44,3865,4300,Stratford|Chelsea|Greenwich,3,flat,2026-09-11,permanent,True,False,furnished,False,concierge|parking|pet-friendly
+A-1260,Sarah Davies,18-24,3103,3500,Canary Wharf|Camden|Wimbledon,1,maisonette,2026-09-21,self-employed,False,False,any,False,balcony|concierge|school
+A-1261,James Ahmed,25-34,2972,3550,Clapham,2,maisonette,2026-09-12,student,False,False,furnished,False,garden|transport
+A-1262,John Khan,45-54,2774,3100,Battersea|Islington,1,maisonette|flat,2026-10-21,permanent,False,False,any,True,gym|parking|pet-friendly
+A-1263,Emily Brown,25-34,2724,3150,Greenwich|Islington|Clapham,2,flat,2026-09-25,relocating,False,False,unfurnished,False,balcony|concierge|parking|pet-friendly|school
+A-1264,Mohammed Khan,35-44,3280,3850,Shoreditch|Battersea,1,flat,2026-10-16,relocating,False,False,any,True,garden|parking|school
+A-1265,James Patel,18-24,3073,3450,Camden,2,house,2026-10-07,student,False,False,furnished,True,balcony|garden|parking|workspace
+A-1266,James Brown,25-34,3624,4150,Fulham,2,maisonette,2026-09-14,student,False,False,unfurnished,True,garden|parking|river-view|school|transport
+A-1267,John Jones,35-44,2898,3350,Stratford|Camden,3,flat,2026-11-07,permanent,False,True,furnished,False,gym|river-view|transport
+A-1268,Emily Khan,25-34,2468,2900,Islington,0,studio,2026-08-26,relocating,False,False,furnished,False,garden|pet-friendly|workspace
+A-1269,Aisha Davies,45-54,3101,3700,Clapham,2,house|flat,2026-08-29,permanent,False,False,unfurnished,False,balcony|concierge|school|workspace
+A-1270,Olivia Reed,45-54,2585,2950,Clapham|Croydon,1,flat|maisonette,2026-10-17,relocating,False,False,unfurnished,False,garden|parking|river-view|school
+A-1271,Emily Davies,18-24,3145,3650,Stratford|Camden,3,flat,2026-09-02,contractor,False,True,any,False,balcony|gym|pet-friendly|river-view
+A-1272,Emily Reed,55+,3726,4200,Islington|Fulham,2,house,2026-10-28,student,False,False,furnished,True,garden|parking|river-view
+A-1273,Priya Reed,25-34,3537,3900,Islington|Canary Wharf|Chelsea,2,maisonette,2026-09-06,permanent,True,False,any,False,balcony|parking|pet-friendly|transport|workspace
+A-1274,Emily Reed,25-34,2843,3350,Stratford|Wimbledon,2,flat|maisonette,2026-08-19,self-employed,False,False,furnished,True,concierge|garden|parking|river-view|school|workspace
+A-1275,Daniel Jones,35-44,1945,2400,Wimbledon|Greenwich|Croydon,1,house,2026-10-23,self-employed,False,False,unfurnished,True,concierge|garden|parking|pet-friendly|river-view|transport
+A-1276,Sarah Wilson,25-34,3214,3800,Stratford,3,maisonette,2026-08-29,student,False,False,any,True,gym|parking|pet-friendly|river-view
+A-1277,Mohammed Brown,55+,3408,3850,Fulham|Battersea,1,maisonette|house,2026-10-30,self-employed,False,True,unfurnished,False,gym|parking|school|workspace
+A-1278,James Wilson,45-54,3547,3850,Chelsea|Wimbledon,2,maisonette,2026-10-20,student,False,False,unfurnished,False,balcony|pet-friendly|workspace
+A-1279,Thomas Brown,25-34,3964,4250,Camden|Fulham,2,flat|house,2026-09-09,student,False,False,any,False,garden|gym|river-view
+A-1280,Daniel Davies,18-24,2453,3050,Shoreditch|Wimbledon,1,house,2026-10-24,permanent,True,False,any,True,gym|parking|pet-friendly|transport|workspace
+A-1281,Olivia Wilson,18-24,4034,4600,Hackney|Islington,4,house,2026-10-15,relocating,True,True,unfurnished,False,garden|gym|pet-friendly|transport
+A-1282,James Clarke,25-34,3236,3600,Camden,2,house,2026-09-10,permanent,False,False,furnished,False,pet-friendly|river-view
+A-1283,Priya Davies,55+,3351,3700,Canary Wharf,2,flat,2026-09-21,self-employed,True,False,furnished,False,concierge|garden|gym|parking|pet-friendly
+A-1284,Grace Brown,35-44,2065,2500,Croydon,1,maisonette|flat,2026-10-16,student,False,True,any,True,balcony|concierge|parking|pet-friendly|school|workspace
+A-1285,Mohammed Clarke,55+,3026,3450,Canary Wharf|Wimbledon|Hackney,1,flat,2026-10-01,relocating,True,False,furnished,False,pet-friendly|river-view|school|transport|workspace
+A-1286,Priya Taylor,45-54,3890,4350,Shoreditch|Battersea,3,maisonette,2026-10-07,self-employed,False,False,unfurnished,True,garden|gym|parking|river-view|transport
+A-1287,Grace Reed,25-34,2484,3050,Croydon|Battersea|Hackney,1,house,2026-09-19,self-employed,True,False,unfurnished,False,garden|parking|pet-friendly|river-view|workspace
+A-1288,Olivia Davies,45-54,3377,3750,Islington|Canary Wharf,2,flat,2026-11-08,relocating,False,False,any,False,concierge|garden|parking|river-view|transport
+A-1289,Daniel Khan,55+,3617,4150,Chelsea|Camden,2,house,2026-10-31,contractor,True,True,unfurnished,False,pet-friendly|river-view|school
+A-1290,Daniel Taylor,25-34,3243,3800,Shoreditch,1,house,2026-08-29,self-employed,False,True,furnished,True,concierge|garden|parking|school|transport
+A-1291,Olivia Taylor,55+,3435,3700,Greenwich|Battersea,2,flat,2026-09-12,self-employed,False,False,furnished,False,balcony|concierge|gym|transport
+A-1292,Thomas Davies,45-54,2349,2800,Croydon|Hackney,1,flat,2026-09-29,relocating,False,True,any,True,balcony|gym|parking|pet-friendly|school|transport
+A-1293,Grace Davies,35-44,2940,3200,Stratford|Canary Wharf,2,house,2026-09-25,relocating,False,False,furnished,False,pet-friendly|river-view|transport
+A-1294,Mohammed Taylor,35-44,3135,3650,Wimbledon|Croydon|Chelsea,2,maisonette,2026-10-17,relocating,True,False,furnished,False,balcony|pet-friendly|transport
+A-1295,Priya Ahmed,45-54,2558,3150,Clapham,1,house,2026-10-17,permanent,False,False,unfurnished,True,concierge|parking|pet-friendly|transport
+A-1296,Thomas Clarke,55+,2778,3150,Greenwich,3,house|flat,2026-09-13,contractor,False,False,unfurnished,False,balcony|gym|pet-friendly|river-view|workspace
+A-1297,Sarah Wilson,35-44,3150,3650,Canary Wharf|Camden|Fulham,2,house,2026-08-22,student,False,False,unfurnished,False,pet-friendly|transport
+A-1298,James Khan,45-54,4088,4600,Chelsea|Fulham,3,maisonette,2026-09-23,permanent,False,False,furnished,False,balcony|garden|transport
+A-1299,Olivia Khan,45-54,3771,4050,Chelsea|Greenwich,1,flat,2026-08-28,student,False,False,unfurnished,False,balcony|gym
+A-1300,Aisha Clarke,18-24,3964,4350,Battersea|Wimbledon,3,maisonette,2026-10-04,student,False,True,unfurnished,True,garden|parking|river-view|transport
+A-1301,Thomas Wilson,45-54,2887,3200,Greenwich|Hackney,1,flat,2026-08-20,relocating,False,False,any,False,balcony|concierge|gym|transport
+A-1302,John Brown,35-44,3265,3650,Camden|Hackney,2,flat,2026-10-16,contractor,False,False,any,False,balcony|transport
+A-1303,Daniel Smith,55+,3040,3400,Greenwich,2,maisonette,2026-08-22,student,True,False,any,False,parking|pet-friendly|school
+A-1304,Mohammed Jones,55+,3487,3800,Islington,2,maisonette,2026-10-14,contractor,False,False,furnished,True,balcony|parking|workspace
+A-1305,Mohammed Smith,55+,3796,4150,Clapham|Chelsea|Wimbledon,1,house,2026-09-05,contractor,False,False,any,False,garden|parking|school
+A-1306,Olivia Ahmed,18-24,3550,3850,Islington|Greenwich|Wimbledon,2,house,2026-11-01,permanent,False,False,unfurnished,False,concierge|parking|river-view|school
+A-1307,Sarah Reed,35-44,3733,4300,Wimbledon,3,maisonette|house,2026-10-31,permanent,True,False,furnished,False,balcony|garden|pet-friendly|river-view|workspace
+A-1308,James Wilson,55+,3965,4550,Fulham,2,house,2026-10-02,relocating,False,False,any,False,garden|pet-friendly|transport|workspace
+A-1309,Mohammed Jones,45-54,3661,3950,Camden|Fulham,2,maisonette,2026-10-20,student,False,False,unfurnished,False,concierge|school
+A-1310,Daniel Taylor,55+,3386,3700,Camden|Islington,2,maisonette,2026-08-22,permanent,False,False,unfurnished,False,concierge|river-view|school
+A-1311,John Wilson,45-54,3420,3950,Camden|Clapham,3,flat,2026-10-29,self-employed,False,False,unfurnished,False,concierge|pet-friendly|river-view|workspace
+A-1312,Emily Davies,18-24,2650,3200,Stratford|Greenwich|Camden,2,house,2026-09-02,contractor,False,False,any,False,concierge|parking|transport
+A-1313,Daniel Jones,18-24,2916,3350,Greenwich|Croydon|Chelsea,1,maisonette,2026-08-24,permanent,False,False,furnished,False,garden|gym|parking
+A-1314,Priya Ahmed,25-34,3720,4150,Fulham|Shoreditch,2,house,2026-11-10,student,False,False,furnished,False,balcony|parking|school|workspace
+A-1315,Emily Khan,18-24,4147,4400,Fulham|Canary Wharf|Clapham,3,flat,2026-10-04,self-employed,False,False,unfurnished,False,garden|gym|transport|workspace
+A-1316,Thomas Clarke,25-34,2430,3000,Clapham|Greenwich,2,maisonette,2026-10-10,permanent,False,False,unfurnished,True,balcony|garden|parking|river-view|school|workspace
+A-1317,Thomas Smith,18-24,3505,3800,Croydon|Clapham,4,house,2026-09-13,contractor,False,True,furnished,False,parking|workspace
+A-1318,Sarah Clarke,25-34,3103,3700,Canary Wharf|Clapham,2,maisonette|house,2026-10-23,contractor,False,False,any,True,balcony|parking|pet-friendly|workspace
+A-1319,Emily Patel,18-24,3670,4150,Fulham|Islington,3,flat|house,2026-10-22,permanent,False,True,any,False,pet-friendly|river-view
+A-1320,Grace Patel,45-54,4524,4850,Hackney|Islington|Chelsea,3,house|maisonette,2026-09-17,student,False,False,unfurnished,True,balcony|concierge|garden|parking|transport|workspace
+A-1321,Emily Jones,45-54,4323,4800,Fulham|Stratford,3,flat|house,2026-09-18,permanent,False,False,furnished,False,balcony|concierge|garden|workspace
+A-1322,Olivia Davies,45-54,3250,3600,Hackney|Islington|Croydon,3,maisonette,2026-10-06,student,False,False,unfurnished,False,concierge|pet-friendly|river-view|transport
+A-1323,Grace Patel,35-44,4257,4600,Stratford,4,maisonette,2026-10-19,contractor,False,True,any,False,balcony|concierge|workspace
+A-1324,Emily Reed,55+,4252,4750,Chelsea|Shoreditch,4,house,2026-10-21,contractor,False,True,furnished,False,gym|pet-friendly|river-view|transport
+A-1325,Mohammed Brown,18-24,3284,3700,Camden|Wimbledon,2,flat|house,2026-11-07,student,False,False,furnished,True,balcony|garden|parking|pet-friendly|river-view
+A-1326,Priya Brown,25-34,2938,3400,Wimbledon|Islington,1,house,2026-09-09,permanent,False,True,any,True,concierge|parking|river-view|transport
+A-1327,John Clarke,55+,2030,2500,Croydon,1,maisonette,2026-10-24,self-employed,True,False,unfurnished,False,concierge|garden|gym|pet-friendly|river-view
+A-1328,Sarah Ahmed,18-24,3341,3800,Clapham,2,house|flat,2026-09-10,contractor,False,False,unfurnished,False,balcony|concierge|gym|school
+A-1329,Sarah Wilson,18-24,3250,3750,Hackney|Clapham|Shoreditch,2,maisonette|flat,2026-10-19,permanent,False,True,any,False,concierge|garden
+A-1330,Aisha Taylor,18-24,3814,4200,Wimbledon|Stratford,2,flat|house,2026-11-04,relocating,False,False,any,True,concierge|garden|parking|pet-friendly|river-view
+A-1331,Sam Reed,35-44,4201,4550,Shoreditch|Camden,3,flat,2026-08-23,student,False,True,unfurnished,False,garden|transport
+A-1332,Daniel Patel,18-24,2869,3400,Greenwich|Stratford,2,flat,2026-08-28,relocating,True,True,furnished,False,balcony|garden|parking|pet-friendly|river-view
+A-1333,John Wilson,35-44,3289,3750,Clapham|Stratford,2,maisonette,2026-08-20,student,True,False,furnished,False,parking|pet-friendly|river-view|transport|workspace
+A-1334,Aisha Taylor,35-44,3385,3850,Camden|Clapham|Battersea,2,flat,2026-08-18,self-employed,False,False,unfurnished,False,balcony|concierge|parking|river-view|transport
+A-1335,Aisha Smith,55+,3954,4500,Fulham|Chelsea|Canary Wharf,1,house,2026-10-15,relocating,False,True,any,False,parking|river-view
+A-1336,Sam Brown,18-24,2732,3100,Camden|Shoreditch,1,house,2026-10-17,permanent,False,False,unfurnished,False,garden|parking
+A-1337,Priya Reed,55+,2630,3150,Shoreditch|Greenwich,2,maisonette,2026-09-29,permanent,True,False,any,False,concierge|garden|pet-friendly|transport
+A-1338,Mohammed Smith,18-24,1866,2450,Islington,0,studio,2026-11-03,contractor,False,True,furnished,True,garden|parking
+A-1339,Sam Jones,25-34,3287,3750,Battersea|Shoreditch,1,maisonette,2026-08-24,permanent,False,False,unfurnished,False,balcony|parking|transport
+A-1340,Emily Taylor,18-24,3031,3400,Stratford|Hackney,2,flat,2026-09-30,relocating,True,True,unfurnished,False,balcony|concierge|pet-friendly|river-view|school|transport
+A-1341,Mohammed Mitchell,35-44,2703,3000,Shoreditch|Croydon,1,flat|house,2026-09-17,relocating,False,False,unfurnished,False,garden|parking|pet-friendly|school|transport
+A-1342,John Taylor,55+,3515,3950,Canary Wharf,2,house,2026-09-23,student,False,True,unfurnished,False,pet-friendly|school
+A-1343,Mohammed Taylor,18-24,3053,3500,Battersea|Islington,1,house|maisonette,2026-10-04,permanent,False,False,furnished,False,concierge|garden|parking|school
+A-1344,Aisha Wilson,18-24,4069,4650,Canary Wharf|Chelsea,2,maisonette,2026-11-10,student,True,False,any,False,balcony|concierge|pet-friendly|school
+A-1345,Daniel Wilson,18-24,4888,5400,Fulham,4,maisonette|flat,2026-11-01,self-employed,False,False,any,False,gym|transport
+A-1346,Aisha Ahmed,18-24,1675,1950,Croydon,0,studio,2026-10-01,relocating,False,False,furnished,False,balcony|concierge
+A-1347,Grace Reed,55+,2657,3250,Clapham|Canary Wharf|Stratford,2,house,2026-10-12,permanent,False,False,furnished,False,concierge|pet-friendly|school|transport|workspace
+A-1348,John Khan,35-44,2801,3250,Croydon|Camden,2,flat,2026-10-29,student,True,False,unfurnished,False,concierge|pet-friendly|workspace
+A-1349,Olivia Wilson,45-54,2997,3500,Camden|Canary Wharf,3,house,2026-10-26,permanent,False,False,unfurnished,False,gym|parking|pet-friendly|river-view
+A-1350,Thomas Clarke,35-44,5316,5700,Chelsea,3,maisonette|house,2026-09-14,relocating,False,False,furnished,False,garden|gym|river-view|school|workspace
+A-1351,Emily Wilson,55+,2376,2700,Clapham|Stratford|Greenwich,0,studio,2026-09-02,contractor,True,False,furnished,False,balcony|gym|pet-friendly
+A-1352,John Khan,55+,2159,2700,Wimbledon,1,maisonette,2026-09-14,permanent,False,False,furnished,False,balcony|concierge|gym|school|workspace
+A-1353,Sarah Patel,55+,4059,4500,Fulham|Battersea,2,house|maisonette,2026-09-19,student,True,False,any,False,balcony|parking|pet-friendly|school
+A-1354,Aisha Patel,25-34,2798,3350,Fulham|Greenwich,1,flat|maisonette,2026-10-13,student,False,False,furnished,False,garden|gym|parking
+A-1355,Grace Taylor,45-54,3760,4300,Clapham,3,flat|house,2026-09-25,contractor,False,True,any,False,concierge|parking|river-view|transport
+A-1356,Sarah Davies,25-34,3945,4300,Shoreditch|Islington,3,flat,2026-08-24,relocating,False,False,any,False,balcony|gym|school|transport
+A-1357,Olivia Wilson,45-54,2220,2700,Hackney|Wimbledon,0,studio,2026-08-18,relocating,False,False,furnished,True,concierge|garden|gym|parking|pet-friendly
+A-1358,Aisha Taylor,55+,3284,3650,Hackney,3,house,2026-11-05,contractor,False,False,unfurnished,True,garden|gym|parking|pet-friendly|transport
+A-1359,Thomas Davies,18-24,2432,2950,Stratford|Canary Wharf,1,flat,2026-11-06,relocating,False,False,furnished,False,school|workspace
+A-1360,Daniel Jones,45-54,3643,4150,Shoreditch|Fulham,2,house,2026-08-24,permanent,False,False,furnished,False,gym|workspace
+A-1361,Aisha Smith,25-34,3205,3550,Croydon|Greenwich,3,maisonette,2026-09-19,student,False,False,unfurnished,True,balcony|garden|parking|workspace
+A-1362,Daniel Jones,45-54,2409,2950,Greenwich|Croydon,2,flat,2026-11-05,self-employed,False,False,furnished,False,gym|pet-friendly|river-view|transport
+A-1363,James Davies,35-44,2387,2850,Croydon|Canary Wharf|Clapham,2,house,2026-09-11,self-employed,False,True,furnished,True,balcony|parking|school
+A-1364,Priya Ahmed,18-24,4000,4250,Battersea,2,house|maisonette,2026-09-19,permanent,False,False,furnished,False,concierge|garden|gym
+A-1365,Olivia Brown,55+,3055,3650,Stratford|Shoreditch,2,house,2026-10-12,self-employed,False,False,furnished,True,parking|pet-friendly|workspace
+A-1366,Thomas Patel,25-34,2308,2800,Croydon,2,maisonette,2026-09-01,permanent,True,False,any,False,parking|pet-friendly|transport|workspace
+A-1367,Sam Wilson,55+,3944,4250,Fulham|Stratford,3,flat|maisonette,2026-09-23,contractor,False,False,any,False,balcony|gym|pet-friendly|transport
+A-1368,Thomas Ahmed,35-44,3435,3700,Stratford,3,house|maisonette,2026-11-05,relocating,False,False,unfurnished,True,garden|parking|river-view
+A-1369,Thomas Smith,25-34,2672,3200,Hackney|Camden|Wimbledon,0,studio,2026-11-10,student,False,False,unfurnished,False,concierge|school
+A-1370,Olivia Clarke,18-24,2141,2550,Wimbledon|Stratford,0,studio,2026-08-30,permanent,False,True,unfurnished,False,gym|parking|school|workspace
+A-1371,Sarah Reed,25-34,2367,2800,Greenwich|Shoreditch,1,maisonette,2026-09-19,student,False,True,furnished,False,balcony|concierge|gym|school|workspace
+A-1372,James Mitchell,45-54,2245,2500,Stratford|Croydon|Shoreditch,1,house,2026-08-21,self-employed,True,False,unfurnished,False,balcony|garden|parking|pet-friendly
+A-1373,James Taylor,25-34,2098,2600,Croydon|Clapham,1,flat,2026-10-14,self-employed,False,True,furnished,False,garden|pet-friendly|river-view|school|transport
+A-1374,Thomas Reed,45-54,2639,3000,Canary Wharf,0,studio,2026-09-05,self-employed,True,False,any,False,gym|parking|pet-friendly
+A-1375,Priya Reed,25-34,3673,4100,Islington|Greenwich,2,maisonette|house,2026-09-10,contractor,True,False,any,False,balcony|garden|gym|pet-friendly
+A-1376,Sam Mitchell,35-44,3405,3850,Clapham|Fulham,2,maisonette,2026-09-16,self-employed,False,False,furnished,False,concierge|pet-friendly|river-view
+A-1377,Grace Smith,25-34,3604,4150,Stratford|Fulham,2,flat,2026-09-26,student,False,False,furnished,False,gym|pet-friendly|workspace
+A-1378,Priya Khan,35-44,4697,5200,Chelsea,3,house,2026-10-21,student,False,False,furnished,False,concierge|garden|parking|river-view|transport
+A-1379,Emily Ahmed,35-44,3221,3750,Clapham|Stratford,2,house|maisonette,2026-09-08,contractor,True,False,unfurnished,False,parking|pet-friendly|workspace
+A-1380,Priya Khan,35-44,2704,3050,Camden|Stratford,1,maisonette,2026-08-30,permanent,False,False,furnished,True,gym|parking
+A-1381,Sarah Jones,18-24,2981,3450,Camden|Stratford,2,flat,2026-10-20,contractor,False,True,furnished,False,parking|pet-friendly|transport
+A-1382,Olivia Smith,45-54,3793,4300,Hackney|Battersea,3,maisonette,2026-11-05,relocating,False,False,furnished,True,balcony|concierge|gym|parking|transport
+A-1383,Thomas Wilson,25-34,3629,3950,Croydon|Chelsea,2,flat,2026-08-27,permanent,False,False,any,False,concierge|gym
+A-1384,Thomas Jones,18-24,3093,3600,Stratford|Canary Wharf,1,flat,2026-10-25,permanent,False,False,any,False,balcony|concierge|pet-friendly|school|transport
+A-1385,John Reed,35-44,2670,3200,Battersea|Hackney,1,maisonette,2026-08-29,student,True,True,unfurnished,True,gym|parking|pet-friendly|school|transport|workspace
+A-1386,James Mitchell,25-34,2476,3050,Hackney|Stratford,1,flat|maisonette,2026-09-22,contractor,False,False,unfurnished,False,balcony|gym|river-view|school|transport
+A-1387,Sarah Jones,45-54,3594,4000,Islington|Shoreditch|Battersea,2,flat,2026-08-19,self-employed,False,True,any,False,gym|pet-friendly|transport
+A-1388,Grace Patel,25-34,3517,4000,Camden|Clapham,2,house|maisonette,2026-10-16,contractor,False,False,furnished,True,concierge|parking|pet-friendly|river-view|transport
+A-1389,Daniel Ahmed,45-54,3467,4000,Clapham|Stratford|Fulham,2,maisonette,2026-08-27,contractor,False,False,unfurnished,False,balcony|parking|pet-friendly|river-view|workspace
+A-1390,John Davies,35-44,3536,4100,Fulham,2,house,2026-10-21,student,False,False,any,False,balcony|concierge|garden|river-view|transport
+A-1391,Sarah Khan,18-24,3275,3800,Battersea|Shoreditch|Islington,2,house,2026-09-27,relocating,False,False,any,False,pet-friendly|river-view
+A-1392,Thomas Patel,45-54,4128,4500,Clapham,3,maisonette,2026-10-29,self-employed,False,False,furnished,False,concierge|parking|pet-friendly|transport|workspace
+A-1393,John Brown,25-34,3717,4200,Fulham|Camden,2,maisonette,2026-11-10,self-employed,False,True,unfurnished,False,concierge|transport
+A-1394,James Ahmed,55+,3228,3650,Camden|Croydon,3,house|maisonette,2026-10-16,relocating,False,False,unfurnished,False,garden|parking|school
+A-1395,Sarah Jones,18-24,2546,2850,Croydon|Battersea,1,house|maisonette,2026-08-26,permanent,False,False,furnished,False,river-view|transport
+A-1396,Olivia Wilson,45-54,3408,4000,Stratford|Battersea|Chelsea,2,flat,2026-10-23,student,False,False,furnished,False,garden|pet-friendly|school|transport|workspace
+A-1397,John Ahmed,45-54,2247,2650,Hackney|Greenwich,0,studio,2026-10-16,permanent,True,False,any,True,balcony|garden|parking|pet-friendly|transport|workspace
+A-1398,Grace Wilson,55+,3563,4150,Chelsea|Canary Wharf,2,maisonette|house,2026-11-10,self-employed,True,False,unfurnished,False,balcony|gym|pet-friendly|river-view|transport
+A-1399,James Taylor,55+,3023,3600,Clapham,2,maisonette|flat,2026-09-20,student,False,False,any,True,balcony|garden|parking
+A-1400,Emily Khan,25-34,3480,4000,Chelsea|Canary Wharf,1,flat,2026-09-20,self-employed,True,False,furnished,False,balcony|gym|pet-friendly
+A-1401,James Jones,25-34,3615,3950,Fulham,2,flat|house,2026-10-05,student,False,False,unfurnished,False,gym|parking|pet-friendly|river-view|transport
+A-1402,Emily Smith,18-24,2489,2900,Shoreditch|Hackney,1,maisonette,2026-08-21,contractor,True,True,any,False,balcony|concierge|pet-friendly
+A-1403,Emily Jones,25-34,3473,3750,Stratford|Shoreditch|Hackney,3,house|maisonette,2026-11-09,contractor,True,False,furnished,False,concierge|parking|pet-friendly
+A-1404,Thomas Reed,55+,3089,3500,Fulham|Islington,2,house,2026-09-05,student,False,False,any,False,gym|parking|pet-friendly|transport|workspace
+A-1405,Mohammed Mitchell,55+,3976,4450,Camden|Clapham,3,house,2026-11-04,relocating,True,False,unfurnished,False,concierge|garden|pet-friendly|school
+A-1406,Olivia Mitchell,25-34,3782,4100,Canary Wharf|Greenwich,4,maisonette|house,2026-11-08,contractor,False,False,any,False,parking|school|workspace
+A-1407,Emily Patel,35-44,4077,4350,Canary Wharf|Chelsea,2,house,2026-10-17,student,False,False,furnished,False,gym|pet-friendly|river-view|school|workspace
+A-1408,Priya Mitchell,45-54,3515,3900,Clapham|Islington,1,maisonette|flat,2026-10-06,self-employed,False,False,any,True,garden|parking|pet-friendly|transport
+A-1409,Thomas Smith,25-34,3164,3650,Camden|Clapham|Shoreditch,2,flat,2026-09-19,permanent,False,False,furnished,False,garden|parking|school
+A-1410,Daniel Patel,35-44,3242,3800,Clapham|Camden,2,flat,2026-10-13,relocating,False,True,any,False,garden|gym|pet-friendly|transport|workspace
+A-1411,Grace Khan,55+,2349,2750,Croydon|Stratford,1,flat,2026-11-07,relocating,False,False,unfurnished,False,gym|pet-friendly|transport
+A-1412,Emily Davies,45-54,2865,3400,Islington|Greenwich,2,house|maisonette,2026-09-26,relocating,False,False,furnished,False,balcony|concierge|pet-friendly|transport
+A-1413,Grace Reed,25-34,3741,4050,Chelsea|Battersea,0,studio,2026-10-13,permanent,False,False,any,False,balcony|gym|river-view
+A-1414,James Wilson,18-24,2618,2950,Croydon|Islington,1,house,2026-09-21,permanent,False,False,furnished,False,balcony|pet-friendly|workspace
+A-1415,John Mitchell,35-44,3128,3550,Islington,1,flat,2026-09-03,relocating,False,False,any,False,concierge|garden|gym|workspace
+A-1416,Sam Patel,45-54,4653,5250,Chelsea,2,house,2026-10-18,self-employed,False,True,unfurnished,False,concierge|parking|pet-friendly|workspace
+A-1417,Daniel Davies,45-54,3239,3600,Camden|Battersea,2,maisonette|flat,2026-08-28,self-employed,False,True,any,False,balcony|concierge|river-view
+A-1418,Sam Ahmed,45-54,3125,3600,Hackney|Canary Wharf,2,maisonette|house,2026-09-30,contractor,False,False,any,False,balcony|garden|gym
+A-1419,Daniel Smith,55+,3293,3600,Camden|Chelsea,1,flat,2026-08-21,relocating,True,False,any,False,concierge|parking|pet-friendly
+A-1420,Emily Smith,35-44,3170,3650,Wimbledon|Shoreditch|Battersea,1,house|flat,2026-09-07,student,False,False,furnished,False,concierge|gym|river-view
+A-1421,Olivia Clarke,45-54,3640,4100,Fulham,2,flat,2026-09-02,relocating,False,False,furnished,True,parking|transport|workspace
+A-1422,Thomas Ahmed,45-54,2859,3400,Greenwich|Shoreditch,2,flat,2026-10-15,self-employed,False,False,unfurnished,False,balcony|concierge|gym|transport|workspace
+A-1423,Sarah Davies,35-44,2850,3200,Shoreditch,0,studio,2026-08-26,student,False,False,any,False,school|workspace
+A-1424,James Brown,35-44,1926,2200,Stratford|Shoreditch,0,studio,2026-10-26,self-employed,False,False,any,False,balcony|parking|pet-friendly|school|workspace
+A-1425,Priya Davies,35-44,2429,2850,Wimbledon|Stratford,1,house|flat,2026-10-14,contractor,True,False,furnished,False,garden|pet-friendly|river-view
+A-1426,Grace Brown,18-24,3303,3700,Fulham,1,maisonette|house,2026-10-08,contractor,False,True,furnished,False,balcony|garden|transport
+A-1427,Sam Wilson,45-54,2491,3050,Croydon|Shoreditch,2,flat,2026-10-13,relocating,False,False,unfurnished,False,garden|gym|workspace
+A-1428,James Clarke,25-34,3589,4000,Wimbledon|Fulham|Camden,2,house,2026-08-29,relocating,False,False,any,False,balcony|garden|gym|school|transport
+A-1429,Priya Reed,35-44,2668,3150,Fulham|Wimbledon|Camden,1,maisonette,2026-11-11,relocating,False,False,any,False,concierge|garden|gym|river-view|transport
+A-1430,John Ahmed,45-54,3912,4300,Shoreditch|Chelsea,2,house,2026-10-31,contractor,False,False,unfurnished,False,balcony|garden|parking|transport|workspace
+A-1431,Mohammed Wilson,45-54,2808,3400,Clapham|Canary Wharf,2,flat,2026-09-06,contractor,False,True,unfurnished,True,balcony|parking|river-view
+A-1432,Mohammed Wilson,45-54,3106,3650,Chelsea|Croydon,2,flat,2026-10-31,relocating,True,False,any,False,gym|parking|pet-friendly|school|workspace
+A-1433,John Khan,45-54,4292,4750,Chelsea|Fulham,3,maisonette,2026-09-11,contractor,False,False,furnished,False,balcony|transport
+A-1434,Emily Wilson,18-24,3525,4000,Battersea|Fulham|Islington,1,flat,2026-09-18,student,False,True,any,True,parking|river-view|transport
+A-1435,Grace Wilson,25-34,3212,3800,Battersea|Wimbledon,2,maisonette|house,2026-10-12,contractor,False,False,furnished,False,balcony|garden|river-view|school|workspace
+A-1436,Olivia Reed,45-54,2984,3400,Battersea|Chelsea|Islington,1,flat,2026-09-22,contractor,True,False,furnished,True,balcony|parking|pet-friendly|school
+A-1437,Grace Patel,25-34,1795,2100,Croydon|Stratford,0,studio,2026-09-13,contractor,False,False,unfurnished,True,balcony|concierge|parking|pet-friendly|workspace
+A-1438,Olivia Jones,35-44,2543,2800,Stratford|Camden,1,house,2026-10-18,permanent,True,False,unfurnished,False,balcony|concierge|gym|parking|pet-friendly
+A-1439,Thomas Smith,18-24,3418,4000,Stratford|Battersea,3,maisonette,2026-09-26,self-employed,False,False,furnished,False,balcony|concierge|garden|pet-friendly|transport
+A-1440,Olivia Brown,25-34,2960,3400,Clapham|Croydon|Chelsea,1,maisonette,2026-11-11,self-employed,False,False,any,False,concierge|pet-friendly|river-view|school|workspace
+A-1441,Aisha Davies,55+,3414,3700,Islington|Camden|Battersea,2,house|flat,2026-10-16,self-employed,False,False,furnished,False,garden|parking|pet-friendly|river-view|transport
+A-1442,Grace Khan,55+,2811,3100,Greenwich|Canary Wharf,2,maisonette,2026-09-22,permanent,False,True,furnished,False,concierge|garden|pet-friendly|transport
+A-1443,Daniel Mitchell,25-34,2997,3350,Islington|Hackney,1,maisonette,2026-09-11,relocating,False,False,any,True,balcony|concierge|parking
+A-1444,Olivia Taylor,35-44,2893,3200,Canary Wharf|Stratford,0,studio,2026-10-04,contractor,False,False,furnished,False,concierge|parking|pet-friendly|transport
+A-1445,Emily Brown,45-54,3425,3850,Wimbledon|Hackney,3,maisonette|flat,2026-09-27,permanent,False,False,unfurnished,False,balcony|garden
+A-1446,Priya Khan,25-34,3405,3700,Croydon|Fulham,2,maisonette|house,2026-10-25,student,False,False,any,False,parking|pet-friendly|workspace
+A-1447,Priya Davies,35-44,3401,4000,Croydon|Fulham|Greenwich,3,house|maisonette,2026-09-08,relocating,False,True,unfurnished,False,gym|parking|pet-friendly|school|transport
+A-1448,Sam Davies,18-24,2815,3250,Greenwich|Hackney,1,flat,2026-09-03,student,False,False,unfurnished,False,river-view|workspace
+A-1449,John Brown,18-24,1904,2500,Croydon,1,flat|house,2026-10-02,student,True,True,furnished,False,balcony|pet-friendly|river-view|transport
+A-1450,Grace Khan,55+,2473,2800,Hackney|Battersea,1,maisonette,2026-10-02,permanent,False,False,furnished,False,gym|pet-friendly
+A-1451,James Brown,35-44,3335,3650,Battersea|Greenwich,2,maisonette|house,2026-08-26,self-employed,True,False,any,True,balcony|concierge|gym|parking|pet-friendly|school
+A-1452,Thomas Khan,25-34,3803,4150,Islington|Fulham,3,maisonette,2026-08-24,relocating,True,False,unfurnished,False,concierge|garden|pet-friendly|river-view|transport
+A-1453,Grace Ahmed,25-34,3698,3950,Canary Wharf|Greenwich|Islington,4,maisonette,2026-09-29,contractor,True,False,any,False,balcony|garden|gym|pet-friendly|transport
+A-1454,Mohammed Taylor,25-34,3800,4300,Chelsea|Croydon|Battersea,3,house,2026-09-26,relocating,True,False,furnished,True,balcony|garden|parking|pet-friendly|workspace
+A-1455,Thomas Reed,25-34,2731,3200,Stratford|Greenwich|Hackney,1,house|flat,2026-10-16,permanent,False,False,any,False,balcony|parking
+A-1456,Sam Ahmed,55+,2544,2900,Canary Wharf|Croydon,2,house|flat,2026-09-23,student,True,False,any,False,balcony|pet-friendly|school|transport|workspace
+A-1457,Mohammed Brown,45-54,2237,2600,Greenwich,1,flat|house,2026-09-10,permanent,False,False,any,False,balcony|concierge|gym|river-view|workspace
+A-1458,Daniel Wilson,35-44,2100,2550,Croydon|Greenwich|Battersea,0,studio,2026-09-14,student,False,False,furnished,False,gym|river-view|transport|workspace
+A-1459,Sam Mitchell,18-24,2349,2900,Greenwich|Battersea,0,studio,2026-10-16,contractor,True,True,furnished,False,concierge|garden|pet-friendly
+A-1460,Thomas Khan,25-34,4070,4400,Battersea|Fulham|Shoreditch,2,house|flat,2026-08-23,permanent,False,True,any,True,concierge|garden|parking|river-view|school|transport
+A-1461,James Brown,35-44,2692,3050,Croydon,2,house,2026-10-27,student,False,True,any,False,parking|pet-friendly|school
+A-1462,Priya Brown,45-54,3327,3700,Chelsea|Croydon,2,house|flat,2026-09-29,self-employed,False,False,unfurnished,False,balcony|garden|gym|pet-friendly
+A-1463,James Wilson,55+,2990,3400,Camden|Stratford,2,house|maisonette,2026-10-29,self-employed,False,False,furnished,False,balcony|garden|gym|parking|pet-friendly
+A-1464,Priya Reed,35-44,2579,2850,Clapham|Hackney,2,house|flat,2026-08-29,permanent,True,False,any,False,balcony|parking|pet-friendly|river-view
+A-1465,Priya Wilson,18-24,2427,2850,Camden|Stratford,1,flat,2026-09-23,contractor,False,False,furnished,False,balcony|parking|river-view|workspace
+A-1466,Aisha Smith,18-24,2877,3150,Canary Wharf|Greenwich,1,flat|house,2026-11-07,contractor,True,False,unfurnished,False,balcony|pet-friendly|river-view
+A-1467,Emily Mitchell,45-54,2590,3150,Wimbledon|Greenwich,2,maisonette,2026-11-08,relocating,False,False,any,True,garden|gym|parking|river-view|transport
+A-1468,Sarah Taylor,55+,3175,3700,Fulham,0,studio,2026-09-06,self-employed,False,False,furnished,False,garden|pet-friendly|river-view
+A-1469,Aisha Clarke,35-44,2430,2900,Hackney|Wimbledon|Islington,1,flat|house,2026-09-29,relocating,False,True,unfurnished,False,garden|workspace
+A-1470,Aisha Taylor,25-34,3557,4000,Greenwich|Wimbledon|Chelsea,2,house|maisonette,2026-10-26,relocating,False,False,furnished,False,balcony|concierge|gym|pet-friendly|workspace
+A-1471,Priya Wilson,45-54,4461,4950,Battersea,3,flat,2026-10-02,permanent,False,False,furnished,False,balcony|garden|workspace
+A-1472,James Davies,25-34,2488,3000,Stratford|Fulham|Canary Wharf,0,studio,2026-09-21,self-employed,False,False,furnished,False,concierge|parking|pet-friendly|river-view|school
+A-1473,John Khan,35-44,2752,3350,Clapham,1,flat,2026-10-28,relocating,False,False,unfurnished,False,garden|gym|pet-friendly|school
+A-1474,James Wilson,55+,3122,3650,Stratford|Fulham,1,flat,2026-11-08,contractor,False,False,furnished,True,gym|parking|pet-friendly
+A-1475,Mohammed Patel,18-24,2304,2600,Croydon|Wimbledon,1,maisonette,2026-09-06,contractor,False,False,furnished,True,concierge|gym|parking|transport
+A-1476,Aisha Taylor,18-24,2976,3350,Shoreditch|Stratford,2,flat,2026-09-02,relocating,False,False,furnished,True,balcony|garden|gym|parking|pet-friendly|transport
+A-1477,Grace Brown,45-54,3582,4150,Greenwich|Canary Wharf|Stratford,3,maisonette|flat,2026-08-18,permanent,False,False,unfurnished,False,balcony|school|transport|workspace
+A-1478,Daniel Ahmed,45-54,5275,5700,Chelsea,3,house,2026-08-27,self-employed,False,False,furnished,False,concierge|garden|school
+A-1479,Aisha Mitchell,35-44,2442,2750,Hackney|Wimbledon,1,flat,2026-11-05,contractor,False,False,unfurnished,False,gym|river-view|school|transport|workspace
+A-1480,Grace Mitchell,18-24,3356,3750,Fulham,2,maisonette,2026-09-14,contractor,True,False,any,False,balcony|concierge|pet-friendly
+A-1481,John Khan,18-24,2055,2400,Greenwich|Croydon,1,house,2026-10-16,relocating,False,False,furnished,False,concierge|gym|parking|pet-friendly|river-view
+A-1482,John Wilson,45-54,3815,4150,Fulham|Battersea,2,maisonette|house,2026-09-04,relocating,False,True,furnished,False,gym|parking|river-view|school|transport
+A-1483,Sarah Davies,55+,1991,2500,Camden,0,studio,2026-09-25,permanent,False,False,furnished,True,balcony|concierge|garden|gym|parking|pet-friendly
+A-1484,John Mitchell,35-44,2006,2600,Croydon|Canary Wharf,1,house,2026-09-28,self-employed,True,True,furnished,False,balcony|parking|pet-friendly
+A-1485,Thomas Taylor,18-24,3139,3600,Greenwich|Fulham,1,flat|maisonette,2026-08-21,student,False,False,unfurnished,False,balcony|pet-friendly|river-view|transport|workspace
+A-1486,James Clarke,55+,3632,4000,Canary Wharf|Camden,2,flat,2026-09-04,relocating,False,True,any,False,balcony|gym|parking|transport
+A-1487,Daniel Jones,18-24,3834,4150,Battersea,3,flat,2026-10-06,relocating,True,True,unfurnished,True,gym|parking|pet-friendly
+A-1488,Sam Jones,45-54,3259,3600,Camden,2,maisonette,2026-08-29,student,True,True,furnished,False,parking|pet-friendly|transport|workspace
+A-1489,Emily Mitchell,45-54,4510,5050,Fulham|Camden,3,maisonette|flat,2026-09-26,self-employed,False,False,any,True,gym|parking|pet-friendly|school|workspace
+A-1490,Emily Brown,45-54,3339,3650,Fulham|Croydon,3,maisonette,2026-10-08,student,False,False,any,False,gym|workspace
+A-1491,James Wilson,35-44,3336,3600,Greenwich|Islington,2,flat,2026-10-18,student,False,False,any,False,river-view|transport
+A-1492,Olivia Patel,45-54,1916,2450,Greenwich|Croydon,1,maisonette,2026-09-04,self-employed,False,False,unfurnished,False,garden|parking
+A-1493,Olivia Taylor,25-34,3275,3850,Canary Wharf|Wimbledon,1,flat,2026-11-05,relocating,False,False,any,False,garden|river-view|school
+A-1494,Daniel Davies,55+,2809,3300,Croydon|Battersea,1,maisonette,2026-10-11,contractor,True,False,unfurnished,False,concierge|garden|pet-friendly
+A-1495,Sam Wilson,35-44,3077,3600,Clapham|Hackney,2,maisonette,2026-09-17,relocating,False,True,unfurnished,False,concierge|garden|gym|river-view
+A-1496,Priya Clarke,25-34,3471,3800,Croydon|Chelsea|Hackney,2,flat,2026-10-09,student,False,True,furnished,False,balcony|gym|parking|pet-friendly|workspace
+A-1497,Sam Brown,25-34,2482,2800,Stratford,2,flat,2026-10-08,contractor,False,False,unfurnished,False,parking|pet-friendly
+A-1498,Sam Smith,35-44,3365,3850,Greenwich|Shoreditch|Battersea,2,house,2026-09-24,contractor,False,True,any,False,garden|workspace
+A-1499,Olivia Reed,35-44,2650,3050,Camden|Islington|Wimbledon,1,maisonette,2026-09-25,student,False,False,any,False,concierge|garden|pet-friendly|river-view
+A-1500,Thomas Ahmed,45-54,2338,2650,Stratford|Greenwich,1,house,2026-10-13,contractor,False,False,unfurnished,True,concierge|garden|parking|river-view|school
+A-1501,Mohammed Clarke,18-24,2616,3050,Camden|Croydon|Wimbledon,3,flat|house,2026-10-18,relocating,False,True,unfurnished,True,parking|river-view|transport|workspace
+A-1502,Olivia Smith,25-34,3515,4050,Canary Wharf|Camden,2,house,2026-09-25,contractor,False,False,unfurnished,True,balcony|garden|parking
+A-1503,Sam Davies,45-54,2475,3050,Greenwich|Islington|Shoreditch,1,maisonette,2026-08-21,student,True,False,unfurnished,False,garden|pet-friendly
+A-1504,Sam Clarke,18-24,4090,4650,Shoreditch|Battersea|Chelsea,2,house,2026-08-19,student,False,True,furnished,False,concierge|gym
+A-1505,Daniel Smith,45-54,1948,2250,Stratford|Camden|Wimbledon,0,studio,2026-08-23,permanent,True,False,any,False,concierge|parking|pet-friendly
+A-1506,John Jones,55+,3539,4050,Chelsea|Greenwich,1,house|flat,2026-10-04,permanent,True,False,unfurnished,False,concierge|gym|pet-friendly|workspace
+A-1507,Emily Patel,35-44,3692,4200,Clapham|Hackney|Wimbledon,2,flat,2026-11-08,student,True,False,furnished,True,concierge|parking|pet-friendly|school|transport
+A-1508,Mohammed Reed,55+,3734,4200,Shoreditch|Battersea,2,maisonette|house,2026-10-15,self-employed,True,False,unfurnished,False,parking|pet-friendly|workspace
+A-1509,Grace Davies,55+,3763,4100,Shoreditch|Chelsea|Wimbledon,2,house,2026-10-13,student,False,True,furnished,False,parking|school|transport
+A-1510,Daniel Davies,18-24,3900,4450,Canary Wharf,3,house,2026-10-12,permanent,False,False,unfurnished,False,garden|gym|workspace
+A-1511,Priya Mitchell,45-54,3484,4050,Clapham|Fulham,2,flat,2026-09-08,permanent,False,True,unfurnished,False,concierge|gym|pet-friendly|transport|workspace
+A-1512,Aisha Jones,35-44,1511,2100,Greenwich|Hackney,0,studio,2026-10-31,self-employed,False,True,furnished,False,garden|pet-friendly|school
+A-1513,Thomas Brown,18-24,3077,3450,Camden|Hackney,2,maisonette,2026-10-10,self-employed,False,False,furnished,False,balcony|concierge|garden|river-view
+A-1514,Emily Wilson,45-54,3671,4000,Shoreditch|Chelsea|Islington,2,maisonette|flat,2026-08-28,student,False,False,any,False,concierge|gym|river-view|school
+A-1515,James Jones,55+,3382,3950,Chelsea|Wimbledon,2,maisonette|flat,2026-09-05,permanent,False,False,unfurnished,False,gym|parking|pet-friendly|workspace
+A-1516,Sam Smith,25-34,3350,3600,Islington|Canary Wharf,1,flat,2026-10-10,relocating,False,False,furnished,False,garden|school
+A-1517,Thomas Jones,45-54,3915,4200,Shoreditch|Battersea,2,house,2026-09-03,student,False,False,any,False,pet-friendly|river-view|workspace
+A-1518,John Smith,55+,3978,4300,Canary Wharf|Fulham,3,house|maisonette,2026-09-11,student,False,True,any,False,balcony|pet-friendly
+A-1519,James Smith,45-54,3691,4200,Camden|Wimbledon|Shoreditch,2,flat,2026-09-12,contractor,False,True,furnished,False,garden|gym
+A-1520,Grace Davies,25-34,3618,4200,Islington|Stratford,3,flat,2026-10-17,relocating,False,False,unfurnished,False,balcony|pet-friendly|school|transport
+A-1521,James Taylor,25-34,2653,3200,Croydon|Stratford,3,house,2026-10-15,student,False,False,furnished,False,pet-friendly|river-view|workspace
+A-1522,Mohammed Reed,18-24,2694,3050,Camden|Wimbledon,1,flat,2026-09-04,student,False,False,unfurnished,False,gym|parking|pet-friendly|school
+A-1523,Daniel Brown,18-24,3325,3600,Camden|Shoreditch,2,maisonette,2026-10-23,self-employed,False,False,any,False,balcony|school|workspace
+A-1524,Grace Smith,35-44,3392,3650,Canary Wharf|Greenwich|Hackney,2,maisonette,2026-10-18,student,False,True,furnished,True,balcony|concierge|parking|pet-friendly|school|transport
+A-1525,Sarah Wilson,55+,2662,3250,Fulham|Shoreditch,1,house,2026-09-08,self-employed,True,True,any,False,balcony|pet-friendly|river-view|workspace
+A-1526,Olivia Jones,55+,3341,3850,Shoreditch|Battersea,2,maisonette|flat,2026-11-01,relocating,True,False,furnished,False,gym|pet-friendly|river-view|workspace
+A-1527,Grace Jones,35-44,3081,3650,Stratford|Hackney,3,house,2026-09-28,contractor,False,False,unfurnished,False,garden|workspace
+A-1528,Olivia Brown,35-44,3113,3400,Canary Wharf,1,house,2026-08-19,permanent,False,False,furnished,False,concierge|garden|pet-friendly|workspace
+A-1529,Daniel Wilson,45-54,2437,2750,Wimbledon|Croydon|Camden,2,maisonette,2026-09-30,permanent,False,False,unfurnished,False,parking|pet-friendly|river-view|transport
+A-1530,Grace Taylor,25-34,2109,2700,Canary Wharf,0,studio,2026-09-21,student,False,True,any,True,parking|river-view|workspace
+A-1531,Emily Brown,45-54,3237,3600,Hackney,2,flat,2026-10-19,self-employed,False,False,any,True,concierge|parking|pet-friendly|river-view|transport
+A-1532,Olivia Smith,35-44,3200,3700,Greenwich|Fulham,1,maisonette,2026-10-16,permanent,False,False,furnished,False,balcony|gym|parking|transport
+A-1533,Grace Mitchell,35-44,2888,3350,Croydon|Hackney|Stratford,3,house|maisonette,2026-09-02,student,False,True,any,False,balcony|parking|pet-friendly|transport
+A-1534,Olivia Patel,35-44,2688,3150,Shoreditch|Wimbledon,1,maisonette,2026-10-08,permanent,False,False,any,False,concierge|garden|workspace
+A-1535,Thomas Ahmed,55+,3410,3950,Croydon|Battersea,3,maisonette,2026-09-12,permanent,False,False,any,False,balcony|garden|pet-friendly|school|workspace
+A-1536,Aisha Patel,35-44,3597,4100,Camden,3,maisonette|flat,2026-10-11,self-employed,False,True,any,False,balcony|garden
+A-1537,Thomas Smith,55+,2856,3250,Greenwich,2,house|flat,2026-10-16,permanent,False,False,furnished,True,balcony|gym|parking|pet-friendly|transport|workspace
+A-1538,James Khan,35-44,3185,3650,Shoreditch|Hackney,3,house,2026-10-04,student,False,False,furnished,False,balcony|concierge|transport
+A-1539,Sam Mitchell,25-34,4192,4600,Clapham|Wimbledon,3,flat|house,2026-09-13,permanent,False,True,any,False,garden|transport
+A-1540,Mohammed Wilson,18-24,2823,3300,Clapham|Fulham,1,maisonette,2026-10-22,contractor,False,True,any,False,balcony|gym|parking|pet-friendly
+A-1541,Grace Clarke,18-24,2556,3150,Croydon,3,flat|maisonette,2026-11-09,contractor,True,False,any,False,concierge|parking|pet-friendly|school
+A-1542,Emily Taylor,25-34,2474,3050,Chelsea|Wimbledon|Canary Wharf,1,flat|maisonette,2026-09-07,student,False,False,furnished,False,balcony|gym|pet-friendly|school|workspace
+A-1543,Sarah Khan,45-54,3798,4150,Camden|Canary Wharf,3,flat,2026-10-01,contractor,False,False,any,False,concierge|parking|pet-friendly|transport|workspace
+A-1544,Grace Brown,18-24,3325,3750,Greenwich|Battersea,2,flat|maisonette,2026-10-04,student,False,False,unfurnished,True,parking|pet-friendly|river-view
+A-1545,John Ahmed,35-44,4686,5000,Chelsea,2,maisonette,2026-11-02,relocating,False,False,unfurnished,False,concierge|garden|parking|pet-friendly|river-view
+A-1546,Thomas Smith,25-34,3383,3800,Canary Wharf|Battersea,2,maisonette,2026-08-28,student,False,False,furnished,False,garden|river-view
+A-1547,Aisha Davies,35-44,3732,4050,Camden|Greenwich|Fulham,3,house|maisonette,2026-09-11,self-employed,False,False,furnished,True,garden|gym|parking|river-view|school
+A-1548,Sam Davies,18-24,3179,3550,Chelsea|Hackney|Battersea,1,house|maisonette,2026-10-08,student,False,False,any,False,parking|pet-friendly|school|transport|workspace
+A-1549,Aisha Clarke,45-54,3548,4100,Wimbledon|Battersea,2,house,2026-10-06,permanent,False,False,furnished,False,gym|pet-friendly|transport
+A-1550,Daniel Clarke,25-34,3898,4400,Hackney|Canary Wharf,3,maisonette|flat,2026-08-26,contractor,True,True,unfurnished,True,concierge|parking|pet-friendly|river-view
+A-1551,Olivia Khan,45-54,3424,3900,Hackney|Chelsea|Clapham,2,house,2026-10-18,permanent,False,False,any,False,balcony|river-view|transport
+A-1552,Mohammed Jones,45-54,3563,4150,Camden,3,flat,2026-11-02,contractor,False,True,furnished,False,balcony|garden|river-view|school
+A-1553,Mohammed Ahmed,55+,3312,3700,Wimbledon,3,maisonette,2026-09-02,permanent,False,False,furnished,True,gym|parking|river-view|school|workspace
+A-1554,Thomas Brown,55+,1684,2150,Stratford|Greenwich,0,studio,2026-08-24,self-employed,False,True,any,False,balcony|concierge|garden|parking|river-view
+A-1555,Sarah Taylor,25-34,2989,3550,Hackney|Stratford,3,maisonette|house,2026-09-19,student,False,False,unfurnished,False,garden|river-view|school|transport|workspace
+A-1556,Daniel Smith,55+,3256,3650,Croydon|Islington,2,house|maisonette,2026-10-20,permanent,False,False,any,False,balcony|pet-friendly|transport
+A-1557,Grace Smith,18-24,4221,4650,Shoreditch,3,maisonette,2026-11-09,permanent,False,True,furnished,True,concierge|garden|parking|school
+A-1558,Thomas Mitchell,25-34,2915,3250,Battersea|Canary Wharf,1,flat,2026-10-28,relocating,False,False,unfurnished,False,concierge|garden|gym|parking
+A-1559,Emily Mitchell,25-34,3377,3950,Chelsea|Hackney|Battersea,2,maisonette|house,2026-10-27,contractor,False,False,furnished,False,concierge|parking|pet-friendly|school|transport
+A-1560,Thomas Clarke,25-34,2540,2800,Croydon|Battersea,1,maisonette|house,2026-08-19,contractor,False,False,furnished,True,balcony|parking|school
+A-1561,John Khan,25-34,1609,2100,Fulham|Greenwich,0,studio,2026-08-31,permanent,False,False,unfurnished,False,garden|parking
+A-1562,Sarah Khan,18-24,3343,3800,Canary Wharf|Camden|Chelsea,1,maisonette,2026-10-13,self-employed,False,False,furnished,False,concierge|gym|parking|pet-friendly|river-view
+A-1563,James Ahmed,45-54,4181,4750,Camden,3,maisonette,2026-11-08,contractor,False,False,unfurnished,False,balcony|transport|workspace
+A-1564,Emily Reed,35-44,2726,3150,Croydon|Greenwich|Hackney,2,maisonette,2026-09-26,self-employed,False,False,furnished,False,balcony|concierge|garden|gym|pet-friendly
+A-1565,Thomas Mitchell,18-24,4798,5200,Camden|Chelsea,4,house|flat,2026-08-31,permanent,False,False,furnished,False,concierge|parking|pet-friendly
+A-1566,Grace Brown,18-24,3512,3800,Shoreditch|Clapham|Fulham,2,house|flat,2026-11-03,relocating,False,True,unfurnished,False,garden|parking|pet-friendly|river-view
+A-1567,Sarah Khan,35-44,3168,3550,Stratford|Wimbledon,2,maisonette|house,2026-10-05,contractor,False,False,any,False,balcony|concierge|parking|pet-friendly|transport
+A-1568,Mohammed Reed,45-54,3880,4200,Shoreditch|Islington,3,maisonette|flat,2026-10-08,contractor,True,False,any,False,concierge|parking|pet-friendly|river-view|transport
+A-1569,Grace Wilson,25-34,2704,3300,Clapham|Greenwich,2,maisonette|house,2026-10-31,student,True,False,furnished,False,gym|pet-friendly|river-view
+A-1570,Sam Patel,45-54,3077,3650,Hackney|Battersea|Greenwich,2,flat|maisonette,2026-09-02,relocating,False,True,unfurnished,False,balcony|concierge|parking|river-view|transport
+A-1571,Thomas Jones,18-24,2786,3150,Stratford|Battersea,1,house|maisonette,2026-09-30,self-employed,False,False,unfurnished,False,pet-friendly|school|transport
+A-1572,Priya Khan,18-24,3578,3950,Camden|Fulham,2,flat,2026-10-21,contractor,True,False,any,False,garden|pet-friendly|transport
+A-1573,Olivia Davies,45-54,2693,3100,Croydon|Islington,2,flat|maisonette,2026-09-11,contractor,True,False,furnished,False,balcony|concierge|pet-friendly|school|workspace
+A-1574,Sarah Clarke,55+,3612,3950,Fulham,1,flat|maisonette,2026-08-20,relocating,False,True,furnished,False,concierge|parking|pet-friendly|school|workspace
+A-1575,Olivia Jones,45-54,3798,4250,Greenwich|Fulham|Wimbledon,3,flat,2026-10-17,contractor,False,False,any,True,balcony|parking|pet-friendly|river-view|transport|workspace
+A-1576,Thomas Smith,18-24,3343,3800,Shoreditch,2,flat,2026-09-19,contractor,False,False,unfurnished,False,garden|pet-friendly|transport|workspace
+A-1577,Aisha Patel,55+,4519,4800,Shoreditch,3,house,2026-09-27,self-employed,False,True,any,False,pet-friendly|workspace
+A-1578,Sarah Ahmed,35-44,3723,4050,Chelsea|Wimbledon,2,house|flat,2026-08-22,student,False,False,furnished,True,gym|parking|workspace
+A-1579,Thomas Clarke,35-44,4557,4900,Battersea,3,maisonette,2026-11-07,relocating,False,True,unfurnished,False,garden|pet-friendly|school|transport|workspace
+A-1580,Aisha Smith,45-54,2638,2900,Greenwich|Islington|Battersea,1,flat,2026-09-09,self-employed,False,True,any,False,balcony|concierge|garden|pet-friendly|river-view
+A-1581,Mohammed Mitchell,25-34,2643,2900,Camden|Islington,1,maisonette,2026-11-10,permanent,False,False,unfurnished,False,balcony|gym|parking|transport|workspace
+A-1582,Grace Khan,18-24,2723,3200,Hackney,1,flat,2026-09-19,student,False,False,furnished,False,garden|school
+A-1583,Olivia Clarke,55+,4063,4400,Islington|Battersea,3,house,2026-11-09,contractor,True,True,unfurnished,False,concierge|garden|pet-friendly|school
+A-1584,Mohammed Mitchell,35-44,3450,3900,Greenwich|Stratford,3,house,2026-09-16,contractor,False,False,unfurnished,False,concierge|gym
+A-1585,Aisha Taylor,35-44,2728,3100,Shoreditch,1,house|flat,2026-09-17,relocating,False,False,furnished,False,balcony|concierge
+A-1586,Sam Ahmed,35-44,2704,3200,Canary Wharf|Croydon,3,maisonette|flat,2026-09-11,contractor,False,False,unfurnished,True,balcony|garden|parking|pet-friendly|school
+A-1587,Sarah Jones,55+,1916,2450,Croydon|Islington|Stratford,1,maisonette,2026-08-31,self-employed,False,False,furnished,False,balcony|concierge|garden|school|transport
+A-1588,Emily Taylor,55+,3542,3900,Fulham,2,flat|maisonette,2026-08-27,student,True,True,furnished,False,concierge|garden|gym|pet-friendly|river-view|transport
+A-1589,James Khan,45-54,3419,3800,Canary Wharf,3,house,2026-11-02,student,False,False,any,False,garden|pet-friendly|river-view|school
+A-1590,Sarah Khan,45-54,3671,3950,Greenwich|Shoreditch|Hackney,3,maisonette|flat,2026-10-21,contractor,True,False,any,True,garden|gym|parking|pet-friendly|river-view|workspace
+A-1591,Sam Brown,45-54,3103,3650,Canary Wharf|Islington,3,house,2026-09-03,student,True,False,furnished,False,gym|parking|pet-friendly
+A-1592,Grace Ahmed,18-24,2782,3250,Shoreditch,1,house,2026-09-18,student,False,False,furnished,True,gym|parking|pet-friendly|river-view
+A-1593,Sam Reed,45-54,3337,3900,Wimbledon|Fulham,2,maisonette,2026-11-09,relocating,False,False,any,False,balcony|parking|transport
+A-1594,Sam Jones,45-54,3979,4350,Wimbledon|Fulham,2,house,2026-10-19,contractor,False,False,unfurnished,False,concierge|gym|school|transport
+A-1595,Mohammed Davies,45-54,3056,3600,Chelsea|Canary Wharf|Islington,1,flat,2026-11-04,student,False,True,any,False,concierge|garden|gym|river-view|school
+A-1596,John Mitchell,55+,3240,3500,Clapham|Croydon,2,flat|house,2026-09-01,student,False,False,furnished,False,balcony|garden|pet-friendly|river-view
+A-1597,Priya Davies,55+,2584,2850,Wimbledon|Croydon|Islington,1,house,2026-09-27,relocating,False,False,any,False,balcony|concierge|gym|parking|river-view
+A-1598,John Patel,45-54,3334,3600,Shoreditch|Islington|Stratford,3,house,2026-09-07,relocating,False,False,unfurnished,False,garden|parking|river-view|school
+A-1599,Thomas Smith,55+,3465,3800,Clapham|Wimbledon,3,flat,2026-11-07,relocating,False,False,unfurnished,False,gym|parking|river-view|school|workspace
+A-1600,James Wilson,25-34,2462,2900,Croydon|Fulham,1,maisonette,2026-09-28,self-employed,False,False,furnished,False,balcony|river-view|transport
+A-1601,Sarah Reed,35-44,4478,4950,Chelsea,2,house,2026-10-04,student,False,True,any,True,concierge|garden|gym|parking|school
+A-1602,Sam Patel,25-34,2991,3400,Canary Wharf,2,maisonette|house,2026-09-26,contractor,True,False,any,False,pet-friendly|river-view|workspace
+A-1603,Priya Clarke,35-44,3606,4150,Islington|Wimbledon,2,house,2026-10-03,relocating,False,False,furnished,False,gym|parking|river-view
+A-1604,Priya Reed,45-54,3120,3400,Croydon|Chelsea,1,flat,2026-10-28,self-employed,False,True,furnished,True,balcony|concierge|parking|river-view
+A-1605,Priya Mitchell,18-24,3507,4000,Clapham,3,flat,2026-09-12,permanent,False,False,furnished,True,balcony|garden|parking|school|transport
+A-1606,James Wilson,25-34,4150,4400,Chelsea|Camden|Greenwich,1,house|flat,2026-10-09,self-employed,False,True,unfurnished,False,concierge|garden|gym|parking|river-view
+A-1607,James Wilson,25-34,3800,4200,Greenwich|Wimbledon|Battersea,3,house,2026-08-22,contractor,False,False,furnished,False,gym|school|workspace
+A-1608,James Patel,35-44,2456,3000,Stratford|Hackney,1,flat,2026-09-23,student,False,False,unfurnished,False,parking|school
+A-1609,Mohammed Mitchell,25-34,2677,3150,Croydon|Canary Wharf,2,flat,2026-09-17,self-employed,False,True,unfurnished,False,gym|pet-friendly
+A-1610,Mohammed Jones,18-24,2256,2850,Shoreditch|Stratford|Greenwich,1,flat,2026-11-07,contractor,False,False,unfurnished,False,pet-friendly|workspace
+A-1611,Sam Wilson,18-24,4061,4600,Battersea,3,maisonette,2026-11-11,permanent,True,False,any,False,balcony|parking|pet-friendly|school|workspace
+A-1612,Olivia Clarke,55+,2969,3450,Fulham|Canary Wharf,1,house,2026-10-02,self-employed,False,False,any,False,balcony|concierge|gym
+A-1613,Aisha Davies,35-44,2675,3150,Stratford|Camden|Clapham,2,maisonette,2026-10-08,relocating,False,False,furnished,True,parking|workspace
+A-1614,Priya Mitchell,18-24,3125,3550,Stratford|Greenwich,3,maisonette,2026-09-10,self-employed,False,False,any,False,concierge|garden|gym|parking|pet-friendly
+A-1615,Thomas Brown,25-34,4165,4600,Stratford|Chelsea,2,flat,2026-10-15,contractor,False,False,furnished,False,balcony|workspace
+A-1616,Daniel Jones,45-54,2558,3150,Fulham|Croydon,2,house,2026-09-22,student,False,True,any,True,parking|river-view|workspace
+A-1617,Sarah Smith,35-44,2978,3300,Clapham|Camden|Shoreditch,2,maisonette|flat,2026-09-08,relocating,False,False,any,False,garden|river-view|transport
+A-1618,James Davies,25-34,2674,3050,Canary Wharf|Fulham,0,studio,2026-08-19,permanent,False,False,any,False,garden|gym|pet-friendly|river-view|school
+A-1619,Emily Reed,18-24,3082,3500,Fulham|Clapham,2,flat,2026-10-27,permanent,False,False,any,True,gym|parking|school
+A-1620,Sam Wilson,55+,3226,3650,Hackney|Battersea,1,house,2026-08-20,contractor,False,False,any,True,concierge|gym|parking|school|transport|workspace
+A-1621,Mohammed Davies,55+,3184,3650,Islington|Hackney,3,house,2026-09-07,permanent,False,False,furnished,False,concierge|gym|river-view|school
+A-1622,Sarah Khan,25-34,2894,3450,Wimbledon|Battersea,1,maisonette,2026-09-20,student,True,False,unfurnished,False,concierge|pet-friendly
+A-1623,Mohammed Mitchell,35-44,3736,4200,Chelsea|Battersea,2,maisonette,2026-10-29,student,False,False,any,False,gym|parking|river-view|school|transport
+A-1624,Aisha Khan,18-24,3053,3500,Islington|Camden|Canary Wharf,1,flat,2026-09-21,relocating,False,False,furnished,True,balcony|parking|workspace
+A-1625,Priya Smith,55+,2200,2500,Stratford|Greenwich,0,studio,2026-08-19,self-employed,False,False,any,False,parking|school|workspace
+A-1626,Mohammed Davies,55+,3838,4200,Islington|Canary Wharf,2,flat|maisonette,2026-08-19,student,False,False,furnished,False,concierge|garden|parking|workspace
+A-1627,Daniel Smith,25-34,2910,3500,Wimbledon|Shoreditch|Greenwich,2,house,2026-09-16,self-employed,True,True,any,False,concierge|gym|parking|pet-friendly|river-view
+A-1628,James Taylor,18-24,2813,3350,Camden|Croydon,2,flat|house,2026-09-03,relocating,False,False,any,True,concierge|parking|workspace
+A-1629,Emily Reed,25-34,1914,2300,Battersea|Hackney,0,studio,2026-11-05,permanent,False,True,any,False,balcony|concierge|parking|transport|workspace
+A-1630,Emily Taylor,45-54,4080,4600,Shoreditch|Battersea,3,maisonette|flat,2026-08-24,permanent,False,True,any,False,balcony|pet-friendly|river-view|transport|workspace
+A-1631,Olivia Taylor,45-54,4140,4650,Canary Wharf|Fulham,3,house|maisonette,2026-11-08,contractor,True,True,unfurnished,True,balcony|concierge|parking|pet-friendly|river-view|workspace
+A-1632,James Taylor,45-54,4092,4450,Greenwich|Clapham,3,house,2026-10-15,self-employed,False,False,unfurnished,False,concierge|school|workspace
+A-1633,Sarah Khan,45-54,2463,3050,Canary Wharf|Greenwich,2,maisonette,2026-09-16,relocating,False,False,unfurnished,False,concierge|gym|school|workspace
+A-1634,Emily Taylor,45-54,4092,4350,Fulham|Clapham|Islington,2,house,2026-10-30,contractor,False,False,any,False,balcony|concierge|parking|river-view
+A-1635,Grace Taylor,55+,2924,3250,Shoreditch|Greenwich,2,house,2026-10-13,student,False,False,any,False,garden|gym|pet-friendly|school
+A-1636,John Smith,55+,3635,4000,Shoreditch|Battersea|Hackney,2,maisonette,2026-10-13,contractor,False,False,unfurnished,False,garden|parking|pet-friendly|workspace
+A-1637,Grace Khan,55+,2634,3200,Croydon|Canary Wharf,2,house|maisonette,2026-09-24,relocating,False,False,furnished,True,balcony|parking|river-view|school|workspace
+A-1638,Sarah Smith,35-44,3381,3700,Wimbledon|Stratford|Chelsea,2,maisonette,2026-10-09,student,False,False,furnished,True,parking|school|transport
+A-1639,Sarah Davies,45-54,3050,3550,Camden|Stratford,1,flat,2026-11-06,permanent,False,False,any,False,concierge|gym|parking|workspace
+A-1640,Grace Clarke,35-44,3177,3750,Battersea,0,studio,2026-11-01,student,True,False,unfurnished,True,concierge|parking|pet-friendly|river-view|school|workspace
+A-1641,Aisha Reed,35-44,4699,5050,Wimbledon|Islington,4,flat,2026-11-09,contractor,False,False,furnished,False,gym|parking
+A-1642,Sam Patel,45-54,3232,3600,Clapham|Shoreditch,2,maisonette,2026-10-18,self-employed,False,True,unfurnished,False,balcony|parking|river-view|school|workspace
+A-1643,Grace Clarke,25-34,2669,3250,Canary Wharf,1,flat|house,2026-08-28,relocating,False,False,furnished,True,balcony|garden|gym|parking|transport|workspace
+A-1644,Aisha Jones,25-34,3741,4300,Hackney|Clapham,3,house,2026-10-11,relocating,True,False,any,True,concierge|garden|parking|pet-friendly|river-view
+A-1645,James Reed,45-54,3022,3450,Shoreditch,2,flat,2026-09-27,permanent,False,False,unfurnished,False,concierge|parking|pet-friendly
+A-1646,Priya Jones,45-54,3262,3850,Battersea,2,maisonette|flat,2026-09-10,student,False,True,unfurnished,False,balcony|concierge|garden|parking|school
+A-1647,Sarah Davies,35-44,2546,2850,Croydon|Hackney,1,maisonette,2026-11-03,self-employed,False,False,furnished,False,balcony|concierge|parking|river-view|school
+A-1648,James Ahmed,45-54,3948,4300,Canary Wharf|Clapham,3,maisonette|flat,2026-09-25,relocating,True,True,any,False,concierge|gym|parking|pet-friendly|transport|workspace
+A-1649,Grace Patel,55+,2677,3250,Clapham|Shoreditch,0,studio,2026-09-27,relocating,False,False,furnished,False,parking|pet-friendly|workspace
+A-1650,Thomas Wilson,55+,2916,3350,Chelsea|Clapham|Canary Wharf,1,flat|house,2026-09-24,relocating,False,True,furnished,False,river-view|school|transport|workspace
+A-1651,Thomas Khan,45-54,3707,4250,Canary Wharf,3,house,2026-08-20,contractor,False,True,furnished,False,balcony|gym|workspace
+A-1652,Grace Clarke,35-44,3304,3800,Stratford|Camden,2,maisonette,2026-11-01,self-employed,False,False,any,True,concierge|gym|parking
+A-1653,Olivia Brown,55+,3165,3700,Hackney|Croydon|Camden,3,maisonette,2026-08-21,student,False,True,unfurnished,True,balcony|concierge|parking
+A-1654,Thomas Taylor,18-24,3589,4150,Clapham|Greenwich,3,maisonette,2026-09-11,self-employed,False,False,unfurnished,False,balcony|concierge|parking
+A-1655,James Clarke,25-34,3231,3750,Islington|Chelsea|Greenwich,1,flat|maisonette,2026-08-19,permanent,False,False,furnished,False,concierge|garden|pet-friendly|river-view
+A-1656,Mohammed Ahmed,18-24,3474,4000,Fulham,2,flat|house,2026-10-24,permanent,False,True,unfurnished,False,concierge|garden|parking|pet-friendly|school
+A-1657,Priya Wilson,25-34,3271,3650,Chelsea|Wimbledon|Clapham,0,studio,2026-10-06,self-employed,False,False,furnished,False,balcony|garden|gym|pet-friendly|river-view
+A-1658,Aisha Reed,45-54,3923,4400,Shoreditch|Clapham,3,maisonette,2026-09-01,relocating,False,False,furnished,False,balcony|garden|gym|pet-friendly|river-view
+A-1659,Mohammed Patel,18-24,1952,2450,Greenwich,1,house|flat,2026-09-27,permanent,False,False,any,False,balcony|gym|river-view|school
+A-1660,Daniel Wilson,45-54,4167,4500,Canary Wharf|Wimbledon|Chelsea,3,maisonette,2026-10-25,self-employed,False,False,unfurnished,False,garden|parking
+A-1661,Olivia Ahmed,35-44,4052,4550,Chelsea,1,house|maisonette,2026-10-21,relocating,False,False,furnished,False,parking|pet-friendly|workspace
+A-1662,Thomas Brown,25-34,4493,4800,Chelsea|Stratford,3,house,2026-09-19,student,False,False,furnished,False,garden|pet-friendly|transport|workspace
+A-1663,Priya Smith,55+,3710,4000,Chelsea|Croydon,2,maisonette,2026-10-29,relocating,False,False,furnished,False,balcony|garden|school
+A-1664,Sarah Brown,35-44,3136,3450,Wimbledon|Croydon|Fulham,2,maisonette,2026-09-01,student,False,False,furnished,False,school|transport|workspace
+A-1665,Emily Wilson,25-34,2610,3150,Islington|Canary Wharf,1,maisonette|house,2026-08-31,contractor,False,True,any,False,balcony|workspace
+A-1666,Thomas Clarke,55+,4029,4400,Canary Wharf|Hackney,4,maisonette,2026-10-07,contractor,False,False,unfurnished,False,balcony|parking|workspace
+A-1667,Aisha Reed,45-54,3300,3550,Wimbledon,1,house,2026-10-11,contractor,False,True,furnished,False,balcony|parking|river-view|school|workspace
+A-1668,Olivia Brown,35-44,3624,4000,Shoreditch|Wimbledon|Croydon,3,flat,2026-11-08,self-employed,False,False,furnished,False,balcony|garden|pet-friendly|transport|workspace
+A-1669,Sam Patel,45-54,3943,4500,Chelsea,1,flat,2026-10-14,relocating,False,True,furnished,False,balcony|concierge|gym|school|transport
+A-1670,James Brown,25-34,3057,3650,Shoreditch|Canary Wharf|Camden,2,maisonette|house,2026-09-08,self-employed,False,False,furnished,True,parking|pet-friendly
+A-1671,Sam Brown,25-34,3557,4150,Battersea,1,maisonette|flat,2026-10-03,contractor,False,False,furnished,False,school|workspace
+A-1672,Sarah Wilson,55+,2783,3350,Greenwich|Hackney|Fulham,2,house,2026-09-10,permanent,True,False,unfurnished,True,concierge|parking|pet-friendly|river-view|transport|workspace
+A-1673,Olivia Brown,25-34,3020,3550,Camden,1,maisonette,2026-10-28,contractor,False,True,unfurnished,True,parking|river-view|school|transport
+A-1674,Sam Khan,55+,3258,3750,Islington|Stratford,3,maisonette,2026-10-04,relocating,True,True,furnished,False,balcony|pet-friendly|river-view
+A-1675,Priya Brown,45-54,2633,3100,Croydon|Fulham,1,house,2026-10-17,student,True,False,furnished,False,pet-friendly|river-view
+A-1676,Grace Taylor,45-54,4252,4650,Chelsea|Shoreditch,2,flat|house,2026-08-19,self-employed,False,True,furnished,False,parking|transport
+A-1677,James Clarke,25-34,3784,4200,Canary Wharf,3,maisonette,2026-08-20,contractor,False,False,any,False,balcony|concierge|garden|parking|school
+A-1678,Sarah Ahmed,18-24,3407,3700,Clapham,2,maisonette,2026-09-01,permanent,False,False,furnished,False,garden|river-view|school|transport
+A-1679,Mohammed Ahmed,35-44,3792,4050,Hackney|Stratford|Shoreditch,3,maisonette,2026-10-27,relocating,True,True,unfurnished,False,parking|pet-friendly|river-view|transport|workspace
+A-1680,Grace Ahmed,18-24,2367,2950,Canary Wharf|Hackney|Wimbledon,1,flat|house,2026-09-14,relocating,False,True,furnished,False,balcony|concierge|garden|river-view|workspace
+A-1681,Mohammed Smith,35-44,3084,3500,Greenwich|Clapham|Islington,2,maisonette|flat,2026-09-20,self-employed,False,False,unfurnished,False,river-view|transport
+A-1682,Sam Ahmed,18-24,3180,3450,Hackney|Battersea|Shoreditch,1,maisonette,2026-10-27,relocating,False,False,furnished,False,garden|parking
+A-1683,Thomas Davies,55+,2396,2800,Croydon|Greenwich|Camden,1,flat,2026-08-27,student,True,False,unfurnished,False,pet-friendly|workspace
+A-1684,Emily Wilson,55+,2377,2900,Hackney,1,maisonette,2026-09-10,relocating,False,True,any,False,balcony|transport
+A-1685,Mohammed Khan,45-54,2384,2800,Hackney,1,flat,2026-10-13,student,False,False,furnished,True,concierge|parking|pet-friendly|river-view|workspace
+A-1686,Grace Ahmed,55+,2195,2700,Greenwich|Clapham|Wimbledon,1,flat,2026-10-16,contractor,False,False,any,False,garden|parking|river-view|transport
+A-1687,John Jones,35-44,4383,4850,Clapham|Chelsea,3,flat,2026-10-10,self-employed,False,True,furnished,False,concierge|garden
+A-1688,Thomas Wilson,55+,2756,3100,Clapham|Stratford,1,maisonette,2026-10-04,self-employed,False,True,unfurnished,False,garden|parking|pet-friendly|river-view|workspace
+A-1689,Sarah Davies,25-34,3565,4100,Shoreditch,2,flat|house,2026-09-18,relocating,False,False,furnished,False,garden|school
+A-1690,Emily Mitchell,25-34,2407,3000,Islington|Greenwich,1,maisonette,2026-09-02,contractor,True,False,furnished,False,garden|parking|pet-friendly|river-view|transport
+A-1691,Sam Patel,18-24,3353,3800,Camden|Clapham,2,maisonette,2026-09-19,permanent,True,False,furnished,False,balcony|pet-friendly|school
+A-1692,Olivia Ahmed,18-24,3711,4100,Stratford|Canary Wharf,3,house|flat,2026-08-19,student,False,True,any,False,concierge|parking|river-view
+A-1693,Sam Khan,25-34,3293,3700,Hackney|Shoreditch,3,house,2026-09-07,student,False,False,any,False,balcony|concierge
+A-1694,Priya Ahmed,45-54,4326,4800,Greenwich|Chelsea|Battersea,3,maisonette|house,2026-09-24,relocating,False,False,unfurnished,False,garden|gym|parking|pet-friendly
+A-1695,Sam Wilson,45-54,3713,4000,Islington|Wimbledon,3,house|flat,2026-09-29,contractor,False,False,furnished,False,parking|pet-friendly|river-view
+A-1696,Daniel Smith,45-54,3584,3850,Croydon|Fulham|Shoreditch,2,maisonette,2026-08-19,self-employed,False,False,any,False,gym|pet-friendly|workspace
+A-1697,Sam Smith,55+,3437,3800,Fulham|Croydon,2,flat,2026-10-07,student,False,False,any,False,balcony|gym|parking
+A-1698,Sam Davies,35-44,3625,4150,Shoreditch|Hackney,4,flat,2026-09-01,self-employed,False,False,unfurnished,False,balcony|gym
+A-1699,Grace Wilson,45-54,3066,3500,Wimbledon|Chelsea,1,maisonette,2026-10-10,contractor,False,False,furnished,True,balcony|concierge|garden|gym|parking|pet-friendly
+A-1700,Olivia Clarke,55+,3631,3900,Canary Wharf|Islington,2,flat,2026-09-30,permanent,False,False,unfurnished,False,concierge|pet-friendly|school
+A-1701,John Brown,45-54,2425,2800,Hackney|Croydon,2,maisonette|house,2026-11-09,permanent,True,False,unfurnished,False,concierge|pet-friendly|transport|workspace
+A-1702,Olivia Khan,45-54,3172,3750,Canary Wharf,1,flat|house,2026-10-28,contractor,False,True,any,True,balcony|concierge|parking|pet-friendly|school
+A-1703,Aisha Mitchell,18-24,3631,4150,Shoreditch|Chelsea|Clapham,3,maisonette,2026-11-11,student,False,True,any,True,balcony|garden|gym|parking|school|transport
+A-1704,Olivia Davies,25-34,3348,3850,Canary Wharf|Croydon|Greenwich,3,flat,2026-09-08,student,False,False,any,False,garden|parking|river-view|school
+A-1705,Sarah Smith,35-44,3512,3850,Greenwich|Clapham,3,maisonette|flat,2026-10-27,self-employed,False,False,furnished,False,concierge|river-view|workspace
+A-1706,Grace Davies,25-34,3341,3850,Shoreditch|Croydon,3,house|maisonette,2026-09-14,student,True,False,unfurnished,False,balcony|garden|parking|pet-friendly|river-view|workspace
+A-1707,Sarah Mitchell,45-54,3474,4050,Chelsea|Camden,1,house|flat,2026-11-04,relocating,False,True,any,False,garden|parking|school|transport
+A-1708,Sarah Jones,25-34,4452,4750,Chelsea,2,flat,2026-09-01,self-employed,False,False,unfurnished,False,balcony|parking
+A-1709,Daniel Brown,25-34,2408,2700,Islington|Canary Wharf|Stratford,1,house,2026-09-08,contractor,False,False,furnished,False,garden|gym|pet-friendly|transport
+A-1710,Emily Mitchell,55+,2811,3100,Croydon,3,flat,2026-08-31,permanent,False,True,any,False,balcony|concierge|garden|gym|pet-friendly
+A-1711,Mohammed Mitchell,55+,2538,2950,Stratford|Wimbledon|Battersea,1,maisonette,2026-08-19,permanent,False,False,furnished,False,garden|parking|pet-friendly|school|transport
+A-1712,Aisha Jones,18-24,4120,4450,Clapham|Chelsea|Shoreditch,1,maisonette,2026-08-21,contractor,False,False,unfurnished,False,balcony|parking|school|transport|workspace
+A-1713,Mohammed Taylor,45-54,3238,3700,Chelsea|Stratford|Canary Wharf,1,house,2026-08-28,self-employed,False,False,furnished,False,concierge|pet-friendly|river-view|transport
+A-1714,Mohammed Ahmed,45-54,3573,3900,Stratford|Chelsea|Camden,1,maisonette|flat,2026-10-08,relocating,True,False,any,False,parking|pet-friendly|river-view|workspace
+A-1715,Emily Brown,35-44,2316,2600,Stratford|Camden|Clapham,1,house,2026-09-14,permanent,False,False,any,False,concierge|garden|gym|river-view
+A-1716,Mohammed Clarke,18-24,3303,3600,Stratford|Battersea|Chelsea,2,house|maisonette,2026-08-18,contractor,False,False,any,False,pet-friendly|workspace
+A-1717,Grace Patel,45-54,4355,4650,Chelsea,1,maisonette,2026-09-15,permanent,False,False,unfurnished,True,gym|parking|pet-friendly|river-view|transport
+A-1718,Emily Mitchell,18-24,4835,5100,Chelsea,2,maisonette,2026-08-26,self-employed,False,False,any,False,parking|pet-friendly|river-view
+A-1719,Sam Patel,35-44,4252,4650,Battersea|Canary Wharf|Chelsea,3,maisonette|flat,2026-09-02,self-employed,False,False,furnished,False,gym|pet-friendly
+A-1720,Sarah Clarke,45-54,2727,3200,Islington|Croydon,2,flat,2026-08-27,permanent,True,False,unfurnished,False,concierge|garden|pet-friendly|school
+A-1721,Priya Brown,25-34,3135,3650,Hackney|Canary Wharf,2,house,2026-09-23,student,False,False,any,False,concierge|gym|parking|workspace
+A-1722,John Smith,25-34,2303,2850,Stratford|Hackney,1,maisonette,2026-08-31,contractor,False,False,furnished,False,pet-friendly|school|transport|workspace
+A-1723,Grace Taylor,55+,2100,2700,Battersea|Shoreditch|Croydon,1,maisonette,2026-09-28,student,False,False,any,False,river-view|school
+A-1724,Emily Clarke,35-44,4534,4900,Fulham,2,house,2026-10-20,contractor,False,False,unfurnished,False,garden|gym
+A-1725,Aisha Brown,25-34,1973,2350,Camden|Croydon,1,maisonette,2026-10-18,self-employed,False,True,any,False,parking|river-view|school|transport|workspace
+A-1726,Mohammed Patel,55+,3591,3900,Chelsea|Canary Wharf,1,house,2026-11-10,self-employed,False,True,furnished,False,concierge|pet-friendly|river-view|workspace
+A-1727,Daniel Reed,55+,2479,3000,Wimbledon|Greenwich|Fulham,1,maisonette|flat,2026-09-23,permanent,False,False,unfurnished,False,balcony|concierge|pet-friendly|river-view
+A-1728,Thomas Mitchell,55+,2563,2950,Stratford,1,maisonette|flat,2026-10-07,relocating,False,False,any,False,concierge|pet-friendly
+A-1729,Daniel Smith,25-34,2765,3250,Greenwich,2,house,2026-10-19,student,False,True,any,True,concierge|parking|pet-friendly|school|workspace
+A-1730,James Clarke,45-54,3137,3450,Fulham|Camden,1,flat,2026-09-12,self-employed,False,False,any,False,concierge|gym|river-view|transport|workspace
+A-1731,Daniel Taylor,35-44,3273,3600,Islington|Greenwich|Stratford,3,house,2026-11-09,relocating,False,False,unfurnished,False,garden|workspace
+A-1732,Sarah Davies,35-44,2861,3450,Greenwich|Camden,2,maisonette,2026-10-27,student,False,False,unfurnished,False,concierge|gym|parking|workspace
+A-1733,Grace Smith,45-54,2700,3200,Hackney|Islington,1,flat|maisonette,2026-10-31,contractor,True,True,furnished,False,parking|pet-friendly|river-view|workspace
+A-1734,Grace Mitchell,25-34,3028,3400,Stratford,2,house,2026-10-30,self-employed,False,False,furnished,True,gym|parking|transport|workspace
+A-1735,Daniel Ahmed,35-44,2329,2650,Greenwich,1,house|flat,2026-10-30,self-employed,False,True,any,False,balcony|concierge|workspace
+A-1736,John Wilson,55+,4220,4650,Chelsea|Canary Wharf,2,flat,2026-10-05,permanent,True,False,unfurnished,False,balcony|garden|gym|pet-friendly|river-view|school
+A-1737,Olivia Khan,55+,3796,4100,Chelsea|Stratford,1,flat,2026-10-13,self-employed,False,False,furnished,False,garden|gym|river-view
+A-1738,Emily Brown,35-44,3536,3900,Fulham|Stratford,2,flat,2026-10-13,student,False,False,any,False,garden|river-view|transport
+A-1739,Sam Smith,18-24,3318,3750,Camden,3,flat|maisonette,2026-10-29,contractor,False,False,furnished,False,concierge|pet-friendly|school|workspace
+A-1740,Daniel Taylor,18-24,3627,4150,Clapham,2,house,2026-09-24,permanent,False,False,any,False,concierge|river-view|school|workspace
+A-1741,Daniel Khan,18-24,3342,3600,Battersea|Canary Wharf,1,maisonette,2026-08-26,student,False,False,any,False,parking|pet-friendly|river-view|transport|workspace
+A-1742,Sarah Khan,45-54,3237,3500,Camden|Battersea,1,maisonette,2026-08-27,student,False,True,any,False,balcony|gym|river-view
+A-1743,Olivia Patel,18-24,2386,2650,Wimbledon|Croydon|Battersea,0,studio,2026-10-18,contractor,False,False,furnished,False,concierge|gym|pet-friendly|school|transport
+A-1744,Mohammed Mitchell,45-54,3985,4300,Islington|Chelsea,1,flat,2026-10-30,relocating,False,True,unfurnished,False,balcony|garden|pet-friendly|school
+A-1745,Sarah Davies,35-44,4384,4700,Hackney|Chelsea,3,maisonette,2026-11-10,relocating,False,True,any,False,concierge|river-view
+A-1746,Sam Jones,35-44,3345,3600,Battersea|Clapham,1,house,2026-09-28,student,False,False,unfurnished,False,pet-friendly|workspace
+A-1747,Mohammed Smith,35-44,4116,4500,Battersea,2,maisonette|house,2026-10-10,student,True,False,furnished,False,concierge|parking|pet-friendly|transport|workspace
+A-1748,Thomas Clarke,25-34,3076,3350,Wimbledon,2,flat,2026-08-27,contractor,False,False,unfurnished,False,pet-friendly|river-view
+A-1749,Emily Jones,45-54,3322,3750,Islington,3,house,2026-10-23,self-employed,True,True,any,True,parking|pet-friendly|river-view
+A-1750,Thomas Taylor,45-54,3531,3800,Canary Wharf,2,flat|house,2026-10-25,student,False,False,furnished,False,garden|pet-friendly
+A-1751,Olivia Mitchell,45-54,3656,4050,Canary Wharf|Islington|Fulham,2,house|flat,2026-08-29,relocating,True,True,unfurnished,False,balcony|concierge|parking|pet-friendly|workspace
+A-1752,Sarah Jones,25-34,4020,4450,Clapham,3,house,2026-08-20,student,False,False,any,False,gym|parking|transport
+A-1753,John Clarke,18-24,2250,2850,Islington|Stratford|Croydon,1,flat|maisonette,2026-09-18,permanent,False,False,furnished,False,gym|pet-friendly|river-view|workspace
+A-1754,Priya Davies,45-54,3108,3550,Canary Wharf|Greenwich|Camden,2,house,2026-11-08,relocating,False,False,any,False,pet-friendly|school
+A-1755,Daniel Taylor,25-34,2660,3250,Croydon|Islington,2,maisonette,2026-09-22,student,False,False,unfurnished,False,concierge|gym|school
+A-1756,Thomas Jones,18-24,3884,4300,Clapham|Wimbledon,3,maisonette,2026-11-10,self-employed,False,False,unfurnished,False,garden|workspace
+A-1757,Daniel Taylor,45-54,3021,3600,Hackney|Shoreditch,2,maisonette|house,2026-10-10,self-employed,True,False,furnished,False,garden|pet-friendly|river-view|school|workspace
+A-1758,Olivia Taylor,18-24,3636,4050,Chelsea|Fulham,1,flat,2026-10-25,relocating,True,False,furnished,True,concierge|garden|parking|pet-friendly
+A-1759,Mohammed Patel,45-54,3096,3550,Clapham|Chelsea|Hackney,1,flat,2026-09-30,relocating,False,False,unfurnished,False,gym|workspace
+A-1760,Grace Brown,45-54,2554,3100,Stratford|Chelsea,0,studio,2026-09-14,relocating,False,False,furnished,True,balcony|parking|pet-friendly|school|transport
+A-1761,James Mitchell,25-34,3622,4100,Canary Wharf|Croydon|Islington,3,maisonette,2026-08-20,permanent,False,False,furnished,False,concierge|garden|gym|river-view|transport
+A-1762,James Jones,35-44,2373,2950,Wimbledon|Islington,1,maisonette|house,2026-10-02,self-employed,False,False,unfurnished,False,concierge|parking|river-view|workspace
+A-1763,Thomas Brown,25-34,2477,2850,Hackney|Croydon|Clapham,1,maisonette,2026-10-14,contractor,False,False,unfurnished,False,concierge|garden|parking|transport
+A-1764,Aisha Reed,45-54,2607,3100,Greenwich|Fulham|Croydon,2,flat,2026-09-17,student,False,False,unfurnished,False,parking|river-view|school|transport|workspace
+A-1765,Emily Khan,35-44,3963,4450,Clapham,3,flat,2026-10-18,relocating,False,False,any,False,concierge|garden|parking|school|workspace
+A-1766,John Davies,18-24,3461,3950,Camden|Shoreditch|Chelsea,1,flat,2026-10-11,relocating,False,False,unfurnished,False,concierge|garden|river-view|transport
+A-1767,Thomas Taylor,55+,2524,2950,Clapham|Greenwich|Camden,1,house,2026-11-05,relocating,False,True,any,False,gym|pet-friendly
+A-1768,James Jones,25-34,3318,3600,Croydon|Canary Wharf|Battersea,1,house,2026-10-30,contractor,True,False,furnished,False,balcony|garden|pet-friendly|transport
+A-1769,Emily Wilson,35-44,3004,3300,Stratford|Fulham,3,flat,2026-08-26,permanent,False,False,unfurnished,False,gym|parking|school|transport|workspace
+A-1770,Thomas Reed,18-24,3968,4400,Wimbledon|Stratford|Islington,4,maisonette,2026-10-06,student,False,False,unfurnished,False,concierge|gym|transport|workspace
+A-1771,Emily Wilson,25-34,3254,3600,Greenwich|Shoreditch,2,maisonette,2026-10-18,contractor,False,False,unfurnished,False,garden|parking|river-view
+A-1772,James Davies,25-34,3346,3600,Canary Wharf|Battersea,2,house,2026-09-07,self-employed,False,True,furnished,True,concierge|parking|river-view|workspace
+A-1773,Olivia Reed,45-54,3023,3500,Shoreditch|Greenwich,2,house|flat,2026-10-22,relocating,False,False,furnished,True,balcony|garden|parking|workspace
+A-1774,Thomas Smith,18-24,3231,3750,Clapham,3,flat,2026-10-13,student,False,False,any,False,balcony|concierge|river-view|school|workspace
+A-1775,Sarah Patel,18-24,3056,3450,Wimbledon|Hackney|Camden,2,flat,2026-09-20,permanent,False,False,any,False,parking|river-view
+A-1776,Mohammed Taylor,55+,3432,3750,Clapham|Stratford|Wimbledon,3,house,2026-11-05,student,False,False,furnished,True,balcony|parking|river-view|transport|workspace
+A-1777,Olivia Jones,35-44,2661,3100,Canary Wharf|Stratford,1,house,2026-09-15,permanent,False,False,furnished,False,gym|transport|workspace
+A-1778,James Khan,18-24,3567,3850,Battersea,2,flat,2026-10-13,contractor,False,False,any,True,balcony|concierge|garden|gym|parking|school
+A-1779,John Ahmed,55+,3358,3650,Clapham|Croydon|Battersea,3,flat,2026-09-20,permanent,False,False,furnished,False,garden|gym
+A-1780,John Jones,25-34,3155,3600,Shoreditch,1,maisonette,2026-08-23,self-employed,True,False,any,False,garden|pet-friendly|school|transport
+A-1781,Sam Smith,55+,3184,3450,Fulham,1,maisonette,2026-11-06,student,False,True,any,False,concierge|gym|parking|transport
+A-1782,Mohammed Wilson,25-34,2397,2900,Hackney|Wimbledon|Shoreditch,1,house,2026-10-01,permanent,False,False,any,False,concierge|pet-friendly|school|transport|workspace
+A-1783,Mohammed Jones,18-24,3371,3650,Islington|Hackney,2,maisonette|flat,2026-10-20,student,False,True,any,False,garden|pet-friendly|river-view|transport|workspace
+A-1784,James Clarke,35-44,4005,4450,Fulham|Clapham,3,house,2026-08-23,relocating,True,True,furnished,True,parking|pet-friendly|school
+A-1785,Emily Patel,45-54,3302,3700,Camden|Canary Wharf|Islington,2,maisonette,2026-08-20,relocating,False,False,unfurnished,False,garden|workspace
+A-1786,Priya Ahmed,35-44,3237,3550,Canary Wharf|Stratford,2,house|flat,2026-09-24,contractor,False,False,furnished,False,pet-friendly|river-view|school
+A-1787,John Jones,25-34,2948,3200,Islington,1,house,2026-10-30,student,True,True,any,False,balcony|gym|parking|pet-friendly|school
+A-1788,Priya Mitchell,18-24,3190,3600,Hackney|Clapham|Stratford,2,house|maisonette,2026-09-01,relocating,True,False,any,False,concierge|gym|pet-friendly|river-view|workspace
+A-1789,James Taylor,18-24,4141,4650,Chelsea|Fulham|Islington,3,house,2026-10-19,contractor,True,False,unfurnished,False,balcony|parking|pet-friendly|river-view|workspace
+A-1790,Aisha Smith,35-44,3047,3450,Clapham|Greenwich,2,house,2026-09-09,self-employed,True,False,unfurnished,False,balcony|garden|pet-friendly
+A-1791,Mohammed Davies,55+,4907,5300,Shoreditch|Hackney,4,house,2026-10-16,student,True,False,unfurnished,False,gym|pet-friendly|school
+A-1792,John Reed,18-24,2957,3550,Stratford,3,maisonette|flat,2026-09-06,self-employed,True,False,unfurnished,False,concierge|parking|pet-friendly
+A-1793,Mohammed Brown,55+,3594,4050,Clapham,3,maisonette,2026-08-31,self-employed,False,True,furnished,False,balcony|pet-friendly|transport
+A-1794,Sarah Patel,35-44,2973,3300,Clapham|Stratford|Hackney,1,house,2026-10-22,student,False,True,any,False,parking|pet-friendly|river-view|school|workspace
+A-1795,Sarah Wilson,55+,2559,2900,Wimbledon,1,flat,2026-11-04,student,False,False,furnished,False,garden|parking|pet-friendly|transport
+A-1796,Priya Wilson,35-44,3451,3750,Croydon|Fulham,2,house|maisonette,2026-09-17,relocating,False,False,any,False,garden|gym|transport
+A-1797,Grace Taylor,18-24,3269,3550,Islington,2,house,2026-10-29,contractor,False,False,unfurnished,False,parking|pet-friendly|transport
+A-1798,James Mitchell,25-34,3211,3700,Islington,2,maisonette,2026-10-24,relocating,False,True,furnished,True,parking|school
+A-1799,Thomas Ahmed,35-44,3398,3650,Islington|Camden|Stratford,3,house,2026-09-25,student,False,True,unfurnished,True,parking|transport
+A-1800,Sarah Taylor,25-34,4408,4750,Fulham,3,house,2026-09-15,contractor,True,True,unfurnished,False,garden|gym|pet-friendly|transport|workspace
+A-1801,John Taylor,55+,3387,3800,Fulham|Camden,3,house|maisonette,2026-08-19,self-employed,True,True,unfurnished,False,balcony|concierge|gym|pet-friendly|transport
+A-1802,Sarah Reed,18-24,3656,3950,Fulham,1,house,2026-11-06,permanent,False,False,unfurnished,True,gym|parking
+A-1803,Priya Ahmed,55+,2053,2600,Stratford|Camden,1,house|maisonette,2026-09-15,relocating,False,False,unfurnished,False,balcony|concierge|river-view
+A-1804,Daniel Wilson,18-24,2155,2750,Canary Wharf|Wimbledon,0,studio,2026-10-13,permanent,False,True,any,False,balcony|concierge|school|transport
+A-1805,Thomas Khan,45-54,3335,3900,Chelsea|Shoreditch,1,maisonette,2026-09-23,contractor,False,False,any,False,concierge|parking
+A-1806,Sarah Ahmed,55+,2064,2650,Camden|Croydon|Shoreditch,1,flat,2026-09-24,student,False,False,unfurnished,True,balcony|garden|parking|workspace
+A-1807,Aisha Khan,25-34,3334,3900,Fulham,1,maisonette,2026-10-23,relocating,True,False,any,True,balcony|parking|pet-friendly|school|transport
+A-1808,Sarah Jones,25-34,3348,3600,Croydon,3,house|maisonette,2026-10-11,relocating,False,False,any,False,concierge|parking|transport
+A-1809,Daniel Taylor,25-34,2268,2600,Croydon|Greenwich|Hackney,2,flat|maisonette,2026-09-12,contractor,False,False,any,True,balcony|gym|parking|pet-friendly|river-view
+A-1810,Aisha Smith,18-24,2600,3000,Canary Wharf|Stratford|Wimbledon,1,maisonette|house,2026-09-11,student,False,False,unfurnished,False,concierge|river-view|school|transport|workspace
+A-1811,Olivia Smith,25-34,3484,3950,Fulham|Croydon,3,maisonette,2026-08-24,self-employed,False,False,any,False,balcony|pet-friendly|river-view|transport|workspace
+A-1812,Thomas Patel,25-34,3257,3700,Greenwich|Fulham,2,house|flat,2026-11-11,relocating,False,False,furnished,False,garden|pet-friendly|school|transport
+A-1813,Thomas Ahmed,35-44,3015,3550,Canary Wharf|Shoreditch|Stratford,2,house|maisonette,2026-10-24,student,False,False,any,False,balcony|school
+A-1814,Priya Mitchell,25-34,4270,4650,Fulham|Shoreditch,3,flat,2026-08-26,relocating,False,False,furnished,False,balcony|parking|pet-friendly|school|workspace
+A-1815,Sam Ahmed,18-24,2972,3250,Battersea|Clapham|Hackney,1,flat|house,2026-10-24,contractor,False,False,unfurnished,False,garden|gym|river-view|workspace
+A-1816,John Brown,35-44,3746,4050,Battersea|Shoreditch,2,maisonette,2026-11-07,permanent,True,False,unfurnished,False,pet-friendly|river-view|school
+A-1817,James Davies,55+,3615,3950,Shoreditch|Battersea|Stratford,3,maisonette,2026-09-19,contractor,False,True,any,True,parking|river-view
+A-1818,Sarah Taylor,55+,3731,4000,Fulham|Greenwich|Chelsea,1,maisonette,2026-10-08,self-employed,True,False,any,False,balcony|pet-friendly|river-view|workspace
+A-1819,Grace Patel,35-44,3992,4450,Chelsea|Clapham,1,maisonette,2026-09-25,contractor,False,False,unfurnished,False,concierge|garden|gym|parking|river-view
+A-1820,James Davies,35-44,2507,3050,Hackney|Chelsea|Greenwich,1,house,2026-11-11,permanent,True,True,furnished,False,concierge|pet-friendly|river-view
+A-1821,Thomas Patel,25-34,4317,4650,Shoreditch,3,maisonette|house,2026-09-04,contractor,False,False,furnished,False,balcony|garden|parking|pet-friendly|school
+A-1822,Grace Ahmed,18-24,3512,4050,Croydon|Fulham|Hackney,4,house|flat,2026-10-19,permanent,False,False,unfurnished,False,concierge|gym|pet-friendly|school|transport
+A-1823,Priya Wilson,35-44,3032,3400,Hackney|Greenwich,2,maisonette,2026-08-22,relocating,False,False,any,True,parking|pet-friendly|river-view|transport|workspace
+A-1824,Grace Davies,35-44,3347,3600,Wimbledon|Canary Wharf,2,house,2026-09-26,contractor,False,True,any,False,gym|workspace
+A-1825,Mohammed Clarke,55+,3065,3650,Fulham|Islington|Hackney,2,maisonette|house,2026-09-12,permanent,False,False,any,False,concierge|garden|parking|school|transport
+A-1826,Grace Wilson,18-24,3159,3600,Stratford|Hackney,2,house,2026-08-29,contractor,True,False,furnished,False,balcony|gym|parking|pet-friendly|transport|workspace
+A-1827,James Wilson,35-44,3367,3800,Croydon,4,house,2026-10-30,self-employed,False,False,furnished,True,parking|pet-friendly|transport
+A-1828,John Wilson,18-24,3169,3450,Greenwich|Hackney,2,maisonette,2026-10-04,relocating,False,False,any,False,balcony|garden|river-view|workspace
+A-1829,Aisha Ahmed,25-34,3638,4050,Camden|Clapham|Wimbledon,2,flat,2026-08-30,student,False,False,furnished,False,garden|gym|transport
+A-1830,Emily Khan,25-34,2429,3000,Canary Wharf|Croydon,1,flat|house,2026-10-01,student,False,False,furnished,False,river-view|school|workspace
+A-1831,Sam Ahmed,25-34,2909,3400,Battersea|Canary Wharf,1,house|flat,2026-10-29,permanent,False,False,unfurnished,False,concierge|garden|parking|pet-friendly|workspace
+A-1832,Daniel Smith,45-54,3145,3700,Canary Wharf,2,house|flat,2026-09-02,contractor,False,False,furnished,False,garden|gym|river-view|school|workspace
+A-1833,James Davies,55+,3325,3600,Fulham|Camden,1,flat|house,2026-10-24,self-employed,True,False,unfurnished,False,garden|gym|pet-friendly|school
+A-1834,Sam Taylor,18-24,2917,3500,Hackney|Camden,3,flat|house,2026-11-09,contractor,False,True,unfurnished,False,balcony|garden|workspace
+A-1835,James Khan,18-24,3328,3700,Wimbledon|Camden,2,maisonette,2026-09-07,permanent,False,False,any,True,garden|parking|pet-friendly|river-view|school
+A-1836,Olivia Ahmed,55+,2452,2750,Hackney|Islington,1,house,2026-11-07,student,False,True,any,False,garden|parking
+A-1837,Priya Patel,35-44,2882,3450,Canary Wharf|Chelsea,1,maisonette|flat,2026-09-03,student,False,False,any,True,balcony|concierge|parking|pet-friendly|transport
+A-1838,Sam Clarke,25-34,4290,4850,Clapham,4,maisonette,2026-10-23,student,True,False,furnished,False,garden|pet-friendly|river-view
+A-1839,John Clarke,55+,2683,3250,Battersea|Croydon,2,maisonette|flat,2026-10-21,self-employed,False,False,unfurnished,False,balcony|garden|gym|pet-friendly|school
+A-1840,Mohammed Davies,55+,3825,4150,Fulham|Greenwich,2,flat,2026-10-18,self-employed,False,False,unfurnished,False,gym|pet-friendly
+A-1841,John Clarke,25-34,2636,3000,Stratford|Camden|Croydon,2,house|maisonette,2026-09-29,student,False,False,unfurnished,False,balcony|gym|river-view
+A-1842,Sarah Patel,45-54,3916,4350,Battersea|Stratford|Chelsea,2,house|maisonette,2026-11-10,relocating,False,False,furnished,False,concierge|gym
+A-1843,Daniel Smith,55+,2375,2950,Canary Wharf|Clapham|Camden,1,flat|house,2026-09-14,student,False,False,furnished,False,balcony|parking|transport
+A-1844,Olivia Clarke,55+,2076,2650,Greenwich|Battersea,0,studio,2026-10-17,self-employed,False,True,any,True,garden|parking|pet-friendly|river-view
+A-1845,Emily Clarke,35-44,2095,2450,Greenwich|Croydon,2,maisonette,2026-11-03,self-employed,False,False,any,False,balcony|concierge|river-view|transport|workspace
+A-1846,Sam Patel,45-54,2860,3200,Croydon|Islington|Camden,2,maisonette,2026-08-27,self-employed,False,False,any,False,balcony|garden|school|transport
+A-1847,Sarah Khan,18-24,3070,3350,Fulham|Camden|Canary Wharf,1,maisonette|house,2026-10-14,contractor,True,False,furnished,False,concierge|gym|pet-friendly|river-view|school
+A-1848,James Clarke,45-54,2558,2950,Wimbledon|Stratford,2,flat,2026-09-29,permanent,False,False,any,False,garden|gym|pet-friendly|workspace
+A-1849,Grace Wilson,35-44,3106,3450,Canary Wharf|Stratford,2,house|flat,2026-09-04,relocating,False,False,furnished,False,balcony|parking|river-view|school|workspace
+A-1850,Thomas Jones,45-54,3599,3850,Stratford|Canary Wharf,2,flat|maisonette,2026-09-26,student,True,False,furnished,False,parking|pet-friendly|school|transport|workspace
+A-1851,James Reed,55+,2388,2750,Hackney,2,maisonette,2026-10-10,contractor,True,False,any,False,balcony|concierge|gym|parking|pet-friendly|transport
+A-1852,Daniel Wilson,45-54,3293,3600,Stratford|Camden|Canary Wharf,2,house,2026-10-30,permanent,True,False,any,False,pet-friendly|workspace
+A-1853,Priya Clarke,18-24,2524,3000,Croydon|Wimbledon|Clapham,1,house|maisonette,2026-11-04,student,True,False,any,False,balcony|garden|gym|pet-friendly|workspace
+A-1854,Olivia Ahmed,25-34,3491,3750,Wimbledon|Fulham,2,flat,2026-10-15,self-employed,False,False,unfurnished,False,balcony|garden|parking|school|workspace
+A-1855,Thomas Reed,45-54,2672,3150,Fulham|Croydon|Hackney,1,house,2026-09-19,student,False,False,unfurnished,False,balcony|concierge|school|transport
+A-1856,Olivia Smith,35-44,3740,4100,Canary Wharf|Stratford,3,maisonette,2026-09-07,relocating,False,True,furnished,False,concierge|gym|river-view|school|transport
+A-1857,Emily Clarke,25-34,1822,2400,Islington|Wimbledon|Croydon,0,studio,2026-11-10,contractor,False,False,furnished,True,gym|parking|pet-friendly|river-view
+A-1858,John Reed,25-34,2986,3350,Croydon|Shoreditch|Chelsea,1,maisonette,2026-08-20,permanent,False,False,furnished,False,gym|workspace
+A-1859,John Brown,18-24,2944,3350,Islington,1,flat|house,2026-09-06,student,False,False,any,False,garden|pet-friendly|transport|workspace
+A-1860,Grace Mitchell,45-54,2478,2950,Wimbledon,2,flat|house,2026-09-26,permanent,False,False,unfurnished,False,school|transport
+A-1861,Olivia Mitchell,35-44,3306,3800,Battersea|Hackney|Stratford,3,maisonette|house,2026-10-27,contractor,False,False,unfurnished,False,balcony|concierge|garden|transport|workspace
+A-1862,John Brown,18-24,3302,3800,Islington,1,maisonette|house,2026-08-29,student,True,False,unfurnished,True,concierge|garden|parking|pet-friendly|river-view|transport
+A-1863,Thomas Brown,55+,1688,2250,Greenwich|Clapham|Croydon,0,studio,2026-09-14,contractor,False,False,any,False,garden|parking|pet-friendly|river-view
+A-1864,James Reed,45-54,2581,2900,Stratford,2,maisonette,2026-09-28,relocating,False,False,unfurnished,False,balcony|garden|gym|river-view|workspace
+A-1865,Aisha Smith,25-34,3530,3900,Hackney|Fulham,2,maisonette|flat,2026-09-02,permanent,False,False,furnished,False,balcony|garden|parking|workspace
+A-1866,Daniel Taylor,35-44,2256,2850,Hackney|Wimbledon|Islington,1,maisonette,2026-09-14,relocating,False,False,any,False,balcony|concierge|gym|parking
+A-1867,Sam Khan,55+,2352,2950,Camden|Greenwich|Clapham,1,maisonette,2026-10-18,relocating,False,False,furnished,True,balcony|concierge|garden|parking
+A-1868,Sam Brown,35-44,4199,4550,Greenwich|Fulham|Canary Wharf,3,maisonette|flat,2026-09-26,relocating,False,True,furnished,False,parking|school|transport
+A-1869,Sam Reed,45-54,4035,4550,Chelsea,2,house,2026-09-07,self-employed,False,False,furnished,False,balcony|concierge|garden|parking|school
+A-1870,Daniel Reed,18-24,3270,3550,Hackney|Canary Wharf,2,house,2026-10-04,permanent,False,True,furnished,False,concierge|parking|pet-friendly|school
+A-1871,Mohammed Wilson,55+,2838,3100,Greenwich|Croydon,1,maisonette|house,2026-09-14,student,False,True,furnished,False,garden|gym|workspace
+A-1872,Grace Khan,55+,3773,4150,Canary Wharf|Fulham|Clapham,2,house,2026-10-14,self-employed,False,False,unfurnished,False,gym|school|workspace
+A-1873,Aisha Patel,18-24,3430,3850,Clapham|Hackney|Islington,2,maisonette|flat,2026-09-22,student,False,False,unfurnished,True,concierge|parking
+A-1874,Priya Mitchell,45-54,3338,3650,Clapham|Greenwich,2,maisonette|flat,2026-11-03,relocating,True,False,any,False,pet-friendly|river-view|school|transport
+A-1875,Olivia Reed,45-54,3848,4200,Hackney,3,house,2026-09-10,student,False,False,unfurnished,False,concierge|gym|workspace
+A-1876,Grace Wilson,25-34,3385,3850,Clapham|Stratford|Canary Wharf,3,maisonette,2026-08-22,relocating,False,False,furnished,False,parking|pet-friendly|transport
+A-1877,Olivia Ahmed,45-54,3637,4050,Greenwich,3,maisonette,2026-08-26,permanent,False,False,any,False,school|transport|workspace
+A-1878,Olivia Clarke,55+,3396,3750,Stratford|Islington|Wimbledon,3,house,2026-09-21,contractor,False,False,furnished,False,balcony|garden|pet-friendly|transport|workspace
+A-1879,John Reed,55+,2912,3250,Clapham|Stratford,1,maisonette,2026-10-21,permanent,False,False,any,False,garden|gym|pet-friendly|river-view|workspace
+A-1880,Aisha Smith,55+,2698,3250,Battersea|Shoreditch,1,maisonette,2026-08-22,permanent,False,False,unfurnished,False,balcony|parking|pet-friendly|river-view|workspace
+A-1881,Sam Taylor,35-44,3284,3650,Islington|Chelsea|Greenwich,2,flat,2026-09-14,permanent,False,True,any,False,concierge|gym
+A-1882,Aisha Taylor,35-44,2450,2950,Greenwich,2,maisonette|flat,2026-08-28,relocating,False,False,any,False,river-view|transport
+A-1883,Priya Smith,55+,3188,3450,Hackney,2,flat|maisonette,2026-10-30,self-employed,False,False,any,True,gym|parking|pet-friendly|workspace
+A-1884,Aisha Khan,55+,3192,3750,Stratford,2,flat|maisonette,2026-09-14,student,False,False,any,False,balcony|gym|parking
+A-1885,Sam Khan,45-54,2645,3200,Wimbledon,0,studio,2026-08-22,student,False,False,furnished,True,balcony|garden|gym|parking|transport
+A-1886,Daniel Reed,35-44,1714,2150,Canary Wharf|Croydon,0,studio,2026-09-16,contractor,True,False,furnished,False,pet-friendly|school|workspace
+A-1887,Priya Smith,45-54,3655,4000,Stratford,3,flat,2026-10-03,permanent,False,False,furnished,False,concierge|gym|parking|transport|workspace
+A-1888,Thomas Patel,35-44,3714,4300,Shoreditch,3,house,2026-09-26,permanent,False,False,any,False,pet-friendly|river-view|transport
+A-1889,Olivia Brown,45-54,1938,2400,Wimbledon|Croydon,1,flat,2026-09-15,relocating,False,True,furnished,False,balcony|gym|transport|workspace
+A-1890,John Reed,35-44,4386,4650,Battersea,3,maisonette,2026-09-17,permanent,False,False,furnished,False,concierge|gym|parking|pet-friendly
+A-1891,Aisha Mitchell,18-24,2635,3000,Clapham,1,flat|maisonette,2026-09-04,contractor,False,True,any,False,balcony|garden|parking|workspace
+A-1892,James Brown,18-24,2270,2800,Camden|Stratford|Wimbledon,0,studio,2026-10-15,self-employed,False,True,unfurnished,True,parking|pet-friendly|transport
+A-1893,Grace Patel,55+,5126,5700,Hackney|Chelsea,4,house|flat,2026-11-03,student,False,False,unfurnished,False,garden|pet-friendly|transport|workspace
+A-1894,Grace Brown,25-34,2749,3000,Clapham|Greenwich|Canary Wharf,1,house,2026-10-05,self-employed,False,True,furnished,False,gym|river-view|school|transport
+A-1895,Sarah Ahmed,18-24,4542,4850,Battersea|Clapham,3,flat,2026-11-06,relocating,False,False,furnished,False,balcony|concierge|garden|parking|transport
+A-1896,Grace Smith,18-24,4289,4700,Islington|Chelsea,3,flat|maisonette,2026-09-20,self-employed,False,True,unfurnished,False,concierge|garden|gym|parking|river-view
+A-1897,Emily Smith,45-54,3810,4400,Islington,3,house,2026-08-19,contractor,False,True,any,True,concierge|parking|pet-friendly|river-view|transport
+A-1898,Thomas Brown,35-44,2804,3150,Camden|Shoreditch,1,house,2026-10-04,self-employed,False,False,any,False,gym|pet-friendly|river-view|workspace
+A-1899,Thomas Reed,45-54,3721,4150,Shoreditch|Chelsea|Wimbledon,3,maisonette|flat,2026-08-21,relocating,False,True,unfurnished,False,balcony|concierge|gym|school
+A-1900,James Wilson,35-44,3345,3650,Croydon|Clapham|Camden,2,maisonette,2026-10-02,student,False,True,any,False,garden|pet-friendly|transport
+A-1901,Thomas Patel,55+,2718,3300,Camden|Canary Wharf,1,flat,2026-08-19,contractor,False,False,unfurnished,False,balcony|concierge|parking|workspace
+A-1902,Grace Reed,55+,3528,3900,Clapham|Stratford,3,house,2026-10-29,permanent,True,False,any,True,concierge|parking|pet-friendly|workspace
+A-1903,James Khan,18-24,3055,3400,Clapham,2,maisonette|flat,2026-08-24,contractor,False,False,unfurnished,False,parking|transport|workspace
+A-1904,Grace Smith,18-24,2424,3000,Canary Wharf|Stratford,1,flat,2026-10-19,permanent,False,False,any,False,concierge|parking|pet-friendly|river-view|school
+A-1905,Priya Taylor,25-34,3472,3900,Chelsea|Islington,1,maisonette|house,2026-09-18,permanent,False,False,unfurnished,False,concierge|gym|pet-friendly|transport
+A-1906,Priya Khan,25-34,3447,3950,Battersea|Camden,1,house|flat,2026-09-08,self-employed,False,False,furnished,True,garden|gym|parking|river-view|workspace
+A-1907,John Jones,18-24,3158,3700,Shoreditch,2,flat|house,2026-09-11,permanent,False,False,furnished,False,parking|pet-friendly
+A-1908,Thomas Smith,45-54,3873,4350,Greenwich|Wimbledon,3,flat,2026-09-21,contractor,False,False,furnished,False,concierge|gym|pet-friendly|school|transport
+A-1909,Emily Khan,35-44,4114,4600,Chelsea|Islington,2,flat,2026-10-01,student,False,False,furnished,True,gym|parking|school|transport
+A-1910,Olivia Taylor,25-34,2695,3000,Hackney|Stratford,2,house|maisonette,2026-09-02,self-employed,False,False,furnished,False,concierge|pet-friendly|river-view|transport
+A-1911,Aisha Wilson,45-54,3619,4100,Clapham|Hackney,3,house,2026-11-07,permanent,False,True,unfurnished,False,gym|pet-friendly|workspace
+A-1912,Sam Smith,45-54,4327,4600,Shoreditch|Fulham,3,house,2026-08-19,relocating,False,False,any,False,garden|school
+A-1913,Olivia Patel,45-54,1907,2500,Stratford|Fulham,0,studio,2026-08-26,student,False,True,unfurnished,True,garden|parking|pet-friendly|workspace
+A-1914,Daniel Taylor,25-34,3578,4050,Canary Wharf|Fulham|Chelsea,1,maisonette,2026-09-12,relocating,False,False,any,False,balcony|garden|gym
+A-1915,Emily Davies,25-34,2699,2950,Camden|Canary Wharf,0,studio,2026-10-18,contractor,False,False,furnished,False,garden|gym|school
+A-1916,Daniel Clarke,55+,3207,3700,Shoreditch,2,house,2026-10-21,relocating,False,False,any,False,concierge|gym|river-view
+A-1917,Emily Smith,45-54,3651,4150,Shoreditch,2,house|maisonette,2026-08-19,contractor,False,False,furnished,False,pet-friendly|transport
+A-1918,Thomas Smith,45-54,4089,4550,Chelsea,1,maisonette,2026-08-27,contractor,False,False,unfurnished,True,gym|parking|school|transport|workspace
+A-1919,Aisha Taylor,55+,3392,3950,Chelsea|Wimbledon,2,house,2026-10-11,relocating,False,False,unfurnished,True,balcony|parking|pet-friendly|transport|workspace
+A-1920,Olivia Wilson,18-24,3024,3350,Shoreditch|Hackney,1,flat|house,2026-10-12,contractor,True,False,any,False,concierge|pet-friendly|river-view|transport
+A-1921,Aisha Ahmed,18-24,3003,3600,Chelsea|Fulham|Canary Wharf,1,house,2026-10-13,permanent,False,False,any,False,pet-friendly|river-view|school|transport
+A-1922,Aisha Khan,45-54,3636,4100,Fulham,1,maisonette|house,2026-08-26,student,False,False,any,False,garden|river-view|school
+A-1923,Priya Brown,45-54,3654,4000,Chelsea|Hackney|Canary Wharf,2,flat,2026-10-09,relocating,False,False,unfurnished,False,balcony|garden|gym|pet-friendly
+A-1924,Olivia Jones,35-44,3255,3850,Hackney|Clapham,3,house,2026-10-18,student,False,False,furnished,False,parking|pet-friendly|river-view
+A-1925,Thomas Patel,25-34,2177,2600,Wimbledon|Greenwich,0,studio,2026-11-05,student,False,True,any,False,balcony|gym|pet-friendly
+A-1926,Olivia Patel,55+,3507,3850,Islington|Camden,3,maisonette,2026-10-28,relocating,True,False,furnished,False,gym|pet-friendly|river-view|transport
+A-1927,Olivia Reed,18-24,3431,3800,Battersea,2,flat,2026-10-19,self-employed,True,True,any,False,balcony|concierge|garden|pet-friendly|river-view
+A-1928,Thomas Davies,45-54,4408,4850,Wimbledon|Fulham|Canary Wharf,4,house,2026-10-21,contractor,False,False,any,False,garden|gym|parking|transport
+A-1929,Mohammed Mitchell,18-24,3432,4000,Shoreditch,2,house,2026-10-14,self-employed,False,False,furnished,False,concierge|pet-friendly|river-view|transport
+A-1930,Grace Reed,18-24,2576,3150,Fulham|Hackney,1,house,2026-08-25,self-employed,False,False,furnished,False,gym|school|transport
+A-1931,Priya Wilson,18-24,4441,4750,Fulham|Battersea,4,maisonette,2026-08-26,self-employed,True,True,any,True,parking|pet-friendly|workspace
+A-1932,Emily Khan,25-34,2650,3050,Hackney|Clapham|Canary Wharf,2,house|maisonette,2026-09-29,student,False,False,furnished,False,parking|pet-friendly|river-view|workspace
+A-1933,Olivia Ahmed,25-34,2616,3150,Hackney|Canary Wharf,1,house|maisonette,2026-11-01,student,True,False,any,True,concierge|garden|parking|pet-friendly
+A-1934,Priya Khan,35-44,3287,3700,Fulham,1,house|maisonette,2026-09-29,permanent,False,True,unfurnished,True,garden|gym|parking
+A-1935,Daniel Mitchell,55+,3087,3650,Stratford|Wimbledon|Shoreditch,2,maisonette|house,2026-09-24,contractor,False,False,any,False,concierge|workspace
+A-1936,Olivia Taylor,25-34,2335,2750,Stratford|Shoreditch,1,flat,2026-10-05,contractor,False,False,furnished,False,balcony|river-view|school|transport
+A-1937,James Wilson,45-54,3569,4150,Fulham|Shoreditch|Chelsea,2,house|flat,2026-09-03,contractor,False,False,unfurnished,False,garden|gym|school|transport
+A-1938,Aisha Mitchell,55+,3149,3700,Chelsea|Shoreditch|Clapham,1,house,2026-09-20,permanent,False,False,unfurnished,True,balcony|parking|pet-friendly|river-view|school
+A-1939,Priya Wilson,45-54,3330,3650,Islington|Shoreditch,1,maisonette,2026-10-23,student,False,False,unfurnished,False,concierge|garden|pet-friendly|river-view|workspace
+A-1940,Sarah Reed,55+,4085,4600,Wimbledon|Canary Wharf|Fulham,3,maisonette,2026-08-24,self-employed,False,False,furnished,False,balcony|garden|gym|river-view|transport
+A-1941,Olivia Wilson,18-24,3969,4450,Islington|Greenwich|Chelsea,3,maisonette,2026-09-29,self-employed,False,False,unfurnished,True,garden|parking|school
+A-1942,Sarah Khan,45-54,4022,4300,Fulham|Chelsea,1,flat|maisonette,2026-09-16,self-employed,False,False,unfurnished,False,balcony|garden|gym|parking|transport
+A-1943,Mohammed Mitchell,18-24,2264,2800,Croydon,3,maisonette,2026-11-09,relocating,True,True,unfurnished,False,balcony|pet-friendly|river-view|school|workspace
+A-1944,Priya Patel,45-54,4087,4650,Camden|Hackney,4,maisonette,2026-10-13,relocating,False,False,furnished,True,balcony|garden|parking|pet-friendly|river-view|transport
+A-1945,Priya Patel,35-44,3694,4050,Clapham|Shoreditch,2,maisonette|house,2026-09-25,permanent,False,False,furnished,True,balcony|parking|transport
+A-1946,Daniel Jones,55+,3969,4450,Camden|Islington|Wimbledon,3,house|maisonette,2026-08-31,contractor,False,True,furnished,False,balcony|parking
+A-1947,Sarah Mitchell,55+,3611,3900,Greenwich|Canary Wharf|Fulham,3,flat,2026-10-02,contractor,False,False,furnished,True,balcony|garden|parking|school
+A-1948,Daniel Smith,35-44,3496,3950,Islington,3,house,2026-08-19,self-employed,False,False,any,False,pet-friendly|river-view|school|transport|workspace
+A-1949,Grace Patel,45-54,2837,3350,Croydon|Chelsea,0,studio,2026-10-14,relocating,False,False,any,False,concierge|garden|pet-friendly|river-view
+A-1950,James Wilson,45-54,3427,3900,Shoreditch|Clapham,3,house,2026-11-11,contractor,False,False,unfurnished,False,concierge|garden|gym|transport
+A-1951,Grace Clarke,45-54,3456,3850,Canary Wharf|Battersea,1,maisonette,2026-09-10,student,True,False,any,False,balcony|pet-friendly|transport
+A-1952,Daniel Ahmed,35-44,3411,3850,Islington|Croydon,3,house|maisonette,2026-09-09,student,False,False,unfurnished,False,garden|gym|pet-friendly|river-view
+A-1953,Daniel Brown,35-44,3034,3600,Stratford,2,house,2026-11-06,student,False,True,unfurnished,False,garden|gym|school
+A-1954,Mohammed Smith,25-34,2746,3250,Clapham|Battersea|Croydon,2,house|flat,2026-10-16,self-employed,False,False,unfurnished,False,balcony|school
+A-1955,John Patel,18-24,4230,4550,Canary Wharf|Camden,2,maisonette,2026-08-20,student,False,True,unfurnished,False,parking|pet-friendly|school|transport
+A-1956,Emily Wilson,35-44,3739,4100,Clapham|Wimbledon,3,maisonette,2026-09-19,self-employed,False,False,any,False,balcony|concierge|parking|pet-friendly|transport
+A-1957,Daniel Smith,55+,4170,4550,Battersea,3,flat,2026-10-17,relocating,False,False,any,False,concierge|transport
+A-1958,Priya Patel,18-24,3081,3350,Croydon|Shoreditch,2,maisonette,2026-10-03,self-employed,False,False,unfurnished,True,balcony|concierge|garden|parking
+A-1959,Emily Khan,18-24,3610,4050,Greenwich|Fulham|Islington,2,maisonette,2026-10-01,permanent,False,False,unfurnished,False,balcony|gym|parking|pet-friendly|river-view
+A-1960,Olivia Khan,55+,4229,4750,Clapham|Chelsea,2,maisonette,2026-09-12,permanent,False,False,any,False,parking|school|transport
+A-1961,Sam Wilson,45-54,3201,3600,Camden|Croydon|Battersea,1,flat,2026-09-07,student,True,True,unfurnished,False,balcony|concierge|garden|pet-friendly|river-view|transport
+A-1962,Grace Patel,18-24,4473,4750,Camden|Fulham|Chelsea,2,house,2026-10-31,permanent,False,False,furnished,False,concierge|transport
+A-1963,Grace Jones,35-44,3568,3950,Wimbledon|Canary Wharf,2,maisonette,2026-10-18,contractor,True,False,unfurnished,True,balcony|garden|parking|pet-friendly|river-view|workspace
+A-1964,James Patel,55+,4089,4400,Stratford|Fulham|Croydon,4,maisonette|flat,2026-10-07,relocating,False,False,furnished,False,concierge|transport
+A-1965,Aisha Taylor,35-44,2688,3150,Hackney|Stratford,1,house,2026-09-04,permanent,False,False,any,False,balcony|garden|gym|river-view|transport
+A-1966,Sarah Mitchell,45-54,2862,3150,Canary Wharf|Croydon,2,flat,2026-10-06,student,False,False,furnished,False,balcony|gym|school|transport|workspace
+A-1967,Aisha Jones,45-54,3238,3500,Canary Wharf|Fulham,0,studio,2026-09-19,self-employed,False,False,any,True,balcony|concierge|parking|school|transport
+A-1968,John Mitchell,18-24,3668,4150,Canary Wharf|Hackney|Clapham,2,flat,2026-11-03,permanent,True,False,furnished,True,concierge|parking|pet-friendly|river-view|workspace
+A-1969,Emily Taylor,45-54,2865,3450,Wimbledon|Fulham|Canary Wharf,2,house|maisonette,2026-10-15,self-employed,False,False,any,False,river-view|transport
+A-1970,Thomas Davies,55+,3146,3600,Clapham|Battersea,2,maisonette|flat,2026-10-18,relocating,False,False,unfurnished,True,garden|parking|river-view|school|transport
+A-1971,Daniel Mitchell,35-44,2525,3050,Camden|Greenwich|Shoreditch,2,maisonette|flat,2026-08-21,student,False,False,any,True,garden|parking
+A-1972,Thomas Wilson,35-44,2261,2750,Greenwich,1,flat|house,2026-09-13,relocating,False,True,any,False,concierge|garden|parking|river-view
+A-1973,Aisha Wilson,25-34,4676,5250,Chelsea,2,flat|maisonette,2026-10-26,permanent,False,False,unfurnished,True,balcony|parking|transport
+A-1974,Sam Khan,18-24,3826,4350,Fulham|Croydon,3,house,2026-10-16,student,False,True,any,False,concierge|gym|pet-friendly|river-view|workspace
+A-1975,Grace Taylor,45-54,4186,4700,Chelsea|Stratford,3,flat,2026-10-04,contractor,False,True,any,False,school|transport
+A-1976,Olivia Wilson,55+,4192,4500,Chelsea|Shoreditch|Croydon,3,house|maisonette,2026-10-10,self-employed,False,True,furnished,False,river-view|transport
+A-1977,James Wilson,55+,3682,4150,Camden|Wimbledon,4,maisonette|house,2026-10-18,contractor,False,False,unfurnished,False,balcony|garden|gym|river-view
+A-1978,Emily Clarke,18-24,2933,3200,Stratford|Hackney,2,house|flat,2026-10-13,permanent,False,False,any,True,balcony|concierge|parking|river-view
+A-1979,Sam Davies,45-54,2628,2950,Battersea|Croydon|Clapham,1,maisonette,2026-08-29,self-employed,False,False,unfurnished,True,garden|parking|river-view|transport
+A-1980,Grace Mitchell,45-54,2633,3000,Croydon|Clapham,2,maisonette,2026-10-22,permanent,False,False,unfurnished,False,concierge|gym|pet-friendly|school
+A-1981,Daniel Jones,55+,2287,2550,Hackney|Canary Wharf|Croydon,0,studio,2026-09-13,student,False,False,furnished,False,gym|parking
+A-1982,John Reed,45-54,4395,4900,Battersea,4,house,2026-09-05,permanent,False,False,furnished,False,balcony|garden|gym|school|workspace
+A-1983,Olivia Taylor,18-24,3754,4150,Shoreditch|Canary Wharf,3,maisonette|flat,2026-10-31,self-employed,False,True,unfurnished,False,balcony|concierge|garden|gym|river-view
+A-1984,Daniel Khan,18-24,3466,4000,Fulham|Battersea,2,house,2026-10-23,permanent,True,True,unfurnished,False,balcony|concierge|garden|parking|pet-friendly
+A-1985,Mohammed Reed,25-34,4247,4500,Hackney|Clapham|Shoreditch,4,house,2026-10-08,relocating,False,False,furnished,False,concierge|garden|gym|river-view
+A-1986,Grace Ahmed,35-44,2566,2850,Hackney,1,house,2026-11-08,student,False,True,unfurnished,False,gym|parking|river-view|school|transport
+A-1987,Olivia Jones,18-24,2769,3200,Canary Wharf|Croydon,2,maisonette,2026-11-11,contractor,False,True,furnished,False,balcony|garden|parking|pet-friendly|transport
+A-1988,Emily Brown,25-34,4350,4700,Canary Wharf|Chelsea|Fulham,3,maisonette,2026-10-25,permanent,False,False,any,False,concierge|garden|parking|workspace
+A-1989,Grace Davies,18-24,3545,3850,Camden|Shoreditch,2,maisonette,2026-08-30,self-employed,False,False,furnished,True,balcony|garden|parking|pet-friendly|transport
+A-1990,Emily Jones,55+,1778,2350,Wimbledon|Croydon,1,flat|maisonette,2026-09-04,student,False,False,any,False,balcony|school|workspace
+A-1991,Thomas Jones,18-24,4153,4600,Chelsea|Battersea|Stratford,3,flat|maisonette,2026-08-21,relocating,False,False,any,False,balcony|gym|parking|transport
+A-1992,Sam Davies,25-34,2194,2650,Wimbledon|Croydon,1,house,2026-09-19,self-employed,False,True,furnished,True,garden|gym|parking|pet-friendly
+A-1993,Priya Patel,45-54,3932,4450,Fulham|Chelsea,2,flat,2026-10-27,permanent,False,False,unfurnished,False,balcony|concierge
+A-1994,Daniel Taylor,55+,1631,2150,Croydon,1,maisonette,2026-10-07,relocating,True,False,unfurnished,False,balcony|pet-friendly|transport
+A-1995,John Wilson,55+,3474,3750,Clapham|Battersea,2,flat|maisonette,2026-09-13,relocating,True,False,unfurnished,False,gym|pet-friendly|river-view|transport
+A-1996,Aisha Taylor,25-34,3015,3300,Greenwich|Stratford|Camden,3,maisonette|flat,2026-11-02,self-employed,True,False,any,False,balcony|gym|pet-friendly|school|transport
+A-1997,Mohammed Brown,55+,3344,3750,Shoreditch|Camden|Fulham,2,flat,2026-11-04,contractor,False,False,unfurnished,False,balcony|pet-friendly|river-view
+A-1998,Olivia Davies,18-24,3232,3750,Shoreditch|Camden,2,flat,2026-11-10,relocating,False,True,furnished,False,balcony|concierge|river-view|school
+A-1999,Emily Smith,45-54,3100,3650,Camden|Shoreditch|Canary Wharf,2,maisonette,2026-09-28,contractor,False,False,any,False,garden|gym|parking|pet-friendly|transport

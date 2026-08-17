@@ -1,0 +1,29 @@
+{
+  "matching": {
+    "precision_at_10": 0.0535,
+    "recall_at_10": 0.3729,
+    "ndcg_at_10": 0.2492,
+    "evaluated_applicants": 43,
+    "positive_labels": 435,
+    "excluded_by_hard_filters": 367,
+    "label_eligibility_rate": 0.1563
+  },
+  "rag": {
+    "recall_at_5": 0.4896,
+    "recall_at_10": 0.7188,
+    "mrr": 0.8264,
+    "ndcg_at_5": 0.5294,
+    "ndcg_at_10": 0.6171,
+    "citation_coverage": 1.0,
+    "answer_groundedness": 1.0,
+    "unsupported_claim_rate": 0.0,
+    "retrieval_latency_ms": 771.29,
+    "generation_latency_ms": 0.01,
+    "golden_questions": 8
+  },
+  "next_best_action": {
+    "policy_agreement": 0.8,
+    "evaluated_applicants": 120
+  },
+  "notice": "Evaluation is offline and uses synthetic labels/rules; it is not evidence of real-world business lift."
+}

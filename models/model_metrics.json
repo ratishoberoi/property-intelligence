@@ -1,0 +1,46 @@
+{
+  "intent": {
+    "accuracy": 0.992,
+    "f1_macro": 0.8295,
+    "classification_report": {
+      "HIGH": {
+        "precision": 1.0,
+        "recall": 0.9770114942528736,
+        "f1-score": 0.9883720930232558,
+        "support": 87.0
+      },
+      "MEDIUM": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1-score": 0.5,
+        "support": 1.0
+      },
+      "VERY_HIGH": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 163.0
+      },
+      "accuracy": 0.9920318725099602,
+      "macro avg": {
+        "precision": 0.7777777777777777,
+        "recall": 0.9923371647509578,
+        "f1-score": 0.8294573643410853,
+        "support": 251.0
+      },
+      "weighted avg": {
+        "precision": 0.9973439575033199,
+        "recall": 0.9920318725099602,
+        "f1-score": 0.9939775780598537,
+        "support": 251.0
+      }
+    }
+  },
+  "conversion": {
+    "roc_auc": 0.9897,
+    "pr_auc": 0.991,
+    "precision": 0.9527,
+    "recall": 1.0
+  },
+  "synthetic_data_notice": "Prototype models trained only on deterministic synthetic data."
+}
