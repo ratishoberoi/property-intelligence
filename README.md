@@ -1,5 +1,3 @@
-
-
 # Property Intelligence
 
 Property Intelligence is a local-first, two-sided property intelligence demo connecting a property seeker with an estate-agency operations team. It turns synthetic applicant behaviour, property records, conversations and feedback into explainable matches, grounded evidence and next-best actions.
@@ -60,6 +58,36 @@ URLs:
 
 There is no production authentication in this portfolio demo. Landing-page role selection is explicitly demo access: Agency workspace or Sarah Mitchell Client workspace.
 
+## Free CTO demo deployment
+
+The zero-cost deployment target is Vercel Free plus a Render Free Web Service.
+The Render service intentionally uses `RAG_EMBEDDING_MODE=lexical` because the
+measured CPU BGE path reaches approximately 1.1 GB RSS after one query, above
+Render Free's 512 MB limit. This does **not** remove RAG: Render still loads
+the persisted 6,503-chunk source index, performs TF-IDF retrieval, domain
+reranking, grounded answers, citations and provenance. The complete BGE
+semantic/hybrid path remains the default local runtime and is selected with
+`RAG_EMBEDDING_MODE=semantic` plus the embedding dependencies.
+
+Render build command:
+
+```bash
+pip install -r backend/requirements-render.txt && cd backend && python scripts/seed_database.py && test -f ../models/rag_index.pkl && test -f ../models/intent_model.joblib && test -f ../models/conversion_model.joblib
+```
+
+Render start command:
+
+```bash
+cd backend && test -f property_intelligence.db || python scripts/seed_database.py; exec uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+```
+
+Set `CORS_ORIGINS` to the exact Vercel URL. In Vercel set
+`NEXT_PUBLIC_API_BASE_URL` and `INTERNAL_API_BASE_URL` to the Render HTTPS URL.
+The complete checklist is in [docs/DEPLOYMENT_PLAN.md](docs/DEPLOYMENT_PLAN.md).
+SQLite is acceptable for this synthetic CTO demo because the dataset is
+reseedable; it is not durable production storage and workflow changes can be
+lost on service replacement or redeploy.
+
 ## CTO demo flow
 
 1. Open the landing page and enter Client.
@@ -119,4 +147,4 @@ The current synthetic evaluation baseline records approximately: RAG Recall@5 `0
 - Workflow client APIs are scoped to Sarah for the demo; production needs identity-backed authorization.
 - Database tables currently use SQLAlchemy startup creation; production needs versioned migrations.
 - Model probabilities and evaluation labels are synthetic and not production-calibrated.
-- GPU BGE inference is appropriate locally, but free deployment tiers may lack CUDA/RAM; see [deployment plan](docs/DEPLOYMENT_PLAN.md).
+- GPU BGE inference is appropriate locally, while the Render Free runtime uses the documented memory-safe lexical RAG mode; see [deployment plan](docs/DEPLOYMENT_PLAN.md).

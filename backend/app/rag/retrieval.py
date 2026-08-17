@@ -10,7 +10,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sqlalchemy.orm import Session
 from app.config import get_settings
 from app.rag.citations import citation_from_chunk
-from app.rag.embeddings import get_embedding_provider
+from app.rag.embeddings import embedding_provider_status, get_embedding_provider
 from app.rag.ingestion import build_documents_from_db
 from app.rag.reranker import HybridReranker
 from app.rag.provenance import register
@@ -44,8 +44,10 @@ class RetrievalService:
         if not chunks:
             self.last_metadata = {"query": query, "filtered_chunks": 0, "returned": 0, "latency_ms": round((time.perf_counter() - started) * 1000, 2)}
             return []
-        q_vec = get_embedding_provider().embed([query])[0]
-        semantic_available = q_vec.shape[0] == vectors.shape[1]
+        semantic_enabled = self.settings.rag_embedding_mode.lower() != "lexical"
+        provider = get_embedding_provider() if semantic_enabled else None
+        q_vec = provider.embed([query])[0] if provider else np.zeros(vectors.shape[1], dtype=np.float32)
+        semantic_available = bool(provider and q_vec.shape[0] == vectors.shape[1])
         if not semantic_available:
             # A stale or unavailable embedding provider must not crash search. Lexical
             # retrieval remains usable while the index/model is repaired or rebuilt.
@@ -59,7 +61,7 @@ class RetrievalService:
         for idx in candidate_indices:
             semantic_score = float(semantic_scores[idx])
             lexical_score = float(lexical_scores[idx])
-            hybrid = 0.90 * semantic_score + 0.10 * lexical_score
+            hybrid = 0.90 * semantic_score + 0.10 * lexical_score if semantic_available else lexical_score
             chunk = dict(chunks[idx])
             chunk.update({"_semantic_score": semantic_score, "_lexical_score": lexical_score, "_hybrid_score": hybrid})
             hits.append((chunk, hybrid))
@@ -90,10 +92,11 @@ class RetrievalService:
             "merged_candidates": len(hits),
             "returned": len(citations),
             "top_k": limit,
-            "strategy": "BGE semantic + TF-IDF lexical + hybrid reranker",
-            "embedding_model": get_embedding_provider().model_name,
-            "embedding_device": get_embedding_provider().device,
-            "embedding_dimension": get_embedding_provider().dimension,
+            "strategy": "BGE semantic + TF-IDF lexical + hybrid reranker" if semantic_available else "TF-IDF lexical retrieval + domain reranker (Render memory mode)",
+            "embedding_model": provider.model_name if provider else self.settings.embedding_model,
+            "embedding_device": provider.device if provider else self.settings.embedding_device,
+            "embedding_dimension": provider.dimension if provider else vectors.shape[1],
+            "embedding_loaded": bool(provider),
             "semantic_available": semantic_available,
             "latency_ms": round((time.perf_counter() - started) * 1000, 2),
         }
@@ -114,7 +117,10 @@ class RetrievalService:
                 pass
         self._chunks = build_documents_from_db(self.db)
         texts = [chunk["text"] for chunk in self._chunks]
-        self._vectors = get_embedding_provider().embed(texts)
+        if self.settings.rag_embedding_mode.lower() == "lexical":
+            self._vectors = np.zeros((len(texts), 1), dtype=np.float32)
+        else:
+            self._vectors = get_embedding_provider().embed(texts)
         self._lexical_vectorizer = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, norm="l2").fit(texts)
         self._lexical_matrix = self._lexical_vectorizer.transform(texts)
 
@@ -146,3 +152,35 @@ class RetrievalService:
             self._vectors[idxs] if idxs else np.zeros((0, self._vectors.shape[1])),
             self._lexical_matrix[idxs] if idxs and self._lexical_matrix is not None else None,
         )
+
+
+def read_index_metadata() -> dict[str, object]:
+    settings = get_settings()
+    index_path = settings.model_dir / "rag_index.pkl"
+    metadata: dict[str, object] = {
+        "path": str(index_path),
+        "exists": index_path.exists(),
+        "chunks": 0,
+        "embedding_provider": None,
+        "embedding_model": settings.embedding_model,
+        "embedding_device": settings.embedding_device,
+        "embedding_dimension": None,
+    }
+    if not index_path.exists():
+        return metadata
+    try:
+        with index_path.open("rb") as handle:
+            payload = pickle.load(handle)
+        vectors = payload.get("vectors")
+        metadata.update(
+            {
+                "chunks": len(payload.get("chunks", [])),
+                "embedding_provider": payload.get("embedding_provider"),
+                "embedding_model": payload.get("embedding_model", settings.embedding_model),
+                "embedding_device": payload.get("embedding_device", settings.embedding_device),
+                "embedding_dimension": int(vectors.shape[1]) if vectors is not None else None,
+            }
+        )
+    except Exception as exc:
+        metadata["error"] = str(exc)
+    return metadata

@@ -5,6 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 os.environ.setdefault("DATABASE_URL", "sqlite:///./test_property_intelligence.db")
+os.environ.setdefault("RAG_EMBEDDING_MODE", "lexical")
 
 import pytest
 from datetime import date

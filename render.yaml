@@ -1,0 +1,38 @@
+services:
+  - type: web
+    name: property-intelligence-api
+    runtime: python
+    plan: free
+    buildCommand: >-
+      pip install -r backend/requirements-render.txt &&
+      cd backend &&
+      python scripts/seed_database.py &&
+      test -f ../models/rag_index.pkl &&
+      test -f ../models/intent_model.joblib &&
+      test -f ../models/conversion_model.joblib
+    startCommand: >-
+      cd backend &&
+      test -f property_intelligence.db || python scripts/seed_database.py;
+      exec uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./property_intelligence.db
+      - key: CORS_ORIGINS
+        sync: false
+      - key: ENVIRONMENT
+        value: render-free-demo
+      - key: MODEL_DIR
+        value: ../models
+      - key: DATA_DIR
+        value: ../data/processed
+      - key: RAG_EMBEDDING_MODE
+        value: lexical
+      - key: EMBEDDING_DEVICE
+        value: cpu
+      - key: EMBEDDING_BATCH_SIZE
+        value: 16
+      - key: LLM_PROVIDER
+        value: fallback
+      - key: RATE_LIMIT_PER_MINUTE
+        value: 120

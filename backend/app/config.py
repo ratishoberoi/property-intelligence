@@ -17,6 +17,7 @@ class Settings(BaseSettings):
     embedding_model: str = Field(default="BAAI/bge-base-en-v1.5", alias="EMBEDDING_MODEL")
     embedding_device: str = Field(default="auto", alias="EMBEDDING_DEVICE")
     embedding_batch_size: int = Field(default=256, alias="EMBEDDING_BATCH_SIZE")
+    rag_embedding_mode: str = Field(default="semantic", alias="RAG_EMBEDDING_MODE")
     llm_provider: str = Field(default="fallback", alias="LLM_PROVIDER")
     ollama_base_url: str = Field(default="http://localhost:11434", alias="OLLAMA_BASE_URL")
     ollama_model: str = Field(default="llama3.1:8b", alias="OLLAMA_MODEL")

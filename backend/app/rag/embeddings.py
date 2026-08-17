@@ -3,7 +3,6 @@ from __future__ import annotations
 import logging
 from threading import Lock
 import numpy as np
-import torch
 from sklearn.feature_extraction.text import HashingVectorizer
 from sklearn.preprocessing import normalize
 from app.config import get_settings
@@ -20,7 +19,7 @@ class EmbeddingProvider:
         self.model_name = model_name
         self.batch_size = batch_size
         self.model = None
-        self.device = "cuda" if device == "auto" and torch.cuda.is_available() else device
+        self.device = _resolve_device(device)
         if self.device == "auto":
             self.device = "cpu"
         self.fallback = HashingVectorizer(n_features=384, alternate_sign=False, norm="l2")
@@ -66,3 +65,29 @@ def get_embedding_provider() -> EmbeddingProvider:
         settings = get_settings()
         _provider = EmbeddingProvider(settings.embedding_model, settings.embedding_device, settings.embedding_batch_size)
         return _provider
+
+
+def _resolve_device(device: str) -> str:
+    if device != "auto":
+        return device
+    try:
+        import torch
+
+        return "cuda" if torch.cuda.is_available() else "cpu"
+    except Exception:
+        return "cpu"
+
+
+def embedding_provider_status() -> dict[str, object]:
+    settings = get_settings()
+    provider = _provider
+    return {
+        "loaded": provider is not None,
+        "model_loaded": bool(provider and provider.model is not None),
+        "configured_model": settings.embedding_model,
+        "configured_device": settings.embedding_device,
+        "configured_mode": settings.rag_embedding_mode,
+        "provider": provider.provider if provider else None,
+        "device": provider.device if provider else None,
+        "dimension": provider.dimension if provider else None,
+    }
